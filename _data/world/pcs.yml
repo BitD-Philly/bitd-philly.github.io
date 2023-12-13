@@ -1,0 +1,16 @@
+- alias: "Sizzle"
+  name: "Rosie Woodward"
+  playbook: "Hound"
+  picture: "/Sizzle.png"
+  short_desc: "Mysterious gunslinger. Has a hawk. Never comfortable."
+
+- alias: "Cruncho"
+  name: "Vilhelm Skrifol"
+  playbook: "Whisper"
+  picture: "/Cruncho.png"
+  short_desc: "Former plumber. Occult enthusiast, lightning conjurer. Pre-war Skovlan immigrant. "
+
+- alias: "Two-Time"
+  name: "Adric Grine"
+  playbook: "Slide"
+  short_desc: "Fancy family man. Professional liar. Also VSW's premier announcer. Cousin to Orianna. Currently serving his second jail sentence. "
