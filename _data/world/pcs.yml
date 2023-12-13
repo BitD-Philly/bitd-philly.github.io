@@ -1,13 +1,13 @@
 - alias: "Sizzle"
   name: "Rosie Woodward"
   playbook: "Hound"
-  picture: "/Sizzle.png"
+  picture: "Sizzle.png"
   short_desc: "Mysterious gunslinger. Has a hawk. Never comfortable."
 
 - alias: "Cruncho"
   name: "Vilhelm Skrifol"
   playbook: "Whisper"
-  picture: "/Cruncho.png"
+  picture: "Cruncho.png"
   short_desc: "Former plumber. Occult enthusiast, lightning conjurer. Pre-war Skovlan immigrant. "
 
 - alias: "Two-Time"
