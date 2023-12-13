@@ -6,7 +6,8 @@ layout: default
 # Player Characters
 
 <div class="pic_list">
-    {% for char in site.data.world.pcs %}
+    {% assign chars = site.data.world.pcs | sort: 'alias' %}
+    {% for char in chars %}
     <p>
         {% if char.picture %}
         <img src="{{ site.baseurl }}/assets/img/world/characters/pcs/{{ char.picture }}">
