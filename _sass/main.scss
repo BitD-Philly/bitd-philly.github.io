@@ -1,0 +1,273 @@
+.current {
+    color: green;
+}
+body {
+margin: 0;
+padding: 0;
+text-align: left;
+font: 75% arial, tahoma, "Trebuchet MS", verdana, arial, verdana, sans-serif;
+background-color: #4D4D4D;
+}
+
+#container {
+width: 80%;
+border: 0px solid #eee;
+margin-left: 10%;
+margin-right: 10%;
+padding: 0;
+line-height: 1.5em;
+position: center;
+}
+
+#banner {
+height: 100px;
+padding: 0;
+margin-bottom: 0px;
+background: #4D4D4D url(https://www.cs.drexel.edu/~pmk65/BladesinthePhiladelphia/banner.jpg) ;
+background-position: center;
+background-size: 30%;
+color: #333;
+}
+
+		/* TOP NAVIGATION */
+#navlist {
+width: 100%;
+padding: 4px 5px 5px 0;
+margin: 0 0 20px 0;
+text-align: left;
+letter-spacing: 3px;
+color: #fff;
+background: #476042;
+}
+#navlist li {
+list-style: none;
+margin: 0;
+display: inline;
+}
+#navlist li a {
+padding: 5px .75em;
+margin: 0;
+color: #fff;
+background: #476042;
+text-decoration: none;
+}
+#navlist li a:link { color: #fff;
+background: #476042;
+}
+#navlist li a:visited {
+color: #fff;
+background: #476042;
+}
+#navlist li a:hover {
+color: #000;
+background: #6A9662;
+}
+#navlist li a#current {
+color: #fff;
+background:#6A9662;
+}
+
+		/* LEFT MENU */
+.menu ul li {
+line-height: 1.8em;
+margin: 0 10px 0 0;
+padding: 0;
+list-style-type: square;
+color: #6A9662;
+background: inherit;
+}
+.menu ul li a {
+color: #fff;
+background: inherit;
+}
+.menu ul li a:hover {
+color: #6A9662;
+background: inherit;
+}
+
+		/* MAIN CONTENT */
+#content {
+padding: 0 20px 0 20px;
+margin-left: 170px;
+margin-right: 170px;
+border-left: 1px dashed #333;
+border-right: 1px dashed #333;
+color: #FFFFFA;
+background-color: #4D4D4D;
+}
+
+#contentb {
+	padding: 0 20px 0 20px;
+	margin-left: 170px;
+	margin-right: 0;
+	border-left: 1px dashed #333;
+	border-right: 1px dashed #333;
+	color: #FFFFFA;
+	background-color: #4D4D4D;
+	}
+		/* ARTICLES */
+.intro {
+float:left;
+width: 25%;
+margin: 3px 0 5px 0;
+padding: 5px;
+text-align:left;
+}
+.intro2 {
+float: left;
+width: 25%;
+margin: 3px 0 5px 20px;
+padding: 5px;
+}
+.intro3 {
+float:right;
+width: 25%;
+margin: 3px 0 5px 0;
+padding: 5px;
+}
+.intro4 {
+	float: left;
+	width: 50%;
+	margin: 3px 0 5px 20px;
+	padding: 5px;
+	}
+
+		/* LEFT SIDEBAR */
+#sidebar-a {
+float: left;
+width: 150px;
+margin-right: 5px;
+padding: 0 5px 0 5px;
+color: #FFFFFA;
+background-color: #4D4D4D;
+}
+
+		/* RIGHT SIDEBAR */
+#sidebar-b {
+float: right;
+width: 150px;
+margin: 0 0 0 5px;
+padding: 0 5px 15px 5px;
+color: #FFFFFA;
+background-color:#4D4D4D;
+}
+
+		/* FOOTER */
+#footer {
+clear: both;
+padding: 5px;
+margin: 0;
+background-color: #476042;
+
+}
+#footer a {
+text-decoration: none;
+color: #fff;
+background-color:#476042;
+}
+#footer  a:hover {
+text-decoration: none;
+color: #E5446D;
+background-color:#476042;
+}
+
+		/* LINKS */
+a {
+text-decoration: none;
+color: lightgray;
+}
+a:hover {
+text-decoration:underline;
+color: gray;
+}
+a img {
+border: 0;
+}
+
+		/* IMAGE PROPERTIES */
+.border {
+padding: 10px;
+margin: 10px;
+border: 1px solid #476042;
+}
+.imgleft {
+float: left;
+border: 1px solid #90b905;
+margin: 5px 10px 10px 15px;
+padding: 5px;
+}
+
+		/* HEADING PROPERTIES */
+h1 {
+width: 30%;
+font-size: 200%;
+letter-spacing: 5px;
+color:#6A9662;
+}
+h2 {
+font-size: 130%;
+text-transform: uppercase;
+letter-spacing: 10px;
+color:#6A9662;
+background: #4D4D4D;
+}
+h3 {
+padding: 5px;
+text-transform: uppercase;
+font-size: 110%;
+color:#fff;
+background: #6A9662;
+}
+h4 {
+padding: 5px;
+text-transform: uppercase;
+font-size: 110%;
+color:#fff;
+background: #E5446D;
+}
+h5 {
+	padding: 0px;
+	text-transform: uppercase;
+	font-size: 110%;
+	color:#fff;
+}
+
+span.game-term {
+	color: #90b905;
+	text-transform: uppercase;
+}
+
+/* Fix Phone Sizing */
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	.content {
+		width: 100%;
+	}
+	.contentb {
+		width: 100%
+	}
+	.sidebar-a {
+		width: 100%;
+	}
+	.sidebar-b {
+		width: 100%
+	}
+	.intro {
+		width: 100%;
+	}
+	.intro2 {
+		width: 100%
+	}
+	.intro3 {
+		width: 100%
+	}
+	.intro4 {
+		width: 100%
+	}
+	body {
+		width: 100%
+	}
+  } 

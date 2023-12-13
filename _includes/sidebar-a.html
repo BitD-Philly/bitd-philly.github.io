@@ -1,0 +1,16 @@
+<div id="sidebar-a">
+    <img class="border" src="{{site.baseurl}}/assets/img/the_repentant_magdalen_1974.52.1.jpg" width="80%">
+    <h2>Quick Links</h2>
+    <div class="menu">
+        <ul>
+    {% for item in site.data.nav.sidebar-a %}
+    
+        <li>
+            <a href="{{ item.link }}">
+                {{ item.name }}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+    </div>
+</div>

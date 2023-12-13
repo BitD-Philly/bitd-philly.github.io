@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Gang
+  link: /gang/
+- name: Wiki
+  link: /wiki.html
+- name: System
+  link: /system.html
+- name: Contact
+  link: /contact.html
