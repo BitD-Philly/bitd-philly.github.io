@@ -14,3 +14,80 @@
   name: "Adric Grine"
   playbook: "Slide"
   short_desc: "Fancy family man. Professional liar. Also VSW's premier announcer. Cousin to Orianna. Currently serving his second jail sentence. "
+
+- alias: "Arkin Wollstonecraft"
+  name: "Viktor Godwin"
+  playbook: "Leech"
+  short_desc: "University professor obsessed with invention and innovation. Briefly replaced by the Clockmaker. Mechanincal genius. Considered dead. Alter ego, also considered dead."
+
+- alias: "Arcade"
+  name: "Branson Maddox"
+  playbook: "Spider"
+  short_desc: ""
+
+- alias: "The Blighter"
+  name: "Callus Balaith"
+  playbook: "unknown"
+  short_desc: ""
+
+- alias: "Lucky"
+  name: "Edvard Faustsson"
+  playbook: "Leech"
+  short_desc: "The Nameless' foremost medical professional."
+
+- name: "Cooper Fowl"
+  playbook: "Spider"
+  short_desc: "Heir to a chicken empire."
+
+- name: "Zach Fowler"
+  alias: "Flan Sonata"
+  playbook: "Lurk"
+  short_desc: ""
+
+- name: "Haike Yarabax"
+  alias: "Loop"
+  playbook: "Spider"
+  short_desc: "A mastermind of crime with an ensemble of lackeys at her disposal."
+
+- name: "Katya Volkova"
+  alias: "The She-Wolf of Severos"
+  playbook: "Hound"
+  short_desc: "Social Sciences chair at the University. Expert archer with a loyal hawk companion. Lesbian heartbreaker. Currently considered dead."
+
+- name: "Linmer"
+  alias: "Slippery Wicket"
+  playbook: "Leech"
+  short_desc: "Experimental Alchemist. Former orphan and sailor. Old man."
+
+- name: "Mara Kardera"
+  alias: "Feather"
+  playbook: "Lurk"
+  short_desc: "An investigative journalist who got too deep into her newest piece. Now, a cunning thief with a connection to the shadows and the dark realm of the dead."
+
+- name: "Mira Renne"
+  alias: "Dead Beat"
+  playbook: "Lurk"
+  short_desc: ""
+
+- name: "Morlan Kinclaith"
+  alias: "Needle"
+  playbook: "Slide"
+  short_desc: "Purveyor of fine drugs."
+
+- name: "Orianna Helker"
+  alias: "Affect"
+  playbook: "Whisper"
+  short_desc: "A former ironworker who developed a fascination with the ghost field after witnessing vampires massacre her union mates. Cousin to Adric. Currently considered dead. "
+
+- name: "Oskana Koslova"
+  alias: "Jammer"
+  playbook: "Cutter"
+  short_desc: "Shipside brawler. Punk. Exceptional ghost-puncher."
+
+- name: "Sandro"
+  playbook: "Slide"
+  short_desc: "Upper crust conman. Charisma powerhouse. Always looking for a new way to make an easy buck. Currently considered dead."
+
+- name: "Spud Stonestump"
+  playbook: "Cutter"
+  short_desc: "Violence enthusiast. Pit fighting Severosi. Really, can't stress enough the enthusiasm for violence."

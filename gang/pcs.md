@@ -14,8 +14,12 @@ layout: default
         {% else %}
         <img src="{{ site.baseurl }}/assets/img/world/characters/pcs/default.jpg">
         {% endif %}
+        {% if char.alias %}
         <b>{{char.alias}}</b><br>
         {{char.name}}<br>
+        {% else %}
+        <b>{{char.name}}</b><br>
+        {% endif %}
         {{char.playbook}}
         <hr>
         {{char.short_desc}}
