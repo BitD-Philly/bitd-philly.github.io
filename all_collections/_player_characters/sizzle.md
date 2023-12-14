@@ -1,7 +1,7 @@
 ---
-alias: Sizzle   # required
+alias: Sizzle
 picture: Sizzle.png
-name: Rosie Woodward
+name: Rosie Woodward # required
 pronouns: she/her
 playbook: Hound # required
 status: active

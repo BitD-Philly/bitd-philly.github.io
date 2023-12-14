@@ -7,9 +7,8 @@ layout: default
     width:30%;
     border: 1px solid #333;
     border-radius: 2px;
-    margin: 0px;
     padding: 0px;
-    margin-right: 20px;
+    margin: 0px 20px;
 }
 #wikibox li{
     display:block;
@@ -36,13 +35,24 @@ layout: default
 
 {% case handle %}
     {% when page[collection] == "player_characters" %}  
-        {% assign box_keys = "picture,name,pronouns,playbook,status,excerpt,player" | split: ","%}
-        
-        {% unless page[alias] %}
+        {% assign box_keys = "name,pronouns,playbook,status,excerpt,player" | split: ","%}
+        {% assign pic_url = page.picture %}
+        {% unless page.alias %}
             {% assign page.alias = page.name %}
-        
         {% endunless %}
         {% assign header = page.alias %}
+        
+    {% when page[collection] == "locations" %}
+        {% assign header = page.name %}
+        {% if page.picture %}
+            {% assign box_keys = "picture,name,region,city,neighborhood" | split: "," %}
+            {% assign pic_url = page.picture %}
+        {% elsif page.map %}
+            {% assign pic_url = "maps/" | append: page.map %}
+            {% assign box_keys = "picture,name,region,city,neighborhood" | split: "," %}
+        {% else %}
+            {% assign box_keys = "name,region,city,neighborhood" | split: "," %}
+        {% endif %}
     {% endcase %}
 
 {% if box_keys %}
@@ -51,17 +61,14 @@ layout: default
         <h2>{{ header }}</h2></li>
     {% for key in box_keys %}
         <li>
-        
-        {% if key == "picture" %}
-            <img src="{{ site.baseurl }}/{{page.img_root}}/{{page.picture}}">
-        {% elsif page[key] %}
-            <b>{{key}}:</b> {{page[key]}}
-        {% endif %}
+            {% if key == "picture" %}
+                <img src="{{ site.baseurl }}/{{page.img_root | append: pic_url}}">
+            {% elsif page[key] %}
+                <b>{{key}}:</b> {{page[key]}}
+            {% endif %}
         </li>
     {% endfor %}
 </ul>
 {% endif %}
-
 <h1>{{header}}</h1>
-
 {{content}}

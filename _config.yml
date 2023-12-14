@@ -48,7 +48,14 @@ defaults:
       layout: "wiki"
       picture: "default.jpg"
       status: "active"
-      img_root: "assets/img/world/characters/pcs"
+      img_root: "assets/img/world/characters/pcs/"
+  -
+    scope:
+      path: ""
+      type: "locations"
+    values:
+      layout: "wiki"
+      img_root: "assets/img/world/locations/"
 
 
 collections_dir: all_collections
@@ -56,8 +63,10 @@ collections_dir: all_collections
 collections:
   player_characters:
     output: true
-    permalink: /:collection/:name
-    wiki: true
+    permalink: /wiki/:collection/:name
+  locations:
+    output: true
+    permalink: /wiki/:collection/:name 
 
 # Build settings
 theme: minima
