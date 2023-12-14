@@ -33,16 +33,15 @@ layout: default
 
 </style>
 
-{% case handle %}
-    {% when page[collection] == "player_characters" %}  
-        {% assign box_keys = "name,pronouns,playbook,status,excerpt,player" | split: ","%}
+    {% if page.collection == "player_characters" %}  
+        {% assign box_keys = "picture,name,pronouns,playbook,status,excerpt,player" | split: ","%}
         {% assign pic_url = page.picture %}
         {% unless page.alias %}
             {% assign page.alias = page.name %}
         {% endunless %}
         {% assign header = page.alias %}
         
-    {% when page[collection] == "locations" %}
+    {% elsif page.collection == "locations" %}
         {% assign header = page.name %}
         {% if page.picture %}
             {% assign box_keys = "picture,name,region,city,neighborhood" | split: "," %}
@@ -53,7 +52,7 @@ layout: default
         {% else %}
             {% assign box_keys = "name,region,city,neighborhood" | split: "," %}
         {% endif %}
-    {% endcase %}
+    {% endif %}
 
 {% if box_keys %}
 <ul id="wikibox">
