@@ -30,6 +30,35 @@ domain: bitd-philly.github.io
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "player_characters"
+    values:
+      layout: "wiki"
+      picture: "default.jpg"
+      status: "active"
+      img_root: "assets/img/world/characters/pcs"
+
+
+collections_dir: all_collections
+
+collections:
+  player_characters:
+    output: true
+    permalink: /:collection/:name
+    wiki: true
+
 # Build settings
 theme: minima
 plugins:

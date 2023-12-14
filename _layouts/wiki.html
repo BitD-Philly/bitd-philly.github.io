@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<style>
+#wikibox {
+    float:right;
+    width:30%;
+    border: 1px solid #333;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 20px;
+}
+#wikibox li{
+    display:block;
+    color: #ccc;
+}
+#wikibox li img {
+    width:100%;
+    border: 1px solid #333;
+}
+
+#wikibox h2 {
+    text-align:center;
+    letter-spacing: normal;
+    display:block;
+    color:#fff;
+    background:#6A9662;
+    padding:2px;
+    margin:0px;
+    text-transform: capitalize;
+}
+
+
+</style>
+
+{% case handle %}
+    {% when page[collection] == "player_characters" %}  
+        {% assign box_keys = "picture,name,pronouns,playbook,status,excerpt,player" | split: ","%}
+        
+        {% unless page[alias] %}
+            {% assign page.alias = page.name %}
+        
+        {% endunless %}
+        {% assign header = page.alias %}
+    {% endcase %}
+
+{% if box_keys %}
+<ul id="wikibox">
+    <li>
+        <h2>{{ header }}</h2></li>
+    {% for key in box_keys %}
+        <li>
+        
+        {% if key == "picture" %}
+            <img src="{{ site.baseurl }}/{{page.img_root}}/{{page.picture}}">
+        {% elsif page[key] %}
+            <b>{{key}}:</b> {{page[key]}}
+        {% endif %}
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<h1>{{header}}</h1>
+
+{{content}}

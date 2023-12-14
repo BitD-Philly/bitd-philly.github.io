@@ -112,22 +112,13 @@ background: inherit;
 #content {
 padding: 0 20px 0 20px;
 margin-left: 170px;
-margin-right: 170px;
+margin-right: auto;
 border-left: 1px dashed #333;
 border-right: 1px dashed #333;
 color: #FFFFFA;
 background-color: #4D4D4D;
 }
 
-#contentb {
-	padding: 0 20px 0 20px;
-	margin-left: 170px;
-	margin-right: 0;
-	border-left: 1px dashed #333;
-	border-right: 1px dashed #333;
-	color: #FFFFFA;
-	background-color: #4D4D4D;
-	}
 		/* ARTICLES */
 .intro {
 float:left;
