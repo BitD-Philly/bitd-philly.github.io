@@ -1,6 +1,6 @@
 ---
 alias: Cruncho   # required
-picture: cruncho.png
+picture: Cruncho.png
 pronouns: he/him
 status: active
 player: Jay
