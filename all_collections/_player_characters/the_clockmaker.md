@@ -1,16 +1,16 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-name: Rosie Woodward 
-playbook: Hound
-player: Vinnie
+name: The Clockmaker
+playbook: Hull
+player: Tommy
 
-# optional
-alias: Sizzle
-pronouns: she/her
-status: active
-excerpt: "Mysterious gunslinger. Has a hawk. Never comfortable."
-picture: Sizzle.png
+#optional
+alias: 
+pronouns: 
+status: active        # default "active"
+excerpt:        # 1-2 sentences about the character
+picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
@@ -36,7 +36,7 @@ Create lists using asterisks:
 
 * Friend 1
 * Friend 2
-* Vengeful ex
+* Ex
 * Mortal Enemy
 
 # Citations
