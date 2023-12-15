@@ -36,7 +36,7 @@ Create lists using asterisks:
 
 * Friend 1
 * Friend 2
-* Ex
+* Vengeful ex
 * Mortal Enemy
 
 # Citations
