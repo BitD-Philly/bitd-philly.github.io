@@ -1,16 +1,16 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-name: Vilhelm Skrifol
-playbook: Whisper
-player: Jay
+name: The Clockmaker
+playbook: Hull
+player: Tommy
 
-# optional
-alias: Cruncho
-pronouns: he/him
-status: active
-excerpt: "Former plumber. Occult enthusiast, lightning conjurer. Pre-war Skovlan immigrant. "
-picture: Cruncho.png
+#optional
+alias: 
+pronouns: 
+status: active        # default "active"
+excerpt:        # 1-2 sentences about the character
+picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
