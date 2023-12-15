@@ -11,7 +11,7 @@ alias: Affect
 pronouns: She/They
 status: Presumed dead
 excerpt: A former steelworker who developed a fascination with the ghost field after witnessing vampires massacre her union mates. Cousin to Adric. Now a manifestation of [Vazara](../characters/Vazara)
-picture:
+picture: Orianna.png
 ---
 
 Orianna was a steelworker at the Duskvol Steel Works for most of her life before joining the nameless, but her passion had always been in sneaking books away from libraries and universities across the richer districts of Duskvol and bringing them back to her Crow's Foot home. As part of the Nameless, she began to learn to control her connection to the ghost field and discovered her strange ability to conjure ancient and malevolent forces from before the cataclysm. Later, she touched a force that had not been seen in the world in a myriad when she accidentally connected to the imprisoned manifestation of the Sun, which lay far beneath the waves of the void sea. Eventually, Orianna's research into ancient cults, saints, and rituals led her to take up hunting down the remnants of the ancient world, spirits like [Elia](../characters/Elia), [Scurlock](../characters/Scurlock), and their minions. As part of an attempt to destroy Wickham, she allowed the ancient god [Vazara](../characters/Vazara) to fuse itself with her body, becoming the chosen of the storm god. 
