@@ -11,14 +11,15 @@ pronouns: he/him/his
 status:  Living
 excerpt: "Experimental Alchemist. Orphan and former sailor/stowaway. Old man."
 picture:
-updated:  12/15/2023
 ---
 
-This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
+Last updated on 12/15/2023.  The contents of this page are subject to change.
 
-You can link to other wiki pages using their relative links. Examples:
-* [Duskvol](../locations/Duskvol)
-* [Cruncho](../player_characters/Cruncho)
+Linmer was developed based on his player's desire to play someone who fit the "kooky old wizard" trope[^2].  He quickly moved away from Disney's Merlin and became something more original.
+
+He may appear to be frail and useless, Linmer is surprisingly spry and a talented alchemist.  He developed his persona hoping it would encourage others to ignore and underestimate him.  Sometimes, though, it is hard to tell wear the persona ends and the real Linmer begins.
+
+In terms of game mechanics, Linmer is a "Leech", with a focus on Prowling and Wrecking. 
 
 # Appearance
 Linmer may be in his 50s, but he looks like he is in his 70s, thanks to a combination of a hard life and a little bit of exaggerated costuming.  He has a ring of light grey hair around his bald head, a long white beard, and a thin, weathered face with a sharp features.
@@ -31,32 +32,45 @@ He usually wears loose, dirty clothes.  His work with alchemicals have left smal
 ## Backstory
 Linmer knows he must have had a life before he was an orphan and before he was a stowaway, but he doesn't remember it.  He has spent his whole life traveling from port to port, occasionally taking on odd jobs but mostly trying to appear pitiful enough to be ignored by the rest of the ship.  At some point, an oils merchant took an interest in and taught him some alchemistry.  This apprenticeship gave him skills that, for the first time in his life, made him _actually valuable_ to other people. However, Linmer's delight in reckless experimentation soon destroyed his relationship with his mentor.  Over the years that followed, it also earned him a reputation with enough sailors from enough ships that stowing away ceased to be an option.
 
-And so, he made land as Duskvol, with no money and no prospects.
+And so, he made land as [Duskvol](../locations/Duskvol), with no money and no prospects.
 
 ## Time With the Nameless
 Detail your character's adventures here. You can also link primary sources in the footnotes![^1]
 
-**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
+## Drives, Beliefs, and Traumas
+Linmer hopes one day to return to the sea, captaining his own ship.
+
+Linmer has developed an intense paranoia regarding the supernatural in general and possesion in particular.
 
 # Relationships
-Create lists using asterisks:
-
-* Stazia:  Friend.  An apothacary.  She and Linmer have a lightly flirtatious relationship.  They met during one of Linmer's stints as a legitimate merchant's assistant.
-* Veldren:  Enemy.  A "psychonaut".  It is unclear why Veldren and Linmer do not like each other. 
-* Ol' Wickham:  Enemy?  A ghost.  Wickham rode along in Linmer's brain for several months.  By the time Linmer was able to drive him out, Linmer's antagonistic, fearful, and antagonistic perspective towards the ghost had... softened.
-* Studabaker Spud:  Enemy?  An entreprenuer.  Linmer sees something of himself in this weird man, which led to him treating him more kindly than Spud perhaps deserved.
-* Lord Pendryn:  Ally?  A noble and a cultist.  Linmer has found Lord Pendryn very helpful, but also a _bit much_.
-* Lady Pendryn:  Enemy.  A noble.  She finds Linmer exceptionally annoying, but he hasn't been _so_ annoying to earn active antagonism from her.
-* Jeremy "The Shmeek" Pendryn:  Ally?  A noble's child.
 * Arkin / "The Clockmaker":  Crew/Enemy?
-* Katya:  Crew.
+* [Cruncho](../player_characters/Cruncho):  Crew.
 * Flan:  Crew.
-* Loop:  Crew.
-* Cruncho:  Crew.
 * Jammer:  Crew.
+* Jeremy "The Shmeek" Pendryn:  Ally?  A noble's child.
+* Katya:  Crew.
+* Lady Pendryn:  Enemy.  A noble.  She finds Linmer exceptionally annoying, but he hasn't been _so_ annoying to earn active antagonism from her.
+* Loop:  Crew.
+* Lord Pendryn:  Ally?  A noble and a cultist.  Linmer has found Lord Pendryn very helpful, but also a _bit much_.
 * Orianna:  Crew.
-* Sizzle:  Crew.
 * Sandro:  Crew.
+* Sizzle:  Crew.
+* Stazia:  Friend.  An apothacary.  She and Linmer have a lightly flirtatious relationship.  They met during one of Linmer's stints as a legitimate merchant's assistant.
+* Studabaker Spud:  Enemy?  An entreprenuer.  Linmer sees something of himself in this weird man, which led to him treating him more kindly than Spud perhaps deserved.
+* Veldren:  Enemy.  A "psychonaut".  It is unclear why Veldren and Linmer do not like each other.
+* Wickham:  Enemy?  A ghost.  Wickham rode along in Linmer's brain for several months.  By the time Linmer was able to drive him out, Linmer's antagonistic, fearful, and antagonistic perspective towards the ghost had... softened.
+
+# Skills and Notable Assets
+
+Linmer is a talented alchemist, specializing in oils.  He has spent a lot of time working with Binding Oil, creating some unique (and occasionally dangerous) variations.
+
+Linmer's has been experimenting with ways to cut people off from the Ghostfield.
+
+Linmer is nurturing relationships with members of a hypothetical future crew.
 
 # Citations
+
 [^1]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>
+[^2]:  Kooky old wizard.  <https://tvtropes.org/pmwiki/pmwiki.php/Main/WizardClassic>
+
+**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
