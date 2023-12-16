@@ -1,13 +1,13 @@
 ---
 # required
-name: Duskvol
+name: Metrocity
 loc_type: city
 last_updated:  1 January 2000
 
 # optional
 picture:
-map: duskwall.jpg
-region: Akaros
+map: 
+region: Megamind
 city:
 neighborhood:
 ---
@@ -15,8 +15,8 @@ neighborhood:
 This is a location wiki page! Write a short summary about the location here at the top of the page. Below are some additional suggested sections.
 
 You can link to other wiki pages using their relative links. Examples:
-* [Duskvol](../locations/Duskvol.html)
-* [Cruncho](../player_characters/Cruncho.html)
+* [Duskvol](../locations/Duskvol)
+* [Cruncho](../player_characters/Cruncho)
 
 # Description
 Describe the location here.
