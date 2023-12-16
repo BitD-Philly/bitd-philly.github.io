@@ -12,4 +12,4 @@ Within Duskvol, crime syndicates and traffickers vie for resources and control. 
 
 
 # Districts
-* [Six Towers](../locations/Six_Towers)
+* [Six Towers](../locations/Six_Towers.md)
