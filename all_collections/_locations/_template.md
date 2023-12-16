@@ -1,16 +1,30 @@
 ---
 # required
-name: Duskvol
+name: Metrocity
 loc_type: city
+last_updated:  1 January 2000
 
 # optional
 picture:
-map: duskwall.jpg
-region: Akaros
+map: 
+region: Megamind
 city:
 neighborhood:
 ---
 
-Duskvol is a rich and vibrant setting where darkness dominates the skies-- a realm of eternal night flanked by ghost-infested wastelands. Humanity is only able to survive in the cities, where massive lightning walls protect them against the angry and violent spirits beyond. The seas are deep and inky, full of massive demons known as "leviathans," who are hunted by brave sailors-- their bodies provide valuable electroplasm, a substance that fuels the power plants and industry of the city.
+This is a location wiki page! Write a short summary about the location here at the top of the page. Below are some additional suggested sections.
 
-Within Duskvol, crime syndicates and traffickers vie for resources and control. Ghost hunters and worshippers alike navigate the treacherous ghost-field that overlays the world. Immigrants from Skovlan, the Dagger Isles, and Iruvia look for places to coexist in the crowded streets.
+You can link to other wiki pages using their relative links. Examples:
+* [Duskvol](../locations/Duskvol)
+* [Cruncho](../player_characters/Cruncho)
+
+# Description
+Describe the location here.
+
+# History
+Describe the history of the location here. Add citations as needed in the footnotes![^my-footnote]
+
+**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
+
+# Citations
+[^my-footnote]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>

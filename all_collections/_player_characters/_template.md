@@ -4,11 +4,12 @@
 name: Jaime Doe
 playbook: GM
 player: Ted Gold
+last updated: 1 Jan 2000
 
 #optional
 alias: 
 pronouns: 
-status:         # default "active"
+status:         # suggestions: active | missing | presumed dead | incarcerated | deceased
 excerpt:        # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
@@ -27,7 +28,7 @@ Describe your character's appearance here.
 Write your character's backstory here. 
 
 ## Time With the Nameless
-Detail your character's adventures here. You can also link primary sources in the footnotes![^1]
+Detail your character's adventures here. You can also link primary sources in the footnotes![^my-footnote]
 
 **Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
 
@@ -40,4 +41,4 @@ Create lists using asterisks:
 * Mortal Enemy
 
 # Citations
-[^1]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>
+[^my-footnote]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>

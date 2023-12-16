@@ -9,7 +9,7 @@ player: Jay
 alias: Cruncho
 pronouns: he/him
 status: active
-excerpt: "Former plumber. Occult enthusiast, full of ghosts. Penchant for demonic pacts."
+excerpt: "Former plumber. Occult enthusiast, full of ghosts. Penchant for demonic pacts. "
 picture: Cruncho.png
 ---
 
