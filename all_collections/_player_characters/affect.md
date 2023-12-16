@@ -10,7 +10,7 @@ playbook: Whisper
 alias: Affect
 pronouns: She/They
 status: Presumed dead
-excerpt: A former steelworker who developed a fascination with the ghost field after witnessing vampires massacre her union mates. Cousin to Adric. Now a manifestation of [Vazara](../characters/Vazara)
+excerpt: A former steelworker who developed a fascination with the ghost field after witnessing vampires massacre her union mates. Now a manifestation of Vazara
 picture: Orianna.png
 ---
 
