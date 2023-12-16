@@ -46,6 +46,7 @@ position: center;
 height: 100px;
 padding: 0;
 margin-bottom: 0px;
+margin-top: 0px;
 background: #4D4D4D url(https://www.cs.drexel.edu/~pmk65/BladesinthePhiladelphia/banner.jpg) ;
 background-position: center;
 background-size: 30%;
@@ -256,6 +257,8 @@ span.game-term {
 @media screen and (max-width: 768px) {
 	.container {
 		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.content {
 		width: 100%;
