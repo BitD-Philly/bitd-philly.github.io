@@ -4,6 +4,7 @@
 name: Rosie Woodward 
 playbook: Hound
 player: Vinnie
+last_update: 12 December 2023
 
 # optional
 alias: Sizzle
@@ -16,8 +17,8 @@ picture: Sizzle.png
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
 
 You can link to other wiki pages using their relative links. Examples:
-* [Duskvol](../locations/Duskvol)
-* [Cruncho](../player_characters/Cruncho)
+* [Duskvol](../locations/duskvol)
+* [Cruncho](../player_characters/cruncho)
 
 # Appearance
 Describe your character's appearance here.
