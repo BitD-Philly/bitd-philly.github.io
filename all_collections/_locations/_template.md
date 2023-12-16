@@ -15,8 +15,8 @@ neighborhood:
 This is a location wiki page! Write a short summary about the location here at the top of the page. Below are some additional suggested sections.
 
 You can link to other wiki pages using their relative links. Examples:
-* [Duskvol](../locations/Duskvol)
-* [Cruncho](../player_characters/Cruncho)
+* [Duskvol](../locations/Duskvol.html)
+* [Cruncho](../player_characters/Cruncho.html)
 
 # Description
 Describe the location here.
