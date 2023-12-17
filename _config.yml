@@ -49,18 +49,18 @@ defaults:
       picture: "default.jpg"
       status: "active"
       img_root: "assets/img/world/characters/pcs/"
--
-    scope:
-      path: ""
-      type: "locations"
-    values:
-      img_root: "assets/img/world/locations/"
--
-    scope:
-      path: ""
-      type: "factions"
-    values:
-      img_root: "assets/img/world/factions/"
+  -
+      scope:
+        path: ""
+        type: "locations"
+      values:
+        img_root: "assets/img/world/locations/"
+  -
+      scope:
+        path: ""
+        type: "factions"
+      values:
+        img_root: "assets/img/world/factions/"
 
 collections_dir: all_collections
 collections:
