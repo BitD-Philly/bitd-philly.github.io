@@ -2,14 +2,12 @@
 # required
 # This data in this header is used to reference this character across the entire website. 
 name: Jaime Doe
+id: jaime-doe
 last_updated: 1 Jan 2000
 
 #optional
 alias: 
 pronouns: 
-status:         # suggestions: active | missing | presumed dead | incarcerated | deceased
-affiliations:   # organizations this character is affiliated with
-excerpt:        # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 

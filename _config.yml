@@ -47,8 +47,14 @@ defaults:
     values:
       layout: "wiki"
       picture: "default.jpg"
-      status: "active"
       img_root: "assets/img/world/characters/pcs/"
+  -
+    scope:
+      path: ""
+      type: "npcs"
+    values:
+        layout: "wiki"
+        img_root: "assets/img/world/npcs/"
   -
       scope:
         path: ""

@@ -19,6 +19,7 @@
   id: lord-scurlock
   excerpt: Vampire, noble, body-snatcher, conniver. Once-employer of the Nameless, now missing after near-destruction at their hands.
   status: missing
+  has-page: true
 
 - name: Lugos
   id: lugos
@@ -43,14 +44,15 @@
 - name: Elia Wickham
   id: elia-wickham
   alias: Old Wickhamm, Young Hamwick
-  excerpt: Body-snatching megaghost, long exiled from Duskwall. Loves character work.
+  excerpt: A pre-calamity ghost of a shadow witch, who has become "contagious" to those who interact with her spirit essence. Middling comedic actor. 
+  has-page: true
 
 - name: The Horned One
   id: the-horned-one
   excerpt: Shapeshifting mega-spirit. Partially trapped in a box, partially possessing a body. Has a plan.
 
 - name: The Deadlands Fiddler
-  id: the-deadlands-fiddleer
+  id: the-deadlands-fiddler
   excerpt: Seven-foot-tall fiddler ghost. Vibes.
 
 - name: Bhed the Wolf

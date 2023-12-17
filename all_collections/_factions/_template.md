@@ -2,11 +2,11 @@
 # site data (required)
 # This data in this header is used to reference this organization across the entire website. 
 name: The Cheetah Girls
-faction_category: institutions
+faction-id: the-cheetah-girls
+faction-category: institutions
 
 #optional
 leader:
-excerpt:
 picture:
 ---
 
