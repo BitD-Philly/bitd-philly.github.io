@@ -7,7 +7,7 @@ player: Ted Gold
 last_updated: 1 Jan 2000
 
 #optional
-alias: 
+alias:          # primary alias
 pronouns: 
 status:         # suggestions: active | missing | presumed dead | incarcerated | deceased
 excerpt:        # 1-2 sentences about the character
@@ -16,9 +16,12 @@ picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
 
-You can link to other wiki pages using their relative links. Examples:
-* [Duskvol](../locations/duskvol)
-* [Cruncho](../player_characters/cruncho)
+You can link to other wiki pages directly via the page name. **Note:** In order to work, links must be lowercase with spaces replaced by dashes. 
+
+Examples:
+* [Duskvol](/duskvol)
+* [Cruncho](/cruncho)
+* The [Seventh Tower Consortium](/six-towers)
 
 # Appearance
 Describe your character's appearance here.

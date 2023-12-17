@@ -10,6 +10,7 @@ map: doskvol_sixtowers.jpg
 region: Akaros
 city: Duskvol
 neighborhood: 
+excerpt:
 ---
 
 *This formerly prestigious district has faded over the centuries into a pale shadow of what it once was. The eponymous six towers were originally the grand residences of Doskvol’s first noble families. All but two (Bowmore House and Rowan House) have been sold of and converted into cheap apartments or fallen into ruin and abandoned. The district has an empty, haunted feel, with many sprawling old buildings dark without power, broad stone streets cracked and buckled, and the fires of squatters crackling from overgrown lots.*
