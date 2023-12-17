@@ -26,7 +26,7 @@ The delapidated district is noentheless the relatively undisputed territory of t
 * Void Sea Wrestling Arena -- Originally a large spa with a pool, it has been converted into an outdoor wrestling arena. Replete with an attached gambling den with two stories. Flanked by watchtowers that double as changing rooms. 
 
 # Mechanical Information
-Wealth 2
+Wealth 2 (for now)
 
 Security and Safety 1
 
