@@ -47,26 +47,43 @@ defaults:
     values:
       layout: "wiki"
       picture: "default.jpg"
-      status: "active"
       img_root: "assets/img/world/characters/pcs/"
   -
     scope:
       path: ""
-      type: "locations"
+      type: "npcs"
     values:
-      layout: "wiki"
-      img_root: "assets/img/world/locations/"
-
+        layout: "wiki"
+        img_root: "assets/img/world/npcs/"
+  -
+      scope:
+        path: ""
+        type: "locations"
+      values:
+        img_root: "assets/img/world/locations/"
+  -
+      scope:
+        path: ""
+        type: "factions"
+      values:
+        layout: "wiki"
+        img_root: "assets/img/world/factions/"
 
 collections_dir: all_collections
-
 collections:
   player_characters:
     output: true
-    permalink: /wiki/:collection/:name
+    permalink: /wiki/:name
   locations:
     output: true
-    permalink: /wiki/:collection/:name 
+    permalink: /wiki/:name 
+  factions:
+    output: true
+    permalink: /wiki/:name
+  npcs:
+    output: true
+    permalink: /wiki/:name 
+  
 
 # Build settings
 theme: minima

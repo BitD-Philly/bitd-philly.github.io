@@ -1,0 +1,72 @@
+---
+---
+<style>
+    table {
+        display:inline-block;
+        vertical-align:top;
+        margin:10px auto; }
+    tr {width:100%;}
+    td:first-of-type {
+        text-align:left!important;
+        width:10em;
+    }
+
+    td {
+        padding:2px 3px;
+        text-align:center;
+        width:2em;
+    }
+
+    tr.title td {text-align:center!important;}
+
+</style>
+
+<h1>Factions</h1>
+
+{% for faction_classification in site.data.world.factions._index %}
+
+{% assign faction_group = site.data.world.factions[faction_classification] | sort: "tier" | reverse %}
+
+<table>
+    <tr class="title">
+        <td colspan="4">
+            <h3>{{faction_classification | replace: "_"," "}}</h3>
+        </td>
+    </tr>
+    <tr>
+        <th></th>
+    <th>Tier</th>
+        <th>Hold</th>
+        <th>Status</th>
+    </tr>
+    {% for faction in faction_group %}
+    <tr>
+        <td>
+            <a href="#{{faction.id}}">{{ faction.name }}</a></td>
+        <td>{{ faction.tier }}</td>
+        <td>{{ faction.hold }}</td>
+        <td>{{ faction.status }}</td>
+    </tr>   
+{% endfor %}
+</table>
+{% endfor %}
+
+
+{% for faction_classification in site.data.world.factions._index %}
+    {% assign faction_group = site.data.world.factions[faction_classification] | sort: "name" %}
+
+    <h1>{{faction_classification}}</h1>
+    
+    {% for faction in faction_group %}
+        <a name="{{faction.id}}"></a>
+        <h2>{{faction.name}}</h2>
+        {% if faction.has-page== true %}
+            <p>
+            <i>See</i> <a href="/wiki/{{faction.id}}">{{faction.name}}</a>
+            </p>
+        {% endif %}
+        <p>{{faction.excerpt}}</p>
+
+    {% endfor %}
+
+{% endfor %}

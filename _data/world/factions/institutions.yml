@@ -1,0 +1,77 @@
+- name: Imperial Military
+  id: imperial-military
+  tier: 6
+  hold: S
+  status: 0
+- name: City Council
+  id: city-council
+  tier: 5
+  hold: S
+  status: 0
+- name: Ministry of Preservation
+  id: ministry-of-preservation
+  tier: 5
+  hold: S
+  status: 0
+- name: Leviathan Hunters
+  id: leviathan-hunters
+  tier: 5
+  hold: S
+  status: 0
+- name: Ironhook Prison
+  id: ironhook-prison
+  tier: 4
+  hold: S
+  status: 0
+- name: Sparkwrights
+  id: sparkwrights
+  tier: 4
+  hold: S
+  status: 0
+- name: Spirit Wardens
+  id: spirit-wardens
+  tier: 4
+  hold: S
+  status: -1
+- name: Seventh Tower Consortium
+  id: seventh-tower-consortium
+  tier: 3
+  hold: W
+  status: -3
+  excerpt: Gentrifiers armed with mercenary support and a heavy bank account. Looking to displace the Nameless and return Six Towers to its former reputation as a rich and powerful neighborhood.
+- name: Bluecoats
+  id: bluecoats
+  tier: 3
+  hold: S
+  status: -1
+  excerpt: Purveyors of "law" and "order" in Duskvol. Truthfully many of its members are in the pockets of different factions across the city. Nonetheless the most "legitimate" producers of violence in the city, with a presence in every neighborhood.
+- name: Inspectors
+  id: inspectors
+  tier: 3
+  hold: S
+  status: 0
+- name: Iruvian Consulate
+  id: iruvian-consulate
+  tier: 3
+  hold: S
+  status: 0
+- name: Skovlan Consulate
+  id: skovlan-consulate
+  tier: 3
+  hold: W
+  status: 0
+- name: The Brigade
+  id: the-brigade
+  tier: 2
+  hold: S
+  status: 0
+- name: Severosi Consulate
+  id: severosi-consulate
+  tier: 1
+  hold: S
+  status: 0
+- name: Dagger Isle Consulate
+  id: dagger-isle-consulate
+  tier: 1
+  hold: S
+  status: 0

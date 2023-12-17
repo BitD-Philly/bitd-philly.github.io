@@ -1,16 +1,46 @@
 ---
 # required
-name: Duskvol
+name: Metrocity
 loc_type: city
+last_updated:  1 January 2000
 
 # optional
 picture:
-map: duskwall.jpg
-region: Akaros
+map: 
+region: Megamind
 city:
 neighborhood:
 ---
 
-Duskvol is a rich and vibrant setting where darkness dominates the skies-- a realm of eternal night flanked by ghost-infested wastelands. Humanity is only able to survive in the cities, where massive lightning walls protect them against the angry and violent spirits beyond. The seas are deep and inky, full of massive demons known as "leviathans," who are hunted by brave sailors-- their bodies provide valuable electroplasm, a substance that fuels the power plants and industry of the city.
+This is a location wiki page! Write a short summary about the location here at the top of the page. Below are some additional suggested sections.
 
-Within Duskvol, crime syndicates and traffickers vie for resources and control. Ghost hunters and worshippers alike navigate the treacherous ghost-field that overlays the world. Immigrants from Skovlan, the Dagger Isles, and Iruvia look for places to coexist in the crowded streets.
+You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to.
+
+**Note that valid links lowercase and spaces must be replaced with dashes (-).**
+
+Examples:
+* [Duskvol](duskvol)
+* The [Seventh Tower Consortium](seventh-tower-consortium)
+
+You can also link to sub-headers on any page by using a # after the `link-text`. For example, linking to Cruncho's backstory would look like this:
+
+`Due to Cruncho's [personal history](cruncho#backstory) with football, he was able to...`
+
+
+# History
+Describe the history of the location here. Add citations as needed in the footnotes![^my-footnote]
+
+**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM.
+
+# Geography
+Describe the geography here. (e.g., location, size, climate, flora & fauna, local landmarks)
+
+# Population
+Describe the demographics of the mortal and/or supernatural inhabitants of this location.
+
+## Culture
+Describe the culture, organizations, factions, etc. important to the location.
+
+
+# Citations
+[^my-footnote]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>

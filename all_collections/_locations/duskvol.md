@@ -1,6 +1,7 @@
 ---
 name: Duskvol
 loc_type: city
+last_updated: 14 December 2023
 
 map: duskwall.jpg
 region: Akaros
@@ -12,4 +13,4 @@ Within Duskvol, crime syndicates and traffickers vie for resources and control. 
 
 
 # Districts
-* [Six Towers](../locations/Six_Towers.md)
+* [Six Towers](six-towers)

@@ -7,3 +7,5 @@ Check out these collections!
 
 * [The Nameless](player_characters/)
 * [Locations](locations/)
+* [Factions](factions/)
+* [NPCs](npcs/)
