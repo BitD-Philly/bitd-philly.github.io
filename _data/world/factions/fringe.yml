@@ -1,36 +1,45 @@
 - name: The Church of Ecstasy
+  id: the-church-of-ecstasy
   tier: 4
   hold: S
   status: 0
 - name: The Horde
+  id: the-horde
   tier: 3
   hold: S
   status: 0
 - name: The Path of Echoes
+  id: the-path-of-echoes
   tier: 3
   hold: S
   status: 0
 - name: The Forgotten Gods
+  id: the-forgotten-gods
   tier: 3
   hold: W
   status: 0
 - name: The Reconciled
+  id: the-reconciled
   tier: 3
   hold: S
   status: 0
 - name: Skovlander Refugees
+  id: skovlander-refugees
   tier: 3
   hold: W
   status: 0
 - name: The Weeping Lady
+  id: the-weeping-lady
   tier: 2
   hold: S
   status: 0
 - name: Deathlands Scavengers
+  id: deathlands-scavengers
   tier: 2
   hold: W
   status: 0
 - name: Cult of Vazara
+  id: cult-of-vazara
   tier: 2
   hold: W
   status: 0
