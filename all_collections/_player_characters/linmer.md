@@ -33,7 +33,7 @@ He usually wears loose, dirty clothes.  His work with alchemicals have left smal
 ## Backstory
 Linmer knows he must have had a life before he was an orphan and before he was a stowaway, but he doesn't remember it.  He has spent his whole life traveling from port to port, occasionally taking on odd jobs but mostly trying to appear pitiful enough to be ignored by the rest of the ship.  At some point, an oils merchant took an interest in and taught him some alchemistry.  This apprenticeship gave him skills that, for the first time in his life, made him _actually valuable_ to other people. However, Linmer's delight in reckless experimentation soon destroyed his relationship with his mentor.  Over the years that followed, it also earned him a reputation with enough sailors from enough ships that stowing away ceased to be an option.
 
-And so, he made land as [Duskvol](../locations/duskvol), with no money and no prospects.
+And so, he made land as [Duskvol](duskvol), with no money and no prospects.
 
 ## Time With the Nameless
 Detail your character's adventures here. You can also link primary sources in the footnotes![^1]
@@ -45,7 +45,7 @@ Linmer has developed an intense paranoia regarding the supernatural in general a
 
 # Relationships
 * Arkin / "The Clockmaker":  Crew/Enemy?
-* [Cruncho](../player_characters/cruncho):  Crew.
+* [Cruncho](cruncho):  Crew.
 * Flan:  Crew.
 * Jammer:  Crew.
 * Jeremy "The Shmeek" Pendryn:  Ally?  A noble's child.
