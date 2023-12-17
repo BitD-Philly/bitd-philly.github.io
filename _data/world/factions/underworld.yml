@@ -1,0 +1,68 @@
+- name: The Unseen
+  tier: 4
+  hold: S
+  status: 0
+- name: The Hive
+  tier: 4
+  hold: S
+  status: 0
+- name: The Circle of Flame
+  tier: 3
+  hold: S
+  status: 3
+- name: The Silver Nails
+  tier: 3
+  hold: S
+  status: 0
+- name: Lord Scurlock
+  tier: 3
+  hold: S
+  status: -2
+- name: The Crows
+  tier: 2
+  hold: W
+  status: 0
+- name: The Red Sashes
+  tier: 2
+  hold: W
+  status: 1
+- name: The Dimmer Sisters
+  tier: 2
+  hold: S
+  status: -2
+- name: The Grinders
+  tier: 2
+  hold: W
+  status: 0
+- name: The Billhooks
+  tier: 2
+  hold: W
+  status: -3
+- name: The Wraiths
+  tier: 2
+  hold: W
+  status: 0
+- name: Ulf Ironborn
+  tier: 1
+  hold: S
+  status: 1
+- name: The Fog Hounds
+  tier: 1
+  hold: W
+  status: 0
+- name: The Lost
+  tier: 1
+  hold: W
+  status: 0
+- name: The Gray Cloaks
+  tier: 
+  hold: 
+  status: 
+- name: The Lampblacks
+  tier:
+  hold: 
+  status:
+- name: Lugos
+  tier:     
+  hold: 
+  status:

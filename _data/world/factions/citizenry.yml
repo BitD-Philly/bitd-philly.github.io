@@ -1,0 +1,49 @@
+- name: Whitecrown
+  tier: 5
+  hold: S
+  status: 0
+- name: Brightstone
+  tier: 4
+  hold: S
+  status: 0
+- name: Charterhall
+  tier: 4
+  hold: S
+  status: 0
+- name: Six Towers
+  tier: 3
+  hold: W
+  status: 1
+- name: Silkshore
+  tier: 2
+  hold: S
+  status: 0
+- name: Nightmarket
+  tier: 2
+  hold: S
+  status: 0
+- name: Crow's Foot
+  tier: 2
+  hold: S
+  status: 0
+- name: The Docks
+  tier: 2
+  hold: S
+  status: 0
+- name: Barrowcleft
+  tier: 2
+  hold: S
+  status: 0
+- name: Coalridge
+  tier: 2
+  hold: W
+  status: 0
+- name: Charhollow
+  tier: 1
+  hold: S
+  status: 0
+- name: Dunslough
+  tier: 1
+  hold: W
+  status: 0
+
