@@ -1,0 +1,60 @@
+- name: Imperial Military
+  tier: 6
+  hold: S
+  status: 0
+- name: City Council
+  tier: 5
+  hold: S
+  status: 0
+- name: Ministry of Preservation
+  tier: 5
+  hold: S
+  status: 0
+- name: Leviathan Hunters
+  tier: 5
+  hold: S
+  status: 0
+- name: Ironhook Prison
+  tier: 4
+  hold: S
+  status: 0
+- name: Sparkwrights
+  tier: 4
+  hold: S
+  status: 0
+- name: Spirit Wardens
+  tier: 4
+  hold: S
+  status: -1
+- name: Seventh Tower Consortium
+  tier: 3
+  hold: W
+  status: -3
+- name: Bluecoats
+  tier: 3
+  hold: S
+  status: -1
+- name: Inspectors
+  tier: 3
+  hold: S
+  status: 0
+- name: Iruvian Consulate
+  tier: 3
+  hold: S
+  status: 0
+- name: Skovlan Consulate
+  tier: 3
+  hold: W
+  status: 0
+- name: The Brigade
+  tier: 2
+  hold: S
+  status: 0
+- name: Severosi Consulate
+  tier: 1
+  hold: S
+  status: 0
+- name: Dagger Isle Consulate
+  tier: 1
+  hold: S
+  status: 0

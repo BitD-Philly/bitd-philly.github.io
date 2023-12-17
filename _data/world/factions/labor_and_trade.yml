@@ -1,0 +1,40 @@
+- name: The Foundation
+  tier: 3
+  hold: S
+  status: 0
+- name: Dockers
+  tier: 3
+  hold: S
+  status: 0
+- name: Gondoliers
+  tier: 3
+  hold: S
+  status: 1
+- name: Sailors
+  tier: 3
+  hold: W
+  status: 0
+- name: Laborers
+  tier: 3
+  hold: W
+  status: 0
+- name: Cabbies
+  tier: 2
+  hold: W
+  status: 0
+- name: Cyphers
+  tier: 2
+  hold: S
+  status: 0
+- name: Ink Rakes
+  tier: 2
+  hold: W
+  status: 0
+- name: Rail Jacks
+  tier: 2
+  hold: S
+  status: 0
+- name: Servants
+  tier: 2
+  hold: W
+  status: 0
