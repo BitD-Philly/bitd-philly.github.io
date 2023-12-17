@@ -67,6 +67,14 @@ collections:
   locations:
     output: true
     permalink: /wiki/:collection/:name 
+  organizations:
+    output: true
+    permalink: /wiki/:collection/:name
+  npcs:
+    locations:
+    output: true
+    permalink: /wiki/:collection/:name 
+  
 
 # Build settings
 theme: minima

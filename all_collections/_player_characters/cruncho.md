@@ -4,6 +4,7 @@
 name: Vilhelm Skrifol
 playbook: Whisper
 player: Jay
+last_updated: 1 January 2000
 
 # optional
 alias: Cruncho
@@ -16,8 +17,8 @@ picture: Cruncho.png
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
 
 You can link to other wiki pages using their relative links. Examples:
-* [Duskvol](../locations/Duskvol)
-* [Cruncho](../player_characters/Cruncho)
+* [Duskvol](../locations/duskvol)
+* [Cruncho](../player_characters/cruncho)
 
 # Appearance
 Describe your character's appearance here.
@@ -27,7 +28,7 @@ Describe your character's appearance here.
 Write your character's backstory here. 
 
 ## Time With the Nameless
-Detail your character's adventures here. You can also link primary sources in the footnotes![^1]
+Detail your character's adventures here. You can also link primary sources in the footnotes![^my-footnote]
 
 **Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
 
@@ -40,4 +41,4 @@ Create lists using asterisks:
 * Mortal Enemy
 
 # Citations
-[^1]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>
+[^my-footnote]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>

@@ -4,6 +4,7 @@
 name: The Clockmaker
 playbook: Hull
 player: Tommy
+last_updated: 14 December 2023
 
 #optional
 alias: 
@@ -16,8 +17,8 @@ picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
 
 You can link to other wiki pages using their relative links. Examples:
-* [Duskvol](../locations/Duskvol)
-* [Cruncho](../player_characters/Cruncho)
+* [Duskvol](../locations/duskvol)
+* [Cruncho](../player_characters/cruncho)
 
 # Appearance
 Describe your character's appearance here.
