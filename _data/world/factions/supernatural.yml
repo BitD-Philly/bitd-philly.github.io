@@ -1,0 +1,12 @@
+- name: Ghost Legionnaires
+  id: ghost-legionnaires
+  tier:
+  hold:
+  status:
+  excerpt: Ghosts of legionnares from a millenium ago that keep cropping up. Seem to hate most of the people above. Probably nothing to worry about.
+
+- name: Skovlan Geese
+  tier:
+  hold:
+  status:
+  excerpt: Honk honk, motherfucker.

@@ -60,6 +60,7 @@ defaults:
         path: ""
         type: "factions"
       values:
+        layout: "wiki"
         img_root: "assets/img/world/factions/"
 
 collections_dir: all_collections

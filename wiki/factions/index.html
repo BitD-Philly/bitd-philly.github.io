@@ -41,11 +41,32 @@
     </tr>
     {% for faction in faction_group %}
     <tr>
-        <td>{{ faction.name }}</td>
+        <td>
+            <a href="#{{faction.id}}">{{ faction.name }}</a></td>
         <td>{{ faction.tier }}</td>
         <td>{{ faction.hold }}</td>
         <td>{{ faction.status }}</td>
     </tr>   
 {% endfor %}
 </table>
+{% endfor %}
+
+
+{% for faction_classification in site.data.world.factions._index %}
+    {% assign faction_group = site.data.world.factions[faction_classification] | sort: "name" %}
+
+    <h1>{{faction_classification}}</h1>
+    
+    {% for faction in faction_group %}
+        <a name="{{faction.id}}"></a>
+        <h2>{{faction.name}}</h2>
+        {% if faction.has-page== true %}
+            <p>
+            <i>See</i> <a href="/wiki/{{faction.id}}">{{faction.name}}</a>
+            </p>
+        {% endif %}
+        <p>{{faction.excerpt}}</p>
+
+    {% endfor %}
+
 {% endfor %}

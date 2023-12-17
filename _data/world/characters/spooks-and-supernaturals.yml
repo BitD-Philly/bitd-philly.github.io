@@ -1,0 +1,66 @@
+- name: The Immortal Emperor
+  id: the-immortal-emperor
+  alias: The Cinder King
+  excerpt: All-powerful. Bored. Beginning to notice Duskwall after the death of Breaker.
+  location: imperial-city
+
+- name: Setarra
+  id: setarra
+  alias: Breaker
+  excerpt: Centuries-old storm demon gone to seed with a journalistic fetish. Extremely dead.
+  prefers-alias: true
+  status: dead
+
+- name: Render
+  id: render
+  excerpt: Centuries-old demon. Eleven feet tall armored juggernaut. Coming to Duskwall.
+
+- name: Lord Scurlock
+  id: lord-scurlock
+  excerpt: Vampire, noble, body-snatcher, conniver. Once-employer of the Nameless, now missing after near-destruction at their hands.
+  status: missing
+
+- name: Lugos
+  id: lugos
+  excerpt: Remorseless clockwork robotic assassin. Massacre fetishist. Decapitated currently.
+  status: incapacitated
+
+- name: Casta
+  id: casta
+  excerpt: Bounty hunter with a shady past. Currently missing. ~Girlfriend~ It's complicated with Ykaterina Volkova.
+  status: missing
+  rival: rosie-woodward
+  friend: ykaterina-vokova
+
+- name: Sam
+  id: sam
+  excerpt: Casta's mom. A Black Knight. Quite old.
+
+- name: Mikh
+  id: mikh
+  excerpt: Casta's dad. A Black Knight. Quite old.
+
+- name: Elia Wickham
+  id: elia-wickham
+  alias: Old Wickhamm, Young Hamwick
+  excerpt: Body-snatching megaghost, long exiled from Duskwall. Loves character work.
+
+- name: The Horned One
+  id: the-horned-one
+  excerpt: Shapeshifting mega-spirit. Partially trapped in a box, partially possessing a body. Has a plan.
+
+- name: The Deadlands Fiddler
+  id: the-deadlands-fiddleer
+  excerpt: Seven-foot-tall fiddler ghost. Vibes.
+
+- name: Bhed the Wolf
+  id: bhed-the-wolf
+  excerpt: 11-foot-tall anthropomorphic wolf ghost. Vicious. Free. Guest of the Dimmer Sisters.
+
+- name: Doctor Heinrich the Crow
+  id: doctor-heinrich
+  excerpt: Embodiment of an amorphously-formed plague doctor. Quite nice, fond of cats.
+
+- name: Doctor Friedrich the Crow
+  id: doctor-friedrich
+  excerpt: Amorphous plague doctor. Devoted to the Immortal Emperor and vivisection. On a boat!

@@ -1,0 +1,89 @@
+- name: Fitz
+  id: fitz
+  faction: the-circle-of-flame
+  excerpt: Purveyor of antiquities (legal, illegal, unhaunted, and otherwise). Primary contact for the Nameless, and member of the Circle of Flame.
+
+- name: Veldren
+  id: veldren
+  excerpt: Psychonaut. Has a relationship with Jesus Christ and Bonky Bill the frog. Once an ally to the Nameless. Has flipped.
+
+- name: Myleria Klev
+  id: myleria-krev
+  faction: the-red-sashes
+  excerpt: Iruvian diplomat and gang leader for the Red Sashes. Willing to teach swordplay.
+
+- name: Valanthe
+  id: valanthe
+  faction: the-red-sashes
+  excerpt: Red Sash. Drug dealer. Sapphic disaster.
+
+- name: Mulligan
+  id: mulligan
+  faction: gondoliers
+  excerpt: Gondolier. Perpetually stressed by the Nameless and their ghostly shenanigans.
+  
+- name: Old Bootsy
+  id: bootsy
+  alias: Oopsy Poopsy Bootsy ("The O.P.")
+  excerpt: Drunkard, lunatic, minor purveyor of chaos. Ex-soldier and legendary former assassin. Out of the game. Collects ceramic figurines.
+
+- name: Baszo Baz
+  id: baszo-baz
+  faction: the-lampblacks
+  excerpt: Lampblack gang leader. Vicious. On the back foot.
+
+- name: Erin
+  id: erin
+  faction: the-billhooks
+  excerpt: Billhooks gang leader. Cunning. Had her nephew killed (if you count ego death) by the Nameless to consolidate power.
+
+- name: Coran
+  id: coran
+  faction: the-billhooks, the-horned-one
+  excerpt: Nephew to Erin. Once the heir presumptive to the Billhooks. Now possessed by the Horned One.
+
+- name: Nessa
+  id: nessa
+  excerpt: Leader of the Gray Cloaks, back when they were a thing. In hiding.
+  faction: the-gray-cloaks
+
+- name: Mercy
+  id: mercy
+  excerpt: Killer-for-hire. Pretentious. Former rival to Callus. Quite dead.
+  status: dead
+  rival: Callus
+
+- name: Charity
+  id: charity
+  excerpt: Mercy's sibling, on a mission of revenge. Current rival to Callus. Quite alive.
+  rival: Callus
+
+- name: Grace
+  id: grace
+  excerpt: Killer-for-hire. Potentially too old for this shit.
+
+- name: Winslow Dunleavy
+  id: winslow-dunleavy
+  faction: leviathan-hunters
+  excerpt: Cutthroat Leviathan Hunter captain. Manslaughtered by the Nameless, framed as a Spirit Warden.
+  status: dead
+
+- name: Arlene Dunleavy
+  id: arlene-dunleavy
+  excerpt: Widow to Winslow. The truth is out there!
+
+- name: Boris Volkov
+  id: boris-volkov
+  excerpt: Ykaterina Volkova's brother. Has a large box that feeds on human emotion. Indebted to the Dimmer Sisters. Has good days and bad days.
+
+- name: Wraiths
+  id: wraiths
+  excerpt: Enigmatic, possibly-supernatural gang. Might be related to the Spirit Wardens.
+
+- name: Caleb Hollow
+  id: caleb-hollow
+  excerpt: Reconciled ghost and confidence man. Will do anything for a day as a vampire.
+
+- name: The Clockmaker
+  id: the-clockmaker
+  has-page: true
