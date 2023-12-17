@@ -2,7 +2,7 @@
 # required
 # This data in this header is used to reference this character across the entire website. 
 name: Elia
-id: elia-hamwick
+id: elia-wickham
 last_updated: 17 Dec 2023
 
 #optional
