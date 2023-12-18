@@ -1,10 +1,12 @@
 ---
-name: Duskvol
-loc_type: city
+full-name: Duskvol
+w-id: duskvol
+loc-type: city
 last_updated: 14 December 2023
 
 map: duskwall.jpg
 region: Akaros
+excerpt:
 ---
 
 Duskvol is a rich and vibrant setting where darkness dominates the skies-- a realm of eternal night flanked by ghost-infested wastelands. Humanity is only able to survive in the cities, where massive lightning walls protect them against the angry and violent spirits beyond. The seas are deep and inky, full of massive demons known as "leviathans," who are hunted by brave sailors-- their bodies provide valuable electroplasm, a substance that fuels the power plants and industry of the city.

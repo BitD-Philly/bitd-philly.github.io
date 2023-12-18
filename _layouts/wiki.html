@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
+
+{% if page.alias and page.prefers-alias %}
+    {% assign preferred-name = page.alias | split: "," | first %}
+{% else %}
+    {% assign preferred-name = page.full-name %}
+{% endif %}
+
+<h1>{{preferred-name}}</h1>
+
+{% if page.faction-type %}
+    {% include war_check.html %}
+{% endif %}
+
 <style>
 #wikibox {
     float:right;
@@ -33,26 +46,26 @@ layout: default
 
 </style>
 
-    {% if page.collection == "player_characters" %}  
-        {% assign box_keys = "picture,name,pronouns,playbook,status,excerpt,player" | split: ","%}
+{% if page.collection == "player_characters" %}  
+    {% assign box_keys = "picture,name,pronouns,playbook,status,excerpt,player" | split: ","%}
+    {% assign pic_url = page.picture %}
+    {% unless page.alias %}
+        {% assign page.alias = page.name %}
+    {% endunless %}
+    {% assign header = page.alias %}
+    
+{% elsif page.collection == "locations" %}
+    {% assign header = page.name %}
+    {% if page.picture %}
+        {% assign box_keys = "picture,name,region,city,neighborhood" | split: "," %}
         {% assign pic_url = page.picture %}
-        {% unless page.alias %}
-            {% assign page.alias = page.name %}
-        {% endunless %}
-        {% assign header = page.alias %}
-        
-    {% elsif page.collection == "locations" %}
-        {% assign header = page.name %}
-        {% if page.picture %}
-            {% assign box_keys = "picture,name,region,city,neighborhood" | split: "," %}
-            {% assign pic_url = page.picture %}
-        {% elsif page.map %}
-            {% assign pic_url = "maps/" | append: page.map %}
-            {% assign box_keys = "picture,name,region,city,neighborhood" | split: "," %}
-        {% else %}
-            {% assign box_keys = "name,region,city,neighborhood" | split: "," %}
-        {% endif %}
+    {% elsif page.map %}
+        {% assign pic_url = "maps/" | append: page.map %}
+        {% assign box_keys = "picture,name,region,city,neighborhood" | split: "," %}
+    {% else %}
+        {% assign box_keys = "name,region,city,neighborhood" | split: "," %}
     {% endif %}
+{% endif %}
 
 {% if box_keys %}
 <ul id="wikibox">
@@ -69,5 +82,5 @@ layout: default
     {% endfor %}
 </ul>
 {% endif %}
-<h1>{{header}}</h1>
+
 {{content}}

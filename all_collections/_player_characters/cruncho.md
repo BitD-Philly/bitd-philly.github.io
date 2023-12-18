@@ -1,13 +1,14 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-name: Vilhelm Skrifol
+full-name: Vilhelm Skrifol
 playbook: Whisper
 player: Jay
 last_updated: 1 January 2000
 
 # optional
 alias: Cruncho
+prefers-alias: true
 pronouns: he/him
 status: active
 excerpt: "Former plumber. Occult enthusiast, full of ghosts. Penchant for demonic pacts. "

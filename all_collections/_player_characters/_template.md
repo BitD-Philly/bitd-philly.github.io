@@ -7,9 +7,9 @@ player: Ted Gold
 last_updated: 1 Jan 2000
 
 #optional
+pronouns:       # preferred pronouns
 alias:          # primary alias
 prefers-alias:  # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
-pronouns: 
 status:         # suggestions: active | missing | presumed dead | incarcerated | dead
 excerpt:        # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.

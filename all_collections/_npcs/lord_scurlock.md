@@ -1,19 +1,21 @@
 ---
 # required
 # This data in this header is used to reference this character across the entire website. 
-name: Lord Scurlock
-id: lord-scurlock
+full-name: Lord Scurlock
+w-id: lord-scurlock
+faction-type:   underworld
 last_updated: 17 Dec 2023
 
 #optional
-alias: 
-pronouns: He/Him
+alias:
+prefers-alias: 
+pronouns:       He/Him
 status:         missing/presumed dead 
 affiliations:   Remnants of the Calamity, 
-excerpt:        A dangerous vampire with powerful connections. Ancient and immutable. 
+excerpt:        A dangerous vampire with powerful connections. Ancient and immutable.
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
----
 
+---
 
 # Appearance
 Scurlock was a dark, handsome man of noble descent. 

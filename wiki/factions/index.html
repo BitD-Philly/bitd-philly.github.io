@@ -1,5 +1,7 @@
 ---
 ---
+hi
+
 <style>
     table {
         display:inline-block;
@@ -60,9 +62,12 @@
     {% for faction in faction_group %}
         <a name="{{faction.id}}"></a>
         <h2>{{faction.name}}</h2>
-        {% if faction.has-page== true %}
+        {% if faction.collection %}
             <p>
             <i>See</i> <a href="/wiki/{{faction.id}}">{{faction.name}}</a>
+            </p>
+            <p>
+                {{ site[faction.collection] | where: "w-id", faction.id | map: "excerpt" | last}}
             </p>
         {% endif %}
         <p>{{faction.excerpt}}</p>

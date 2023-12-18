@@ -1,7 +1,9 @@
 ---
 # required
-name: Six Towers
-loc_type: neighborhood
+full-name: Six Towers
+w-id: six-towers
+loc-type: district
+faction-type: citizenry
 last_update: 15 December 2023
 
 # optional
