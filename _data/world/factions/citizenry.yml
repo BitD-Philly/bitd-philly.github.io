@@ -3,60 +3,70 @@
   tier: 5
   hold: S
   status: 0
+  excerpt: The sprawling estates of the Lord Governor, Hunter Commander, Master Warden, and Doskvol Academy.
 - name: Brightstone
   id: brightstone
   tier: 4
   hold: S
   status: 0
+  excerpt: The grand mansions and luxury shops of the wealthy elite.
 - name: Charterhall
   id: charterhall
   tier: 4
   hold: S
   status: 0
+  excerpt: The city's civic offices and the hub for shops, artisans, and commerce.
 - name: Six Towers
   id: six-towers
   tier: 3
   hold: W
   status: 1
-  has-page: true
+  collection: locations
 - name: Silkshore
   id: silkshore
   tier: 2
   hold: S
   status: 0
+  excerpt: The "red lamp district" and artist community.
 - name: Nightmarket
   id: nightmarket
   tier: 2
   hold: S
   status: 0
+  excerpt: The trade center for exotic goods imported by rail. Many vendors also trade in illicit goods.
 - name: Crow's Foot
   id: crows-foot
   tier: 2
   hold: S
   status: 0
+  excerpt: A cramped neighborhood of multi-level streets, ruled by gangs.
 - name: The Docks
   id: the-docks
   tier: 2
   hold: S
   status: 0
+  excerpt: Rough taverns, tattoo parlors, fighting pits, and warehouses.
 - name: Barrowcleft
   id: barrowcleft
   tier: 2
   hold: S
   status: 0
+  excerpt: Residences and markets for the farmers who work the fields and eeleries.
 - name: Coalridge
   id: coalridge
   tier: 2
   hold: W
   status: 0
+  excerpt: The remnants of Doskvol's original hilltop mining settlement, now home to laborers and industrial factories.
 - name: Charhollow
   id: charhollow
   tier: 1
   hold: S
   status: 0
+  excerpt: A crowded district of tenements and stacked houses.
 - name: Dunslough
   id: dunslough
   tier: 1
   hold: W
   status: 0
-
+  excerpt: A labor camp served by convicts and a ghetto for the destitute poor.
