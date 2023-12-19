@@ -3,6 +3,7 @@
 # This data in this header is used to reference this character across the entire website. 
 full-name: Lord Scurlock
 w-id: lord-scurlock
+char-type: spooks-and-supernaturals
 faction-type:   underworld
 last_updated: 17 Dec 2023
 

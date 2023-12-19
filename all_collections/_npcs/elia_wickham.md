@@ -3,6 +3,7 @@
 # This data in this header is used to reference this character across the entire website. 
 full-name: Elia Wickham
 w-id: elia-wickham
+char-type: spooks-and-supernaturals
 last_updated: 17 Dec 2023
 
 #optional

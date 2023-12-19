@@ -1,9 +1,10 @@
 ---
+permalink: /wiki/npcs/
 ---
 {% for character-class in site.data.world.characters._index %}
     {% assign character_group = site.data.world.characters[character-class] | sort: "name" %}
 
-    <h1>{{character-class}}</h1>
+    <h1>{{character-class | replace: "-"," "}}</h1>
     
     {% for npc in character_group %}
         <a name="{{npc.id}}"></a>

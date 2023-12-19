@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /wiki/locations/
 ---
 # Locations
 

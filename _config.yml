@@ -30,7 +30,7 @@ domain: bitd-philly.github.io
 twitter_username: jekyllrb
 github_username:  jekyll
 
-
+markdown: GFM
 
 # Defaults
 defaults:
