@@ -7,5 +7,5 @@ permalink: /wiki/locations/
 Links: 
 
 {% for loc in site.locations %}
-* [{{loc.name}}]({{loc.url}})
+* [{{loc.full-name}}]({{loc.url}})
 {%endfor%}

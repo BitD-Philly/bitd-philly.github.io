@@ -18,22 +18,23 @@ The data for npc stubs is located in the `_data/world/characters/` folder.
 | Field | Required | Data type| Description |
 |-|-|-|-|
 | name | Required | string | display name of the character |
-| id   | Required | string | unique identifier used as the wiki URL |
+| id   | Required | string | unique identifier used as the wiki URL. Usually the character's name, but lowercase and with dashes instead of spaces (e.g., Lord Scurlock's `id` is `lord-scurlock`.) |
 | collection | Optional | string | The collection the character's wiki page belongs to, if the stub has been expanded into a dedicated wiki page. |
 | excerpt | Optional | string | 1-2 sentence description of character, *only if* the character does not have a wiki page.|
 
 ### Example Entry (no dedicated wiki page)
-```
+{% highlight markdown %}
 - name: Caleb Hollow
   id: caleb-hollow
   excerpt: Reconciled ghost and confidence man. Will do anything for a day as a vampire.
-```
+{% endhighlight %}
+
 ### Example Entry (dedicated wiki page)
-```
+{% highlight markdown %}
 - name: Lord Scurlock
   id: lord-scurlock
   collection: npcs
-```
+{% endhighlight %}
 
 ## Pages
 NPC pages can be found in the "npcs" collection, located at the path `/all_collections/_npcs`. When adding a new npc page, make a copy of the `_template.md` file located in the directory.
@@ -56,10 +57,11 @@ Note: characters that have dedicated wiki pages still retain their stub data so 
 | Field | Required? | Data type| Description |
 |-|-|-|-|
 | alias | No | string | One or more aliases the character uses, separated by commas. List primary alias first.
-| prefers-alias | No | bool | Set to `true` if the npc prefers or is better known by their primary alias,, otherwise leave blank. |
+| prefers-alias | No | bool | Set to `true` if the npc is better known by their primary alias than their full name, otherwise leave blank. |
 |pronouns| No | string | the npc's preferred pronouns |
 | status | No | string | status of the npc. if left blank, will default to `active`. Other options include `missing`, `incapacitated`, `hiding`, `dead`, `retired`, `presumed dead`, `incarcerated`, etc. |
 | factions |    No | string | factions the npc is associated with, but does not share a `w-id` with. Format as `faction-type:faction-name` and separate with commas.|
+| is-cohort | No | bool | set to `true` if the npc is a cohort of the Nameless, otherwise leave blank. |
 | picture | No | string | the filename of the npc image in the `img_root` folder associated with the `_npcs` collection. Contact site admin (Parker or Vinnie) to set up a picture. |
 
 ### Example wiki headers

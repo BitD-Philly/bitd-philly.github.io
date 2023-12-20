@@ -56,19 +56,19 @@ defaults:
         layout: "wiki"
         img_root: "assets/img/world/npcs/"
   -
-      scope:
-        path: ""
-        type: "locations"
-      values:
-        layout: "wiki"
-        img_root: "assets/img/world/locations/"
+    scope:
+      path: ""
+      type: "locations"
+    values:
+      layout: "wiki"
+      img_root: "assets/img/world/locations/"
   -
-      scope:
-        path: ""
-        type: "factions"
-      values:
-        layout: "wiki"
-        img_root: "assets/img/world/factions/"
+    scope:
+      path: ""
+      type: "factions"
+    values:
+      layout: "wiki"
+      img_root: "assets/img/world/factions/"
 
 collections_dir: all_collections
 collections:
