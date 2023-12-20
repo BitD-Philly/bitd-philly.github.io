@@ -1,3 +1,7 @@
+---
+permalink: /wiki/factions/docs
+---
+
 # Factions Metadata Structure
 
 These do not need to be in order! (but it's nice if they are)

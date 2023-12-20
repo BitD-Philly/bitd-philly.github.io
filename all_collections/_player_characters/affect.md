@@ -1,7 +1,7 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-name: Orianna Helker
+full-name: Orianna Helker
 player: Parker
 playbook: Whisper
 last_updated: 15 December 2023
@@ -9,6 +9,7 @@ last_updated: 15 December 2023
 # This data in this header is used to reference your character across the entire website. 
 # required
 alias: Affect
+prefers-alias: 
 pronouns: She/They
 status: Presumed dead
 excerpt: A former steelworker who developed a fascination with the ghost field after witnessing vampires massacre her union mates. Now a manifestation of Vazara.

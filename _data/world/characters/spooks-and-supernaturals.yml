@@ -8,8 +8,6 @@
   id: setarra
   alias: Breaker
   excerpt: Centuries-old storm demon gone to seed with a journalistic fetish. Extremely dead.
-  prefers-alias: true
-  status: dead
 
 - name: Render
   id: render
@@ -17,21 +15,15 @@
 
 - name: Lord Scurlock
   id: lord-scurlock
-  excerpt: Vampire, noble, body-snatcher, conniver. Once-employer of the Nameless, now missing after near-destruction at their hands.
-  status: missing
-  has-page: true
+  collection: npcs
 
 - name: Lugos
   id: lugos
   excerpt: Remorseless clockwork robotic assassin. Massacre fetishist. Decapitated currently.
-  status: incapacitated
 
 - name: Casta
   id: casta
-  excerpt: Bounty hunter with a shady past. Currently missing. ~Girlfriend~ It's complicated with Ykaterina Volkova.
-  status: missing
-  rival: rosie-woodward
-  friend: ykaterina-vokova
+  excerpt: Bounty hunter with a shady past. Currently missing. ~~Girlfriend~~ It's complicated with Ykaterina Volkova. Rival to Sizzle.
 
 - name: Sam
   id: sam
@@ -43,9 +35,7 @@
 
 - name: Elia Wickham
   id: elia-wickham
-  alias: Old Wickhamm, Young Hamwick
-  excerpt: A pre-calamity ghost of a shadow witch, who has become "contagious" to those who interact with her spirit essence. Middling comedic actor. 
-  has-page: true
+  collection: npcs
 
 - name: The Horned One
   id: the-horned-one

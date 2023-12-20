@@ -1,13 +1,14 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-name: Rosie Woodward 
+full-name: Rosie Woodward 
 playbook: Hound
 player: Vinnie
 last_update: 12 December 2023
 
 # optional
 alias: Sizzle
+prefers-alias: true
 pronouns: she/her
 status: active
 excerpt: "Mysterious gunslinger. Has a hawk. Never comfortable."

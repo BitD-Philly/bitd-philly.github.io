@@ -1,6 +1,5 @@
 - name: Fitz
   id: fitz
-  faction: the-circle-of-flame
   excerpt: Purveyor of antiquities (legal, illegal, unhaunted, and otherwise). Primary contact for the Nameless, and member of the Circle of Flame.
 
 - name: Veldren
@@ -9,12 +8,10 @@
 
 - name: Myleria Klev
   id: myleria-krev
-  faction: the-red-sashes
   excerpt: Iruvian diplomat and gang leader for the Red Sashes. Willing to teach swordplay.
 
 - name: Valanthe
   id: valanthe
-  faction: the-red-sashes
   excerpt: Red Sash. Drug dealer. Sapphic disaster.
 
 - name: Mulligan
@@ -34,29 +31,23 @@
 
 - name: Erin
   id: erin
-  faction: the-billhooks
   excerpt: Billhooks gang leader. Cunning. Had her nephew killed (if you count ego death) by the Nameless to consolidate power.
 
 - name: Coran
   id: coran
-  faction: the-billhooks, the-horned-one
   excerpt: Nephew to Erin. Once the heir presumptive to the Billhooks. Now possessed by the Horned One.
 
 - name: Nessa
   id: nessa
   excerpt: Leader of the Gray Cloaks, back when they were a thing. In hiding.
-  faction: the-gray-cloaks
 
 - name: Mercy
   id: mercy
   excerpt: Killer-for-hire. Pretentious. Former rival to Callus. Quite dead.
-  status: dead
-  rival: Callus
 
 - name: Charity
   id: charity
   excerpt: Mercy's sibling, on a mission of revenge. Current rival to Callus. Quite alive.
-  rival: Callus
 
 - name: Grace
   id: grace
@@ -64,9 +55,7 @@
 
 - name: Winslow Dunleavy
   id: winslow-dunleavy
-  faction: leviathan-hunters
-  excerpt: Cutthroat Leviathan Hunter captain. Manslaughtered by the Nameless, framed as a Spirit Warden.
-  status: dead
+  excerpt: Cutthroat Leviathan Hunter captain. Manslaughtered by the Nameless, framed as a Spirit Warden. Deceased.
 
 - name: Arlene Dunleavy
   id: arlene-dunleavy
@@ -86,4 +75,4 @@
 
 - name: The Clockmaker
   id: the-clockmaker
-  has-page: true
+  collection: player_characters

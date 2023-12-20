@@ -23,7 +23,7 @@
   tier: 3
   hold: S
   status: -2
-  character-class: spooks-and-supernaturals
+  collection: npcs
 - name: The Crows
   id: the-crows
   tier: 2
@@ -50,8 +50,7 @@
   tier: 2
   hold: W
   status: -3
-  has-page: true
-  excerpt: A powerful gang based in The Docks. Previously fighting an internal cold war until the rival captain of the gang was accidentally turned into the vessel for an ancient spirit by the Nameless. Now, they work from their massive butchery to fight alongside the Seventh Tower Consortium.
+  collection: factions
 - name: The Wraiths
   id: the-wraiths
   tier: 2
