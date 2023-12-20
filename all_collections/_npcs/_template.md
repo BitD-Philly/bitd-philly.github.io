@@ -1,13 +1,17 @@
 ---
 # required
 # This data in this header is used to reference this character across the entire website. 
-name: Jaime Doe
-id: jaime-doe
+full-name: Jaime Doe
+w-id: jaime-doe
 last_updated: 1 Jan 2000
 
 #optional
-alias: 
-pronouns: 
+pronouns:       # character preferred pronouns
+alias:          # aliases the character holds, separated by commas
+prefers-alias:  # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
+status:         # suggestions: active | missing | presumed dead | incarcerated | dead
+excerpt:        # 1-2 sentences about the character
+faction:        # factions associated with the character, separated by commas
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 

@@ -1,7 +1,8 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-name: The Clockmaker
+full-name: The Clockmaker
+w-id: the-clockmaker
 playbook: Hull
 player: Tommy
 last_updated: 14 December 2023

@@ -1,13 +1,14 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-name: "Linmer"
+full-name: "Linmer"
 playbook: "Leech"
 player: Ty
 last_updated: 15 December 2023
 
 # optional
 alias: "Slippery Wicket"
+prefers-alias:
 pronouns: he/him/his
 status:  Living
 excerpt: "Experimental Alchemist. Orphan and former sailor/stowaway. Old man."

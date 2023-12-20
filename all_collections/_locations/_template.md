@@ -1,15 +1,15 @@
 ---
 # required
-name: Metrocity
-loc_type: city
-last_updated:  1 January 2000
+full-name: Metrocity
+loc-type: city
+last-updated:  1 January 2000
 
 # optional
-picture:
-map: 
+picture:    # picture image name
+map:        # map image name
 region: Megamind
-city:
-neighborhood:
+city:       # leave blank if location type is "city" or bigger
+district:   # leave blank of location type is "district" or bigger
 ---
 
 This is a location wiki page! Write a short summary about the location here at the top of the page. Below are some additional suggested sections.
