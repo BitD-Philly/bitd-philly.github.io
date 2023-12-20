@@ -1,8 +1,6 @@
 - name: The Immortal Emperor
   id: the-immortal-emperor
-  alias: The Cinder King
-  excerpt: All-powerful. Bored. Beginning to notice Duskwall after the death of Breaker.
-  location: imperial-city
+  excerpt: Formerly known as "The Cinder King". All-powerful. Bored. Beginning to notice Duskwall after the death of Breaker.
 
 - name: Setarra
   id: setarra

@@ -16,7 +16,6 @@
 
 - name: Mulligan
   id: mulligan
-  faction: gondoliers
   excerpt: Gondolier. Perpetually stressed by the Nameless and their ghostly shenanigans.
   
 - name: Old Bootsy
@@ -26,7 +25,6 @@
 
 - name: Baszo Baz
   id: baszo-baz
-  faction: the-lampblacks
   excerpt: Lampblack gang leader. Vicious. On the back foot.
 
 - name: Erin
