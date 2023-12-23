@@ -1,5 +1,6 @@
 ---
 permalink: /wiki/npcs/
+layout: landing
 ---
 {% for character-class in site.data.world.characters._index %}
     {% assign character_group = site.data.world.characters[character-class] | sort: "name" %}
@@ -10,12 +11,14 @@ permalink: /wiki/npcs/
         <a name="{{npc.id}}"></a>
         <h2>{{npc.name}}</h2>
             {% if npc.collection %}
-                <p><i>See</i> <a href="/wiki/{{npc.id}}">{{npc.name}}</a>
+                <p>
+                    <i>See</i> <a href="/wiki/{{npc.id}}">{{npc.name}}</a>
                 </p>
-                <p>{{ site[npc.collection] | where: "w-id", npc.id | map: "excerpt" | last | markdownify }}
+                <p>
+                    {{ site[npc.collection] | where: "w-id", npc.id | map: "excerpt" | last | markdownify }}
                 </p>
             {% else %}
-                <p>{{npc.excerpt | markdownify }}</p>
+                {{npc.excerpt | markdownify }}
             {% endif %}
 
     {% endfor %}

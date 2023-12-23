@@ -1,42 +1,16 @@
-.pic_list p {
-	display:block;
-	width:100%;
-	border:1px solid #4D4D4D;
-}
-.pic_list p img {
-	float:left;
-	width:90px!important;
-	border: 1px solid #476042;
-	padding:1px;
-	margin: 5px 10px 5px 5px;
-}
-
-.pic_list b {
-	font:2em tahoma;
-}
-
-.pic_list hr {
-	width:50%;
-	margin:5px;
-	padding:0px;
-}
-
-.current {
-    color: green;
-}
 body {
 margin: 0;
 padding: 0;
 text-align: left;
-font: 75% arial, tahoma, "Trebuchet MS", verdana, arial, verdana, sans-serif;
+font: 1em arial, tahoma, "Trebuchet MS", verdana, arial, verdana, sans-serif;
 background-color: #4D4D4D;
 }
 
 #container {
 width: 80%;
+min-width: 600px;
 border: 0px solid #eee;
-margin-left: 10%;
-margin-right: 10%;
+margin: 0px auto;
 padding: 0;
 line-height: 1.5em;
 position: center;
@@ -44,69 +18,18 @@ position: center;
 
 #banner {
 height: 100px;
-padding: 0;
-margin-bottom: 0px;
-margin-top: 0px;
-background: #4D4D4D url(https://www.cs.drexel.edu/~pmk65/BladesinthePhiladelphia/banner.jpg) ;
-background-position: center;
-background-size: 30%;
+padding: 0px;
+margin:auto auto;
+background: #4D4D4D url(https://www.cs.drexel.edu/~pmk65/BladesinthePhiladelphia/banner.jpg);
+background-position: top left;
+background-size: 200px;
 color: #333;
 }
 
-		/* TOP NAVIGATION */
-#navlist {
-width: 100%;
-padding: 4px 5px 5px 0;
-margin: 0 0 20px 0;
-text-align: left;
-letter-spacing: 3px;
-color: #fff;
-background: #476042;
-}
-#navlist li {
-list-style: none;
-margin: 0;
-display: inline;
-}
-#navlist li a {
-padding: 5px .75em;
-margin: 0;
-color: #fff;
-background: #476042;
-text-decoration: none;
-}
-#navlist li a:link { color: #fff;
-background: #476042;
-}
-#navlist li a:visited {
-color: #fff;
-background: #476042;
-}
-#navlist li a:hover {
-color: #000;
-background: #6A9662;
-}
-#navlist li a#current {
-color: #fff;
-background:#6A9662;
-}
-
-		/* LEFT MENU */
-.menu ul li {
-line-height: 1.8em;
-margin: 0 10px 0 0;
-padding: 0;
-list-style-type: square;
-color: #6A9662;
-background: inherit;
-}
-.menu ul li a {
-color: #fff;
-background: inherit;
-}
-.menu ul li a:hover {
-color: #6A9662;
-background: inherit;
+#banner h1 {
+	margin: auto auto;
+	padding: 20px 5px;
+	font-size: 30px;
 }
 
 		/* MAIN CONTENT */
@@ -114,8 +37,6 @@ background: inherit;
 padding: 0 20px 0 20px;
 margin-left: 170px;
 margin-right: auto;
-border-left: 1px dashed #333;
-border-right: 1px dashed #333;
 color: #FFFFFA;
 background-color: #4D4D4D;
 }
@@ -169,18 +90,20 @@ background-color:#4D4D4D;
 
 		/* FOOTER */
 #footer {
-clear: both;
-padding: 5px;
-margin: 0;
 background-color: #476042;
-
+width:100%;
 }
-#footer a {
+#footer p {
+	margin: 0px auto;
+	padding:50px;
+	width: 80%;
+}
+#footer p a {
 text-decoration: none;
 color: #fff;
 background-color:#476042;
 }
-#footer  a:hover {
+#footer p  a:hover {
 text-decoration: none;
 color: #E5446D;
 background-color:#476042;
@@ -216,19 +139,16 @@ padding: 5px;
 h1 {
 // width: 30%;
 font-size: 200%;
-letter-spacing: 5px;
 color:#6A9662;
 }
 h2 {
-font-size: 130%;
-text-transform: uppercase;
-letter-spacing: 10px;
+text-transform: small-caps;
 color:#6A9662;
 background: #4D4D4D;
 }
 h3 {
 padding: 5px;
-text-transform: uppercase;
+text-transform: small-caps;
 font-size: 110%;
 color:#fff;
 background: #6A9662;

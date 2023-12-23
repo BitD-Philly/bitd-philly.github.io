@@ -32,6 +32,9 @@ github_username:  jekyll
 
 markdown: GFM
 
+paginate: 1
+paginate_path: /story/page:num/
+
 # Defaults
 defaults:
   -
@@ -90,6 +93,7 @@ collections:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.

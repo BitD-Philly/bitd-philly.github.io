@@ -1,27 +1,9 @@
 ---
+layout: landing
 permalink: /wiki/factions/
 ---
 
-<style>
-    table {
-        display:inline-block;
-        vertical-align:top;
-        margin:10px auto; }
-    tr {width:100%;}
-    td:first-of-type {
-        text-align:left!important;
-        width:10em;
-    }
 
-    td {
-        padding:2px 3px;
-        text-align:center;
-        width:2em;
-    }
-
-    tr.title td {text-align:center!important;}
-
-</style>
 
 <h1>Factions</h1>
 
@@ -47,7 +29,7 @@ permalink: /wiki/factions/
             <a href="#{{faction.id}}">{{ faction.name }}</a></td>
         <td>{{ faction.tier }}</td>
         <td>{{ faction.hold }}</td>
-        <td>{{ faction.status }}</td>
+        <td class="s{{faction.status | replace: '-','m'}}">{{ faction.status }}</td>
     </tr>   
 {% endfor %}
 </table>
@@ -69,6 +51,7 @@ permalink: /wiki/factions/
             <p>
                 {{ site[faction.collection] | where: "w-id", faction.id | map: "excerpt" | last}}
             </p>
+            
         {% endif %}
         <p>{{faction.excerpt}}</p>
 
