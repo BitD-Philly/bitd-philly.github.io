@@ -34,9 +34,12 @@ Detail your character's adventures here. You can also link primary sources in th
 # Relationships
 Create lists using asterisks:
 
-* Friend 1
-* Friend 2
-* Ex
-* Mortal Enemy
+* [Joseph Woodward](npcs#joseph-woodward): Sizzle's father and the reason she came to Duskvol. They are not on good terms.
+* [Cruncho](cruncho): 
+* [Arkin Wollstonecraft](arkin): Co-inventor of the coffee-grinder-gatling-gun[^1]
+* [Casta](npcs#casta): Rival. Sizzle got to one of Casta's marks before she did.
+* [Grace](npcs#grace): Fellow bounty hunter and 
 
 # Citations
+
+[^1]: *"The Coffee Maker" Discord thread.*  <https://discord.com/channels/1022641517170540574/1181648148800753795/1185665689273520168> Retrieved 24-Dec-2023.
