@@ -1,0 +1,23 @@
+.pic_list li {
+	display:block;
+	width:100%;
+	border:1px solid #4D4D4D;
+	clear:both;
+}
+.pic_list li img {
+	float:left;
+	width:120px!important;
+	border: 1px solid #476042;
+	padding:2px!important;
+	margin: 5px 10px 5px 5px;
+}
+
+.pic_list b {
+	font:2em tahoma;
+}
+
+.pic_list hr {
+	width:50%;
+	margin:5px;
+	padding:0px;
+}

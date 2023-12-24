@@ -1,13 +1,13 @@
 ---
 title: BitD Philly | Player Characters
-layout: default
+layout: landing
 ---
 
-# Player Characters
+<h1>Player Characters</h1>
 
-<div class="pic_list">
+<ul class="pic_list">
     {% for char in site.player_characters %}
-    <p>
+    <li>
         <a href="{{char.url}}">
             <img src="{{ site.baseurl}}/{{char.img_root| append: char.picture}}">
         </a>
@@ -20,6 +20,6 @@ layout: default
         {{char.playbook}}
         <hr>
         {{char.excerpt}}
-    </p>
+    </li>
     {% endfor %}
-</div>
+</ul>

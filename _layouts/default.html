@@ -3,19 +3,28 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="/assets/css/{{page.layout}}.css">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Barlow">
+
     </head>
     <body>
+         
         <div id="container">
-            {% include banner.html %}
+            {% include banner.html %} 
             
-            {% include sidebar-a.html %}
             
             <div id="content">
+                
+            <!-- {% include sidebar-a.html %} -->
                 {{ content }}
+                
+                
             </div>
         
-            {% include footer.html %}
+        {% include footer.html %}    
+        
+        
         </div>
     </body>
 </html>

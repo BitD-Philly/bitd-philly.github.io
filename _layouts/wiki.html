@@ -14,38 +14,6 @@ layout: default
     {% include war_check.html %}
 {% endif %}
 
-<style>
-#wikibox {
-    float:right;
-    width:30%;
-    border: 1px solid #333;
-    border-radius: 2px;
-    padding: 0px;
-    margin: 0px 20px;
-}
-#wikibox li{
-    display:block;
-    color: #ccc;
-}
-#wikibox li img {
-    width:100%;
-    border: 1px solid #333;
-}
-
-#wikibox h2 {
-    text-align:center;
-    letter-spacing: normal;
-    display:block;
-    color:#fff;
-    background:#6A9662;
-    padding:2px;
-    margin:0px;
-    text-transform: capitalize;
-}
-
-
-</style>
-
 {% if page.collection == "player_characters" %}  
     {% assign box_keys = "picture,name,pronouns,playbook,status,excerpt,player" | split: ","%}
     {% assign pic_url = page.picture %}
@@ -70,7 +38,7 @@ layout: default
 {% if box_keys %}
 <ul id="wikibox">
     <li>
-        <h2>{{ header }}</h2></li>
+        <h3>{{ header }}</h3></li>
     {% for key in box_keys %}
         <li>
             {% if key == "picture" %}
