@@ -1,8 +1,6 @@
 - name: The Immortal Emperor
   id: the-immortal-emperor
-  alias: The Cinder King
-  excerpt: All-powerful. Bored. Beginning to notice Duskwall after the death of Breaker.
-  location: imperial-city
+  excerpt: Formerly known as "The Cinder King". All-powerful. Bored. Beginning to notice Duskwall after the death of Breaker.
 
 - name: Setarra
   id: setarra
@@ -56,3 +54,7 @@
 - name: Doctor Friedrich the Crow
   id: doctor-friedrich
   excerpt: Amorphous plague doctor. Devoted to the Immortal Emperor and vivisection. On a boat!
+
+- name: Joseph Woodward
+  id: joseph-woodward
+  excerpt: A man in a hat. Real estate agent for the Seventh Tower Consortium. Father to Sizzle. Synergizes across all metrics. 

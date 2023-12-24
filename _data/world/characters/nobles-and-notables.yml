@@ -1,12 +1,10 @@
 - name: Lady Pendryn
   id: lady-pendryn
   excerpt: Major name in the Circle of Flame. Friendly with Arcade, and the Nameless by extension. Antiquities researcher in her spare time.
-  faction: the-circle-of-flame
 
 - name: Lord Pendryn
   id: lord-pendryn
   excerpt: Drama king. Patron of academia. Member of the secretive Cult of Vazara. Healthy/unhealthy marriage (YOU DON'T KNOW).
-  faction: cult-of-vazara
 
 - name: Valerie Pendryn
   id: valerie-pendryn
@@ -20,8 +18,6 @@
 - name: Lord Strangford
   id: lord-strangford
   excerpt: Eminent noble and ruthless Leviathan Hunter captain. Killed by Casta and the Nameless, puppeted around by Lord Strangford for months. Very dead.
-  status: dead
-  faction: leviathan-hunters
 
 - name: Claire Strangford
   id: claire-strangford
@@ -31,22 +27,18 @@
 - name: Lord Clelland
   id: lord-clelland
   excerpt: Paranoid and stimulant-addicted blue-blood to the bone. Abrupt. Has shat himself publicly on multiple occasions. Doesn't care what you think.
-  faction: bluecoats
 
 - name: Lady Claddage
   id: lady-claddage
   excerpt: Minor noblewoman, now vanished. Possibly a traitor to the Empire? Ambiguous.
-  status: missing
 
 - name: Lord Claddage
   id: lord-claddage
   excerpt: Minor nobleman, private banker, definite traitor to the Empire. In custody, awaiting trial.
-  status: incarcerated
 
 - name: Lady Bowmore 
   id: lady-bowmmore
   excerpt: Grande Damme of Duskvolian society. Unflappable. A great respecter of lineage. Dead by trampling.
-  status: dead
 
 - name: Stuart Bowmore
   id: stuart-bowmore
@@ -56,12 +48,6 @@
   id: anastasia-bowmore
   excerpt: Daughter of the lady Bowmore. Co-head of the family with Stuart.
 
-- name: Morgan Clelland
-  id: morgan-clelland
-  excerpt: Son of the current Lord Clelland. Has the family stimulant problem. Police captain, has greater ambitions. Currently on the take.
-  faction: bluecoats
-
 - name: Cole A
   id: cole-a
   excerpt: Brother to Valanthe. Jeremy's cool friend. MIA.
-  status: missing

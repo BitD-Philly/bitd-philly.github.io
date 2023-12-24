@@ -15,23 +15,14 @@ excerpt: "Mysterious gunslinger. Has a hawk. Never comfortable."
 picture: Sizzle.png
 ---
 
-This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
-
-You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to.
-
-**Note that valid links lowercase and spaces must be replaced with dashes (-).**
-
-Examples:
-* [Duskvol](duskvol)
-* The [Seventh Tower Consortium](seventh-tower-consortium)
-
-You can also link to sub-headers on any page by using a # after the `link-text`. For example, linking to Cruncho's backstory would look like this:
-
-`Due to Cruncho's [personal history](cruncho#backstory) with football, he was able to...`
-
-
 # Appearance
-Describe your character's appearance here.
+Sizzle is a young woman of a slight, wiry build. She has steely grey eyes with a steady, focused gaze. Her curly blonde hair is long enough to brush her elbows when let loose, but more often than not is pulled back in a braid to keep it contained. Her clothes, well-worn but equally well-cared for, are cut in a style more reminiscent of the Imperial City than Duskvol. In addition, she wears a deep red cloak that can be pulled up to obscure the lower half of her face.
+
+Two revolvers hang from her belt, the butt of their handles pointed forward. The guns themselves have a distinct copper sheen to them and are always freshly polished. The same leather used for the holsters has also been worked into bracers and close-fitting spaulders that provide a resting place for her hawk, Velvet.
+
+## Velvet
+
+Velvet is a harrier hawk with rust-colored, white-spotted feathers covering her body and long black and grey wing feathers. She has yellow-rimmed red eyes and a black, hooked beak.
 
 # Story
 ## Backstory
@@ -39,8 +30,6 @@ Write your character's backstory here.
 
 ## Time With the Nameless
 Detail your character's adventures here. You can also link primary sources in the footnotes![^my-footnote]
-
-**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
 
 # Relationships
 Create lists using asterisks:
@@ -51,4 +40,3 @@ Create lists using asterisks:
 * Mortal Enemy
 
 # Citations
-[^my-footnote]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>
