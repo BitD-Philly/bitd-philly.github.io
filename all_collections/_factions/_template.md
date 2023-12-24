@@ -21,3 +21,9 @@ Examples:
 You can also link to sub-headers on any page by using a # after the `link-text`. For example, linking to Cruncho's backstory would look like this:
 
 `Due to Cruncho's [personal history](cruncho#backstory) with football, he was able to...`
+
+You can also add footnotes! [^my-footnote]
+
+# Citations
+
+[^my-footnote]: footnote description and link to source goes here

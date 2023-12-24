@@ -31,5 +31,8 @@ The Nameless first encountered Elia in the [Lost District](the-lost-district) wh
 
 * [Orianna](affect) has sworn to destroy Elia-- the witch taunts her about this when they interact. 
 * [Linmer](linmer) has some sort of relationship to young hamwick, but hasn't disclosed the nature of that relationship.
-* [Cruncho](cruncho) has taken a piece of Elia willingly into the "geistcore."
+* [Cruncho](cruncho) has taken a piece of Elia willingly into the "geistcore." [^geist-hamwick]
 * [Scurlock](lord-scurlock) has some sort of relationship with Elia, though the Nameless do not know how they regard each other. 
+
+# Citations
+[^geist-hamwick]: *Recap in Discord* <https://discord.com/channels/1022641517170540574/1167121173813932132/1188288431655235675>. Retrieved 24-Dec-2023

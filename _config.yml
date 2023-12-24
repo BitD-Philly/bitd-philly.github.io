@@ -30,8 +30,6 @@ domain: bitd-philly.github.io
 twitter_username: jekyllrb
 github_username:  jekyll
 
-markdown: GFM
-
 paginate: 1
 paginate_path: /story/page:num/
 
