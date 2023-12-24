@@ -38,7 +38,7 @@
   id: the-dimmer-sisters
   tier: 2
   hold: S
-  status: -2
+  status: 0
   excerpt: Ancient gang of witches with a subterranean temple hideout and a large body chock-full of ghosts.
 - name: The Grinders
   id: the-grinders
