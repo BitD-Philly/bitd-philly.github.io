@@ -35,7 +35,8 @@ Tall, burly, & portly. Face like a flattened potato. gentle eyes, wild smile. bl
 
 # Story
 ## Backstory
-Write your character's backstory here. 
+
+Born to 1st generation immigrants from Skovlan to Duskvol, Vilhelm was always aimed towards a practical trade profession. Much like his father before him. A large, imposing stature netted Vilhelm a full-ride sports scholarship to a local vocational school. While it wasn't unexpected for an opposing team to suffer an injury or two when facing someone of Vilhelm's stock (frequent enough to earn the nickname "Cruncho" from his teammates), eventually, an unsettling pattern began to emmerge. When arranged temporally, all the shoulder injuries ocurred around the same period of time. Around when Vilhelm was studying occupational therapy. Rumors began circulating how different types of injuries seemed to correlate with particular topics in the school's courses Vilhelm was enrolled in. The bone injuries, while he was learning ceramics and metalwork. The nerve injuries, during electronics. Due to the the incredible contributions Vilhelm had made to the school's successful (and thus financially lucrative) sports team, rather than risk further investigations and terrible public-relation optics, officials fast-tracked Vilhelm's education & he graduated before the next sports season began. Now, the man makes his living as a specialist-for-hire in the dark underbelly of Duskvol. Considering himself something of an artist of deconstruction, he is always looking for the next interesting or challenging thing to take apart. Be it object, person, or even concept.
 
 ## Time With the Nameless
 Detail your character's adventures here. You can also link primary sources in the footnotes![^my-footnote]
