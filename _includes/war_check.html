@@ -1,4 +1,4 @@
 {% assign war-check = site.data.world.factions[page.faction-type] | where: "id", page.w-id | map: "status" | last%}
 {% if war-check == -3 %}
-    <p class="notice"><b>Notice:</b> The Nameless are currently at war with {{page.full-name}}.</p>
+    <p class="notice"><b>Notice:</b> The Nameless are currently at war with {{page.full-name}}!</p>
 {% endif %}
