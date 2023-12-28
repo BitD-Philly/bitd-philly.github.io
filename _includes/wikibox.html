@@ -1,0 +1,116 @@
+{% assign box-data = "" %}
+{% if page.collection == "player_characters" %}
+  {% if page.picture %}
+    {% assign box-data = box-data | append: ",," | append: "_picture::" | append: page.img_root | append: page.picture %}
+  {% endif %}
+
+  {% assign box-data = box-data | append: ",," | append: "_header::" | append: "Player Character" %}
+  {% assign box-data = box-data | append: ",," | append: "name::" | append: page.full-name %}
+
+  {% if page.alias %}
+    {% assign box-data = box-data | append: ",," | append: "alias::" | append: page.alias %}
+  {% endif %}
+
+  {% if page.pronouns %}
+    {% assign box-data = box-data | append: ",," | append: "pronouns::" | append: page.pronouns %}
+  {% endif %}
+
+  {% assign box-data = box-data | append: ",," | append: "playbook::" | append: page.playbook %}
+
+  {% if page.status %}
+    {% assign box-data = box-data | append: ",," | append: "status::" | append: page.status %}
+  {% else %}
+    {% assign box-data = box-data | append: ",," | append: "status::" | append: "active" %}
+  {% endif %}
+
+  {% assign box-data = box-data | append: ",," | append: "player::" | append: page.player %}
+
+  {% if page.excerpt %}
+    {% assign box-data = box-data | append: ",," | append: "_excerpt::" | append: page.excerpt %}
+  {% endif %}
+
+{% elsif page.collection == "npcs" %}
+  {% if page.picture %}
+    {% assign box-data = box-data | append: ",," | append: "_picture::" | append: page.img_root | append: page.picture %}
+  {% endif %}
+
+  {% assign box-data = box-data | append: ",," | append: "_header::" | append: "NPC" %}
+  {% assign box-data = box-data | append: ",," | append: "name::" | append: page.full-name %}
+
+  {% if page.alias %}
+    {% assign box-data = box-data | append: ",," | append: "alias::" | append: page.alias %}
+  {% endif %}
+
+  {% if page.pronouns %}
+    {% assign box-data = box-data | append: ",," | append: "pronouns::" | append: page.pronouns %}
+  {% endif %}
+
+  {% assign box-data = box-data | append: ",," | append: "type::" | append: page.char-type | replace: "-", " " %}
+
+  {% if page.status %}
+    {% assign box-data = box-data | append: ",," | append: "status::" | append: page.status %}
+  {% else %}
+    {% assign box-data = box-data | append: ",," | append: "status::" | append: "active" %}
+  {% endif %}
+
+  {% if page.faction-type %}
+    {% assign faction-data = site.data.world.factions[page.faction-type] | where: "id", page.w-id | first %}
+    {% assign box-data = box-data | append: ",," | append: "faction type::" | append: page.faction-type %}
+    {% assign box-data = box-data | append: ",," | append: "tier::" | append: faction-data.tier %}
+    {% assign box-data = box-data | append: ",," | append: "hold::" | append: faction-data.hold %}
+    {% assign box-data = box-data | append: ",," | append: "faction status::" | append: faction-data.status %}
+  {% elsif page.factions %}
+    {% assign faction-list = page.factions | split: "," %}
+    {% for faction in faction-list %}
+      {% assign box-data = box-data | append: ",," | append: faction | split: ":" | last %}
+    {% endfor %}
+  {% endif %}
+
+  {% if page.excerpt %}
+    {% assign box-data = box-data | append: ",," | append: "_excerpt::" | append: page.excerpt %}
+  {% endif %}
+{% elsif page.collection == "factions" %}
+  {% assign faction-data = site.data.world.factions[page.faction-type] | where: "id", page.w-id | first %}
+
+  {% assign box-data = box_data | append: ",,_header::" | append: page.full-name %}
+
+  {% if page.picture %}
+    {% assign box-data = box-data | append: ",," | append: "_picture::" | append: page.img_root | append: page.picture %}
+  {% endif %}
+
+  {% assign box-data = box-data | append: ",," | append: "type::" | append: page.faction-type %}
+  {% assign box-data = box-data | append: ",," | append: "tier::" | append: faction-data.tier %}
+  {% assign box-data = box-data | append: ",," | append: "hold::" | append: faction-data.hold %}
+  {% assign box-data = box-data | append: ",," | append: "status::" | append: faction-data.status %}
+
+  {% if page.excerpt %}
+    {% assign box-data = box-data | append: ",," | append: "_excerpt::" | append: page.excerpt %}
+  {% endif %}
+
+{% endif %}
+
+{% assign box-items = box-data | split: ",," %}
+
+<table id="wikibox">
+  {% for item in box-items %}
+    {% assign key = item | split: "::" | first %}
+    {% assign value = item | split: "::" | last %}
+    {% assign col-flag = key | slice: 0 %}
+    <tr class="wb{{key}}">
+      {% if col-flag == "_" %}
+
+        <td colspan="2" align="center">
+          {% if key == "_picture" %}
+            <img src="/{{value}}">
+          {% else %}
+            {{ value }}
+          {% endif %}
+        </td>
+      {% else %}
+        <td>{{ key }}</td>
+        <td>{{ value }}</td>
+      </tr>
+
+    {% endif %}
+  {% endfor %}
+</table>
