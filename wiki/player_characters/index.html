@@ -11,9 +11,12 @@ layout: landing
         <a href="{{char.url}}">
             <img src="{{ site.baseurl}}/{{char.img_root| append: char.picture}}">
         </a>
-        {% if char.alias %}
+        {% if char.alias and char.prefers-alias==true %}
             <b>{{char.alias}}</b><br>
             {{char.full-name}}<br>
+        {% elsif char.alias %}
+            <b>{{char.full-name}}</b><br>
+            "{{char.alias}}"<br>
         {% else %}
             <b>{{char.full-name}}</b><br>
         {% endif %}

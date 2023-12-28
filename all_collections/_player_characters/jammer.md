@@ -1,17 +1,17 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-full-name: Jaime Doe
-playbook: GM
-player: Ted Gold
-last_updated: 1 Jan 2000
+full-name: Oksana Koslova
+playbook: Cutter
+player: Amalia
+last_updated: 28 Dec 2023
 
 #optional
-pronouns:       # preferred pronouns
-alias:          # primary alias
-prefers-alias:  # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
-status:         # suggestions: active | missing | presumed dead | incarcerated | dead
-excerpt:        # 1-2 sentences about the character
+pronouns:       she/her # preferred pronouns
+alias:          Jammer # primary alias
+prefers-alias:  true # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
+status:         # suggestions: active | missing | presumed dead | incarcerated | dead | (defaults to active if left blank)
+excerpt:        Shipside brawler. Punk. Exceptional ghost-puncher. # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
