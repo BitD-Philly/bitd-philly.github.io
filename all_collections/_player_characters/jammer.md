@@ -1,18 +1,18 @@
 ---
 # This data in this header is used to reference your character across the entire website. 
 # required
-full-name: Vilhelm Skrifol
-playbook: Whisper
-player: Jay
-last_updated: 1 January 2000
+full-name: Oksana Koslova
+playbook: Cutter
+player: Amalia
+last_updated: 28 Dec 2023
 
-# optional
-alias: Cruncho
-prefers-alias: true
-pronouns: he/him
-status: active
-excerpt: "Former plumber. Occult enthusiast, full of ghosts. Penchant for demonic pacts. "
-picture: Cruncho.png
+#optional
+pronouns:       she/her # preferred pronouns
+alias:          Jammer # primary alias
+prefers-alias:  true # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
+status:         # suggestions: active | missing | presumed dead | incarcerated | dead | (defaults to active if left blank)
+excerpt:        Shipside brawler. Punk. Exceptional ghost-puncher. # 1-2 sentences about the character
+picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
@@ -31,7 +31,7 @@ You can also link to sub-headers on any page by using a # after the `link-text`.
 
 
 # Appearance
-Tall, burly, & portly. Face like a flattened potato. gentle eyes, wild smile. black overalls, dress shoes, dress shirt w/ sleeves rolled-up. Head is partially wrapped in bandaging, adorned by a cap.
+Describe your character's appearance here.
 
 # Story
 ## Backstory
