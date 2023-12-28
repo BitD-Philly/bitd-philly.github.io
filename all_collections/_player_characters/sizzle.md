@@ -11,7 +11,7 @@ alias: Sizzle
 prefers-alias: true
 pronouns: she/her
 status: active
-excerpt: "Mysterious gunslinger. Has a hawk. Never comfortable."
+excerpt: "Mysterious gunslinger, pistol enthusiast. Has a hawk. Never comfortable."
 picture: Sizzle.png
 ---
 
@@ -39,8 +39,8 @@ Sizzle came to Duskvol searching for her [father](npcs#joseph-woodward), falling
 * [Joseph Woodward](npcs#joseph-woodward): Sizzle's father and the reason she came to Duskvol. They are not on good terms.
 * [Cruncho](cruncho): Spooky friend.
 * [Arkin Wollstonecraft](arkin): Co-inventor of the coffee-grinder-gatling-gun[^1]
-* [Valanthe](npcs#valanthe): Willing to listen to Sizzle talk about pistol mechanisms for hours on end for some reason. Wears a mask Sizzle made for her.[^val-mask]
-* [Casta](npcs#casta): Rival ever since Sizzle got to one of Casta's marks before she did.
+* [Valanthe](npcs#valanthe): Listens to Sizzle talk about pistol mechanisms for hours on end for some reason. Wears a mask Sizzle made.[^val-mask]
+* [Casta](npcs#casta) (Rival): Sizzle has beaten her to one too many of her marks. Doesn't help that Sizzle looks like her younger sister, either.
 * [Grace](npcs#grace): Fellow bounty hunter and contact.
 
 # Citations
