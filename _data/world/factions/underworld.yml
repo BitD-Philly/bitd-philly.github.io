@@ -44,12 +44,12 @@
   id: the-grinders
   tier: 2
   hold: W
-  status: 0
+  status: 1
 - name: The Billhooks
   id: the-billhooks
   tier: 2
   hold: W
-  status: -3
+  status: 0
   collection: factions
 - name: The Wraiths
   id: the-wraiths
