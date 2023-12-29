@@ -6,8 +6,6 @@ title: Wiki
 
 Welcome to the Nameless wiki! The aim of this wiki is to provide a living record of the people, places, and events of our crew's city of Duskvol and beyond.
 
-
-
 <h2>Featured Player Characters</h2>
 
 This rough-and-tumble crew has a large cast of unique and interesting characters. [See All Player Characters »](player_characters)
@@ -30,7 +28,7 @@ This rough-and-tumble crew has a large cast of unique and interesting characters
 ## Featured NPCs
 Friends, allies, enemies, and more! [See all NPCs »](npcs)
 <ul class="wiki_list">
-{% assign some_npcs = site.npcs | sample: 3 %}
+{% assign some_npcs = site.npcs | sample: 2 %}
 {% for npc in some_npcs %}
 <li>
 <p>
@@ -46,14 +44,14 @@ Friends, allies, enemies, and more! [See all NPCs »](npcs)
 ## Featured Factions
 Associations, enterprises, and coalitions, criminal or otherwise. [See all factions »](factions)
 <ul class="wiki_list" >
-{% assign some_factions = site.factions | sample: 3 %}
+{% assign some_factions = site.factions | sample: 2 %}
 {% for faction in some_factions %}
 <li>
 <p>
 <h3>{{faction.full-name}}</h3>
 {{faction.excerpt}}</p>
 <p style="float:right;clear:right;margin-top:0">
-<a href="{{faction.url}}">Read more » </a>
+<a href="{{faction.url}}">Read more »</a>
 </p>
 </li>
 {%endfor%}
@@ -62,19 +60,18 @@ Associations, enterprises, and coalitions, criminal or otherwise. [See all facti
 ## Featured Locations
 Criminal haunts and lucrative locales! [See all locations »](locations)
 <ul class="wiki_list" >
-{% assign some_locations = site.locations | sample: 3 %}
+{% assign some_locations = site.locations | sample: 2 %}
 {% for loc in some_locations %}
 <li>
 <p>
 <h3>{{loc.full-name}}</h3>
 {{loc.excerpt}}</p>
 <p style="float:right;clear:right;margin-top:0">
-<a href="{{loc.url}}">Read more » </a>
+<a href="{{loc.url}}">Read more »</a>
 </p>
 </li>
 {%endfor%}
 </ul>
-
 
 ## Contribute
 
