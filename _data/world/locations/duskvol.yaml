@@ -1,0 +1,146 @@
+- name: Duskvol
+  w-id: duskvol
+  collection: locations
+
+  districts:
+    - name: Barrowcleft
+      w-id: barrowcleft
+      excerpt: Residences and markets for the farmers who work the felds and eeleries.
+      game-data:
+        stats: 
+          wealth: 1
+          security-and-safety: 3
+          criminal-influence: 0
+          occult-influence: 0
+        effects:
+          - effect: Take +1d to acquire an asset here in exchange for +2 heat.
+
+    - name: Brightstone
+      w-id: brightstone
+      collection: locations
+      game-data:
+        stats: 
+          wealth: 4
+          security-and-safety: 4
+          criminal-influence: 0
+          occult-influence: 2
+        effects: 
+          - effect: Most engagement rolls sufer -1d due to heavy Bluecoat patrols.
+          - effect: Operations against the nobility in Brightstone are considered on “hostile turf ” for the purpose of generating heat.
+    
+    - name: Charhollow
+      w-id: charhollow
+      excerpt: A crowded district of tenements and stacked houses.
+      game-data: 
+        stats: 
+          wealth: 0
+          security-and-safety: 2
+          criminal-influence: 1
+          occult-influence: 0
+        effects:
+          - effect:  Operations against the citizenry in Charhollow are considered "hostile turf" for the purpose of generating heat.
+
+    - name: Charterhall
+      w-id: charterhall
+      excerpt: The citys civic offices and the hub for shops, artisans, and commerce.
+      game-data:
+        stats: 
+          wealth: 4
+          security-and-safety: 4
+          criminal-influence: 0
+          occult-influence: 0
+        effects:
+          - effect: Players can take a *Devil's Bargain* for +1d to gather info here in exchange for +1 heat.
+
+    - name: Coalridge
+      w-id: coalridge
+      excerpt: The remnants of Doskvols original hilltop mining settlement, now home to laborers and industrial factories.
+      game-data:
+        stats:
+          wealth: 1
+          security-and-safety: 1
+          criminal-influence: 1
+          occult-influence: 0
+
+    - name: Crow's Foot
+      w-id: crows-foot
+      excerpt: A cramped neighborhood of multi-level streets, ruled by gangs.
+      game-data:
+        stats:
+          wealth: 2
+          security-and-safety: 1
+          criminal-influence: 4
+          occult-influence: 2
+        effects:
+          - effect: Take a *Devil's Bargain* for +1d for violent action, but the ghosts lash out at you.
+
+    - name: The Docks
+      w-id: the-docks
+      excerpt: Rough taverns, tattoo parlors, fighting pits, and warehouses.
+      game-data:
+        stats:
+          wealth: 2
+          security-and-safety: 2
+          criminal-influence: 2
+          occult-influence: 2
+
+    - name: Dunslough
+      w-id: dunslough
+      excerpt: A labor camp served by convicts and a ghetto for the destitute poor.
+      game-data:
+        stats:
+          wealth: 0
+          security-and-safety: 0
+          criminal-influence: 2
+          occult-influence: 1
+
+    - name: The Lost District
+      w-id: the-lost-district
+      eexcerpt: A once wealthy area, ravaged by plague then abandoned to the deathlands when the second lightning barrier was built. Contains many lost treasures for the foolhardy to seek out.
+
+    - name: Nightmarket
+      w-id: nightmarket
+      excerpt: The trade center for exotic goods imported by rail. Many vendors also trade in illicit goods.
+      game-data:
+        stats:
+          wealth: 3
+          security-and-safety: 3
+          criminal-influence: 2
+          occult-influence: 1
+        effects:
+          - effect: Take +1d to *acquire an asset* here, at the cost of 2 stress.
+
+    - name: Silkshore
+      w-id: silkshore
+      excerpt: The red lamp district and artist community.
+      game-data:
+        stats:
+          wealth: 2
+          security-and-safety: 2
+          criminal-influence: 3
+          occult-influence: 1
+        effects:
+          - effect: If you *overindulge your vice* in Silkshore, take +1d to the next time you indulge your vice here.
+
+    - name: Six Towers
+      w-id: six-towers
+      collection: locations
+      game-data:
+        stats:
+          wealth: 2
+          security-and-safety: 1
+          criminal-influence: 2
+          occult-influence: 3
+
+    - name: Whitecrown
+      w-id: whitecrown
+      excerpt: The sprawling estates of the Lord Governor, Hunter Commander, Master Warden, and Doskvol Academy.
+      game-data:
+        stats:
+          wealth: 2
+          security-and-safety: 1
+          criminal-influence: 2
+          occult-influence: 3
+        effects:
+          - effect: Most engagement rolls suffer -2d due to heavy Bluecoat patrols.
+          - effect: Operations against the nobility in Brightstone are considered on “hostile turf” for the purpose of generating heat.  
