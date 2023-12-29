@@ -2,7 +2,20 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>{{ page.title }}</title>
+        <title>
+            {% if page.layout == "wiki" %}
+                {% if page.full-name %}
+                    {% assign title = page.full-name %}
+                {% elsif page.w-id %}
+                    {% assign title = page.w-id%}
+                {% endif %}
+            {{ title | replace: "_", " " | append: " | Wiki | " | append: site.title }}
+            {% elsif page.title == "home" %}
+                {{site.title}}
+            {% else %}
+                {{ page.title }} | {{ site.title }}
+            {% endif %}
+        </title>
         <link rel="stylesheet" href="/assets/css/{{page.layout}}.css">
         <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Barlow">

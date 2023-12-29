@@ -4,6 +4,18 @@
   link: /gang/
 - name: Wiki
   link: /wiki/
+  sublinks:
+    - page: Wiki Home
+      link: /wiki/
+    - page: PCs
+      link: /wiki/player_characters/
+    - page: NPCs
+      link: /wiki/npcs/
+    - page: Factions
+      link: /wiki/factions/
+    - page: Locations
+      link: /wiki/locations/
+  link: /wiki/
 - name: System
   link: /system.html
 - name: Story
