@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blades in the Philadelphia
+title: home
 ---
 
 # Introduction

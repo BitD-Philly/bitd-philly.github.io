@@ -5,6 +5,16 @@
                 {% if page.url == item.link %} class="current" {% endif %}>
                 {{ item.name }}
             </a>
+            {% if item.sublinks %}
+            <ul class="dropdown">
+                {% for item2 in item.sublinks %}
+                <li>
+                <a href="{{item2.link}}">{{item2.page}}</a>
+                </li>
+                {%endfor%}
+            </ul>
+            {% endif %}
+            
         </li>
     {% endfor %}
 </ul>
