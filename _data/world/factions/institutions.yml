@@ -17,7 +17,7 @@
   id: leviathan-hunters
   tier: 5
   hold: S
-  status: 0
+  status: -1
 - name: Ironhook Prison
   id: ironhook-prison
   tier: 4
@@ -43,13 +43,13 @@
   id: bluecoats
   tier: 3
   hold: S
-  status: -1
+  status: -2
   excerpt: Purveyors of "law" and "order" in Duskvol. Truthfully many of its members are in the pockets of different factions across the city. Nonetheless the most "legitimate" producers of violence in the city, with a presence in every neighborhood.
 - name: Inspectors
   id: inspectors
   tier: 3
   hold: S
-  status: 0
+  status: -1
 - name: Iruvian Consulate
   id: iruvian-consulate
   tier: 3
