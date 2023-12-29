@@ -6,7 +6,7 @@
     height: 2em
     margin: 0 0 20px 0
     text-align: left
-
+    position: relative
     background: $mid-green
     
     li 
@@ -27,3 +27,23 @@
             color: $charcoal
             background: $light-green
             text-decoration: none
+    li:hover ul.dropdown
+        display: block
+
+ul.dropdown
+    z-index: 2
+    display: none
+    position: absolute
+    top: 2em
+    left: 1em
+    background: $light-green
+    border: 2px solid $light-green
+    padding: 0
+
+    li a
+        display: block
+        color: $charcoal!important
+        background: $light-green!important
+
+    li a:hover
+        background: $ash-grey!important

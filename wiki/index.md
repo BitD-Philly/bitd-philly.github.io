@@ -1,43 +1,11 @@
 ---
 layout: default
+title: Wiki
 ---
 # Wiki
 
 Welcome to the Nameless wiki! The aim of this wiki is to provide a living record of the people, places, and events of our crew's city of Duskvol and beyond.
 
-<style>
-
-.wiki_list {
-	margin: 0 auto;
-    padding: 0;
-	list-style: none;
-    font-size: 0.9em;
-    width:100%;
-}
-.wiki_list li {
-	margin: 0em 1em;
-    display: inline-block;
-    clear:both;
-    vertical-align:top;
-    width:25em;
-	text-align: left;
-	border-width: 1px 1px 2px 1px;
-	padding: 2px 5px;
-}
-
-.wiki_list li img {
-	float: left;
-	clear: left;
-	padding: 2px!important;
-    border: 1px solid #ccc;
-	margin-right: 10px;
-    width: 120px;
-}
-
-.wiki_list li h3 {
-    margin-bottom: 0.2em;
-}
-</style>
 
 
 <h2>Featured Player Characters</h2>
@@ -115,8 +83,6 @@ Play in our game and want to contribute to the wiki? Check out [this Discord thr
 
 ## Legal Notice
 
-This work is based on [Blades in the Dark](http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the [Creative Commons Attribution 3.0 Unported license](http://creativecommons.org/licenses/by/3.0/).
-
-Materials in this wiki are inspired by the published Duskwall/Shattered Isles setting, but are in many ways unique to our game. Wiki contents that share similarities with official published places and characters should be thought of as transformative (fan) work based on the original setting, and should not be used in place of official material. 
+Materials in this wiki are inspired by the published Duskwall/Shattered Isles setting, but are in many ways unique to our game. Wiki contents that share similarities with official published places and characters should be thought of as transformative (fan) work based on the original setting, and should not be used in place of published material. 
 
 Please support the official release!
