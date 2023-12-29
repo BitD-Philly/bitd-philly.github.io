@@ -54,9 +54,9 @@ Linmer has developed an intense paranoia regarding the supernatural in general a
 * Lady Pendryn:  Enemy.  A noble.  She finds Linmer exceptionally annoying, but he hasn't been _so_ annoying to earn active antagonism from her.
 * Loop:  Crew.
 * Lord Pendryn:  Ally?  A noble and a cultist.  Linmer has found Lord Pendryn very helpful, but also a _bit much_.
-* Orianna:  Crew.
+* [Orianna](affect):  Crew.
 * Sandro:  Crew.
-* Sizzle:  Crew.
+* [Sizzle](sizzle):  Crew.
 * Stazia:  Friend.  An apothacary.  She and Linmer have a lightly flirtatious relationship.  They met during one of Linmer's stints as a legitimate merchant's assistant.
 * Studabaker Spud:  Enemy?  An entreprenuer.  Linmer sees something of himself in this weird man, which led to him treating him more kindly than Spud perhaps deserved.
 * Veldren:  Enemy.  A "psychonaut".  It is unclear why Veldren and Linmer do not like each other.
@@ -74,5 +74,3 @@ Linmer is nurturing relationships with members of a hypothetical future crew.
 
 [^1]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>
 [^2]:  Kooky old wizard.  <https://tvtropes.org/pmwiki/pmwiki.php/Main/WizardClassic>
-
-**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 

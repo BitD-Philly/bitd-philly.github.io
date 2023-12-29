@@ -1,15 +1,14 @@
 ---
 # required
 full-name: Brightstone
+w-id: brightstone
 loc-type: district
 last-updated:  27 December 2023
 
 # optional
 picture:   
 map:     duskvol_brightstone
-region: Akaros
-city:       Duskvol
-district:   
+  
 ---
 
 Brightstone is home to many of the wealthiest and most infuential citizens of [Duskvol](duskvol). Its streets are broad and paved, under bright electric lights; its canals are sparkling and clean, with perfumed water; its houses are all of fne, pale marble blocks, rich timbers, and intricate ironworks. There are cultivated parks fed by radiant energy; lavish restaurants and cafes; jewelers, tailors, and other luxury shops. Street-side vendors are forbidden here, resulting in a serene, spacious atmosphere, punctuated by the occasional carriage or marching Bluecoat patrol.

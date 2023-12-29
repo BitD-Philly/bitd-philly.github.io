@@ -17,26 +17,13 @@ picture: Cruncho.png
 
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
 
-You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to.
-
-**Note that valid links lowercase and spaces must be replaced with dashes (-).**
-
-Examples:
-* [Duskvol](duskvol)
-* The [Seventh Tower Consortium](seventh-tower-consortium)
-
-You can also link to sub-headers on any page by using a # after the `link-text`. For example, linking to Cruncho's backstory would look like this:
-
-`Due to Cruncho's [personal history](cruncho#backstory) with football, he was able to...`
-
-
 # Appearance
 Tall, burly, & portly. Face like a flattened potato. gentle eyes, wild smile. black overalls, dress shoes, dress shirt w/ sleeves rolled-up. Head is partially wrapped in bandaging, adorned by a cap.
 
 # Story
 ## Backstory
 
-Born to 1st generation immigrants from Skovlan to Duskvol, Vilhelm was always aimed towards a practical trade profession. Much like his father before him. A large, imposing stature netted Vilhelm a full-ride sports scholarship to a local vocational school. While it wasn't unexpected for an opposing team to suffer an injury or two when facing someone of Vilhelm's stock (frequent enough to earn the nickname "Cruncho" from his teammates), eventually, an unsettling pattern began to emmerge. When arranged temporally, all the shoulder injuries ocurred around the same period of time. Around when Vilhelm was studying occupational therapy. Rumors began circulating how different types of injuries seemed to correlate with particular topics in the school's courses Vilhelm was enrolled in. The bone injuries, while he was learning ceramics and metalwork. The nerve injuries, during electronics. Due to the the incredible contributions Vilhelm had made to the school's successful (and thus financially lucrative) sports team, rather than risk further investigations and terrible public-relation optics, officials fast-tracked Vilhelm's education & he graduated before the next sports season began. Now, the man makes his living as a specialist-for-hire in the dark underbelly of Duskvol. Considering himself something of an artist of deconstruction, he is always looking for the next interesting or challenging thing to take apart. Be it object, person, or even concept.
+Born to 1st generation immigrants from Skovlan to Duskvol, Vilhelm was always aimed towards a practical trade profession. Much like his father before him. A large, imposing stature netted Vilhelm a full-ride sports scholarship to a local vocational school. While it wasn't unexpected for an opposing team to suffer an injury or two when facing someone of Vilhelm's stock (frequent enough to earn the nickname "Cruncho" from his teammates), eventually, an unsettling pattern began to emmerge. When arranged temporally, all the shoulder injuries ocurred around the same period of time. Around when Vilhelm was studying occupational therapy, rumors began circulating how different types of injuries seemed to correlate with particular topics in the school's courses Vilhelm was enrolled in. The bone injuries, while he was learning ceramics and metalwork. The nerve injuries, during electronics. Due to the the incredible contributions Vilhelm had made to the school's successful (and thus financially lucrative) sports team, rather than risk further investigations and terrible public-relation optics, officials fast-tracked Vilhelm's education & he graduated before the next sports season began. Now, the man makes his living as a specialist-for-hire in the dark underbelly of Duskvol. Considering himself something of an artist of deconstruction, he is always looking for the next interesting or challenging thing to take apart, be it object, person, or even concept.
 
 ## Time With the Nameless
 Detail your character's adventures here. You can also link primary sources in the footnotes![^my-footnote]

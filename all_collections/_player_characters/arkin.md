@@ -25,7 +25,7 @@ Lanky, wild-eyed, bearded, wears a grimy lab coat. several face scars, trying to
 Write your character's backstory here. 
 
 ## Time With the Nameless
-Detail your character's adventures here, adding sources as needed[example-footnote].
+Detail your character's adventures here, adding sources as needed[^example-footnote].
 
 # Relationships
 Create lists using asterisks:

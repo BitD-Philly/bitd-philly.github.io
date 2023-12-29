@@ -9,7 +9,6 @@ last_updated: Dec 28, 2023
 #optional
 leader: Tarvul
 picture:
-excerpt: A powerful gang based in the Docks, currently recovering from an internal power struggle.
 ---
 
 A powerful but fractured gang based in The Docks who does business out of their butcher shops. The Billhooks' leader, Tarvul, has recently escaped from prison with the help of the Nameless[^tarvul-escape] and is consolidating his power among the fractured Billhooks.
@@ -19,11 +18,11 @@ A powerful but fractured gang based in The Docks who does business out of their 
 
 [needs more details on lightning wall incident]
 
-Coran was a rival for control of the Billhooks in Tarvul's absence until the Nameless accidentally turned him into a vessel for [The Horned One](npcs#the-horned-one). A handful of Billhooks remain loyal to Coran, but their numbers are dwindling.
+[Coran](npcs#coran) was a rival for control of the Billhooks in Tarvul's absence until the Nameless accidentally turned him into a vessel for [The Horned One](npcs#the-horned-one). A handful of Billhooks remain loyal to Coran, but their numbers are dwindling.
 
-## Seventh Tower War
+## The War of Sevens
 
-Under Erin's lead, the Billhooks allied with the [Seventh Tower Consortium](factions#seventh-tower-consortium) against the Nameless during the War of Six Towers. Major events include the battle for the docks, the Unity Day bombing, and the escape of Tarvul.
+Under [Erin](npcs#erin)'s lead, the Billhooks allied with the [Seventh Tower Consortium](factions#seventh-tower-consortium) against the Nameless during the War of Six Towers. Major events include the battle for the docks, the Unity Day bombing, and the escape of Tarvul.
 
 [Dock battle details coming soon]
 

@@ -22,7 +22,7 @@ Dark-haired with steely gray, almost lupine eyes
 
 # Story
 ## Backstory
-> The newly-minted Doctor Yekaterina Volkova stood at the Ilysia train station in Akoros, the first point in a journey that would terminate in Doskvol, where she had acquired a job at Charterhall University. It was far from her first choice, but there were few jobs in the social sciences, and she would take what she could get. Besides, it was good to explore.
+Write a summary of your character's backstory here.
 
 
 ## Time With the Nameless
