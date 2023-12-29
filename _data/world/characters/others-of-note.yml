@@ -33,3 +33,7 @@
 - name: Reek
   id: reek
   excerpt: Purveyor of drugged seasoning mixes. Frantic, at his wit's end. Runs on his own product. 
+
+- name: Quellin
+  id: quellin
+  excerpt: A witch with a focus on rituals and folk physicking, now a devoted priestess of Vazara.
