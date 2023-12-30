@@ -1,0 +1,16 @@
+- name: everyone-steals
+  desc: Each PC may add +1 action rating to Prowl, Finesse, or Tinker (up to a max rating of 3).
+- name: ghost-echoes
+  desc: From weird experience or occult ritual, all crew members gain the ability to see and interact with the ghostly structures, streets, and objects within the echo of Doskvol that exists in the ghost field.
+- name: pack-rats
+  desc: Your lair is a jumble of stolen items. When you roll to acquire an asset, take +1d.
+- name: patron
+  desc: When you advance your Tier, it costs half the coin it normally would. Who is your patron? Why do they help you?
+- name: second-story
+  desc: When you execute a clandestine infiltration, you get +1d to the engagement roll.
+- name: slippery
+  desc: When you roll entanglements, roll twice and keep the one you want. When you reduce heat on the crew, take +1d.
+- name: synchronized
+  desc: When you perform a group action, you may count multiple 6s from different rolls as a critical success.
+- name: veteran
+  desc: Choose a special ability from another crew.

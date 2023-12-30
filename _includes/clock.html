@@ -1,26 +1,83 @@
-{% comment %}
+<!-- {% comment %}
 Creates a basic clock in a pretty wrapper.
 Parameters
+    Required
     - label: your clock's label
-    - value: current value of the clock
-    - max: max value of the clock
-{% endcomment %}
+    - fill: for single clock, current/max, e.g., 6/10
+            for double clock, current (e.g., 6 )
+    Optional
+    - align: "center" or "right" (default: left)
+    - group: separate counter into groups of 3,4,5, etc.
+    - label2: secondary clock label
+    - fill2: secondary clock fill
+    - max: total # of boxes to fill
+    - css: custom css
+    
+{% endcomment %} -->
 
-<div class="clock_wrapper">
+{% if include.fill2 %}
+    {% assign fill = include.fill | plus: 0 %}
+    {% assign fill2 = include.fill2 | plus: 0 %}
+    {% assign max = include.max | plus: 0 %}
+
+    {% assign middle = max | minus: fill | minus: fill2 %}
+
+    {% assign mid-start = fill | plus: 1 %} 
+    {% assign mid-end = mid-start | plus: middle | minus: 1 %}
+    {% assign j = mid-end | plus: 1 %}
+
+    {% assign j-class = "fill2"%}
+{% else %}
+    {% assign fill = include.fill | split: "/" | first %}
+    {% assign j = fill | plus: 1 }} %}
+    {% assign max = include.fill | split: "/" | last | plus: 0%}
+    {% assign j-class = "" %}
+{% endif %}
+
+<div class="clock_wrapper{{' '|append: include.align}}" style="{{include.css}}">
 <table>
 <tr class="clock">
     <td>{{include.label}}</td>
-    {% assign j = include.value | plus: 1 %}
-
-    {% unless include.value == 0 %}
-        {% for i in (1..include.value) %}
-        <td class="filled"></td>
+    {% unless fill == 0 %}
+        {% for i in (1..fill) %}
+            <td class="filled"></td>
+            {% if include.group %}
+                {% assign gap-check = i | modulo: include.group %}
+                {% if gap-check == 0 and i != max %}
+                    <td class="gap"></td>
+                {% endif %}
+            {% endif %} 
         {% endfor %}
     {% endunless %}
 
-    {% for i in (j..include.max) %}
-        <td></td>
+    {% if include.fill2 %}
+        {% for i in (mid-start..mid-end) %}
+            <td></td>
+            {% if include.group %}
+                {% assign gap-check = i | modulo: include.group %}
+                {% if gap-check == 0 and i != max %}
+                    <td class="gap"></td>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% for i in (j..max) %}
+        <td class="{{j-class}}"></td>
+        {% if include.group %}
+            {% assign gap-check = i | modulo: include.group %}
+            {% if gap-check == 0 and forloop.last == false %}
+                <td class="gap"></td>
+            {% endif %}
+        {% endif %} 
     {% endfor %}
+
+    {% if include.fill2 %}
+        <td class="last">
+            {{include.label2}}
+        </td>
+    {% endif %}
+
 </tr>
 </table>
 </div>

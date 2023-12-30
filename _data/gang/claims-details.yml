@@ -1,0 +1,75 @@
+claims:
+  - name: interrogation-chamber
+    x-y: 0-0
+    desc: +1d to Command and Sway on site
+    description: You get +1d to Command and Sway on-site.
+  - name: turf-1-0
+    x-y: 1-0
+  - name: loyal-fence
+    x-y: 2-0
+    desc: +2 coin for burglary or robbery
+    description: You get +2 coin in payoff for scores that involve burglary or robbery.   
+  - name: gambling-den
+    x-y: 3-0
+    desc: (Tier roll) - Heat = coin in downtime
+    description: Any time during downtime, roll dice equal to your Tier. You earn coin equal to the highest result minus your heat. 
+  - name: tavern
+    x-y: 4-0
+    desc: +1d to Consort and Sway on site
+    description: You get +1d to Consort and Sway rolls on-site. 
+
+  - name: drug-den
+    x-y: 0-1
+    desc: (Tier roll) - Heat = coin in downtime
+    description: Any time during downtime, roll dice equal to your Tier. You earn coin equal to the highest result, minus your heat. 
+  - name: informants
+    x-y: 1-1
+    desc: +1d to gather info for scores
+    description: You get +1d to gather information for a score.
+  - name: lair
+    x-y: 2-1
+  - name: turf-3-1
+    x-y: 3-1
+  - name: lookouts
+    x-y: 4-1
+    desc: +1d to Survey or Hunt on your turf
+    description: You get +1d to Hunt or Survey on your turf.
+
+  - name: hagfish-farm
+    x-y: 0-2
+    desc: +1d to reduce heat after killing
+    description: When you use the *reduce heat* downtime activity after a score that involves killing, you get +1d to the roll and quiet, convenient disposal of any corpses you left on the job.
+  - name: infirmary
+    x-y: 1-2
+    desc: +1d to healing rolls
+    description: You get +1d to healing treatment rolls. The infirmary also has beds for long-term convalescence.
+  - name: covert-drops
+    x-y: 2-2
+    desc: +2 coin for espionage or sabotage
+    description: You get +2 coin in payoff for scores that involve espionage or sabotage.
+  - name: turf-3-2
+    x-y: 3-2
+  - name: secret-pathways
+    x-y: 4-2
+    desc: +1d engagement for stealth plans
+    description: You get +1d to the engagement roll for stealth plans.
+
+x-connections:
+  - y: 0
+    i: 1,2,4
+  - y: 1
+    i: 1,2,3,4
+  - y: 2
+    i: 1,3,4
+
+y-connections:
+  - x: 0
+    j: 1,2
+  - x: 1
+    j: "2"
+  - x: 2
+    j: 1,2
+  - x: 3
+    j: "1"
+  - x: 4
+    j: 1,2

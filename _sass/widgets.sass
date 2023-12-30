@@ -5,14 +5,30 @@ tr.clock
     td 
         width: 0.9em
         background: $mid-green
+
+    td:first-of-type, td.last
+        width: fit-content
+        background: $charcoal
+        font-variant: small-caps
+
     td:first-of-type
         text-align: left
-        width: fit-content
         padding: 0 1em 0 0
-        background: $charcoal
+    
+    td.last
+        text-align: right
+        padding: 0 0 0 1em
 
 
     td.filled
+        background: $light-green
+        color: $charcoal!important
+    
+    td.gap
+        background: $charcoal
+        width: 0
+
+    td.fill2
         background: $ash-grey
 
 div.clock_wrapper
@@ -21,3 +37,9 @@ div.clock_wrapper
     width: fit-content
     padding: 0.2em 1em
     margin: 1em
+
+div.center
+    margin: 1em auto
+div.right
+    margin-right: 0
+    margin-left: auto
