@@ -11,7 +11,7 @@ title: Locations
 {% for district in site.data.world.locations.duskvol[0].districts %}
 
 <div style="clear:both;"> </div>
-<h3>{{district.name}}</h3>
+<h3 id="{{district.w-id}}">{{district.name}}</h3>
 {% if district.game-data %}
 <table class="district">
     <tr>
@@ -45,7 +45,7 @@ title: Locations
 {% endif %}
 
 {% if district.collection %}
-    <p style="margin: auto 1em;font-style:italic;">See <a href="{{district.name}}">{{district.name}}</a></p>
+    <p style="margin: auto 1em;font-style:italic;">See <a href="/wiki/{{district.w-id}}">{{district.name}}</a></p>
     {{ site[district.collection] | where: "w-id", district.w-id | map: "excerpt" | first }}
 {% else %}
 <p style="margin-left: 1em;">{{district.excerpt}}</p>

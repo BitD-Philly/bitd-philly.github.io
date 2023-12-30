@@ -96,7 +96,7 @@
 
     - name: The Lost District
       w-id: the-lost-district
-      eexcerpt: A once wealthy area, ravaged by plague then abandoned to the deathlands when the second lightning barrier was built. Contains many lost treasures for the foolhardy to seek out.
+      excerpt: A once wealthy area, ravaged by plague then abandoned to the deathlands when the second lightning barrier was built. Contains many lost treasures for the foolhardy to seek out.
 
     - name: Nightmarket
       w-id: nightmarket
@@ -142,5 +142,5 @@
           criminal-influence: 2
           occult-influence: 3
         effects:
-          - effect: Most engagement rolls suffer -2d due to heavy Bluecoat patrols.
-          - effect: Operations against the nobility in Brightstone are considered on “hostile turf” for the purpose of generating heat.  
+          - effect: Most engagement rolls suffer -2d due to heavy Imperial patrols.
+          - effect: Operations against the nobility in Whitecrown are considered on “hostile turf” for the purpose of generating heat.  

@@ -24,7 +24,7 @@ The delapidated district is noentheless the relatively undisputed territory of t
 The ancestral home of one [Lord Scurlock](lord-scurlock). Currently a derelict and haunted place. The Scurlock family came to Duskwall centuries ago and was once a great force in the city, before some curse or calamity befell their line. This tumble-down manor house and tangle of vines is all that remains of their original fortune. It’s said that a young nephew or cousin still resides there, but Lord Scurlock himself has moved on to finer abodes.
 
 ## Deckherd Hall
-Headquarters of the [Seventh Tower Consortium](npcs#seventh-tower-consortium)
+Headquarters of the [Seventh Tower Consortium](factions#seventh-tower-consortium)
 
 ## Void Sea Wrestling Arena
 Originally a large spa with a pool, it has been converted into an outdoor wrestling arena. Replete with an attached gambling den with two stories. Flanked by watchtowers that double as changing rooms. 

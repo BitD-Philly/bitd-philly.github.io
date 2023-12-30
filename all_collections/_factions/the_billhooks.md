@@ -11,7 +11,7 @@ leader: Tarvul
 picture:
 ---
 
-A powerful but fractured gang based in The Docks who does business out of their butcher shops. The Billhooks' leader, Tarvul, has recently escaped from prison with the help of the Nameless[^tarvul-escape] and is consolidating his power among the fractured Billhooks.
+A powerful but fractured gang based in [The Docks](locations#the-docks) who does business out of their butcher shops. The Billhooks' leader, Tarvul, is consolidating his power among the fractured Billhooks after the Nameless helped him escape from prison.
 
 # Major Events
 ## Lightning Wall Sabotage and the death of Coran
