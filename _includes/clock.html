@@ -1,0 +1,26 @@
+{% comment %}
+Creates a basic clock in a pretty wrapper.
+Parameters
+    - label: your clock's label
+    - value: current value of the clock
+    - max: max value of the clock
+{% endcomment %}
+
+<div class="clock_wrapper">
+<table>
+<tr class="clock">
+    <td>{{include.label}}</td>
+    {% assign j = include.value | plus: 1 %}
+
+    {% unless include.value == 0 %}
+        {% for i in (1..include.value) %}
+        <td class="filled"></td>
+        {% endfor %}
+    {% endunless %}
+
+    {% for i in (j..include.max) %}
+        <td></td>
+    {% endfor %}
+</tr>
+</table>
+</div>
