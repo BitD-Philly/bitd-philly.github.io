@@ -9,8 +9,13 @@
 - name: second-story
   desc: When you execute a clandestine infiltration, you get +1d to the engagement roll.
 - name: slippery
+  effects: 
+    - +1d to reduce heat
+    - roll twice on entanglements and choose result
   desc: When you roll entanglements, roll twice and keep the one you want. When you reduce heat on the crew, take +1d.
 - name: synchronized
+  effects:
+    - 6s from different players count as critical for group actions
   desc: When you perform a group action, you may count multiple 6s from different rolls as a critical success.
 - name: veteran
   desc: Choose a special ability from another crew.

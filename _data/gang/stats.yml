@@ -1,5 +1,6 @@
 name: The Nameless
 type: Shadows
+reputation: Professionals
 lair: 
 
 stats:
@@ -8,15 +9,12 @@ stats:
 
 counters:
   xp: 6/10
-  reputation: 7
+  rep: 7
   heat: 1/10
   wanted-level: 1/4
+  vault: 8/16
 
 finances:
-  vault: 8/16
-  income:
-    - name: V-Sea-W
-      amount: 1
   expenses:
     - payee: The Circle of Flame
       amount: 1
@@ -27,40 +25,39 @@ finances:
 
 upgrades:
   lair:
-    - name: Vault (x2)
-      desc: Your lair has a secure vault, increasing your storage capacity for coin to ~~8~~ 16. A separate part of your vault can be used as a holding cell.
-    - name: Hidden
-      desc: Your lair has a secret location and is disguised to hide it from view. If your lair is discovered, use two downtime activities and pay coin equal to your Tier to relocate it and hide it once again.
-    - name: Workshop
-      desc: Your lair has a workshop appointed with tools for tinkering and alchemy, as well as a small library of books, documents, and maps. You may accomplish long-term projects with these assets without leaving your lair.
+    - vault
+    - vault-upgrade
+    - hidden-lair
+    - lair-workshop
   training:
-    - name: Prowess
-      desc: Crew members earn 2 xp (instead of 1) when they train the Prowess xp track during downtime.
-    - name: Mastery
-
+    - prowess
+    - mastery
   quality:
-  - name: Gear
-    desc: Improves the quality rating of all the PCs Burgalary/Climbing Gear items beyond the quality established by the crew's Tier and fine items.
-
+    - gear
 
 abilities:
   - name: slippery
   - name: synchronized
   - name: veteran
+    vet-name: high-society
     source: hawkers
+    effects:
+      - -1 heat during downtime
+      - +1d to gather info on city elites
     desc: Take -1 heat during downtime and +1d to gather information about the city's elite.
 
 claims:
   - name: informants
     source: "?"
   - name: hagfish-farm
+    is-turf: true
     source: npcs:old-meachum
   - name: infirmary
-    source: "?"
+    source: npcs:giancarlo
+    is-turf: true
+    effects:
+      - additional +2d to healing rolls
   - name: loyal-fence
     source: factions:the-fog-hounds
   - name: gambling-den
     source: six-towers:v-sea-w
-  - name: turf-3-1
-    turf-name: Infirmary upgrade
-    source: npcs:giancarlo

@@ -1,0 +1,9 @@
+- name: cohort-name
+  health: 3/3
+  desc: Cohort description goes here
+  types:
+    - type 1
+  edges:
+    - edge 1
+  flaws:
+    - flaw 1
