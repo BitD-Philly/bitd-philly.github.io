@@ -8,10 +8,10 @@ stats:
   hold: weak
 
 counters:
-  xp: 6/10
-  rep: 7
-  heat: 1/10
-  wanted-level: 1/4
+  xp: 5/10
+  rep: 1
+  heat: 3/10
+  wanted-level: 3/4
   vault: 8/16
 
 finances:
@@ -48,16 +48,16 @@ abilities:
 
 claims:
   - name: informants
-    source: "?"
+    source: shadows
   - name: hagfish-farm
-    is-turf: true
     source: npcs:old-meachum
   - name: infirmary
     source: npcs:giancarlo
-    is-turf: true
     effects:
       - additional +2d to healing rolls
   - name: loyal-fence
     source: factions:the-fog-hounds
-  - name: gambling-den
+  - name: v-sea-w
     source: six-towers:v-sea-w
+    effects:
+      - +2 coin each downtime
