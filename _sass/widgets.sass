@@ -1,0 +1,65 @@
+@import _colors
+    
+/* clock defaults */
+tr.clock 
+    td 
+        width: 0.9em
+        background: $mid-green
+
+    td:first-of-type, td.last
+        width: fit-content
+        background: $charcoal
+        font-variant: small-caps
+
+    td:first-of-type
+        text-align: left
+        padding: 0 1em 0 0
+    
+    td.last
+        text-align: right
+        padding: 0 0 0 1em
+
+    td.filled
+        background: $light-green
+        color: $charcoal!important
+    
+    td.gap
+        background: $charcoal
+        width: 0
+
+    td.fill2
+        background: $ash-grey
+
+div.clock_wrapper
+    background: $charcoal
+    border-radius: 1em
+    width: fit-content
+    padding: 0.2em 1em
+    margin: 1em
+
+div.center
+    margin: 1em auto
+div.right
+    margin-right: 0
+    margin-left: auto
+
+// perks table
+table.perks
+    font-size: 0.9em
+    text-align: left
+    margin: 1em auto
+
+    tr
+        background: $charcoal
+    th
+        padding: 0.5em 1em
+        background: $mid-green
+    td
+        padding: 0.2em 1em
+
+    p 
+        padding: 0 1em 0.2em
+        margin: 0 -1em
+        border-top: 2px solid $dark-slate
+    p:first-of-type
+        border: 0

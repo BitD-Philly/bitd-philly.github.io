@@ -15,30 +15,16 @@ faction:        # factions associated with the character, separated by commas
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
-This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional (suggested!) sections.
-
-You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to.
-
-**Note that valid links are lowercase and spaces must be replaced with dashes (-).**
-
-Examples:
-* [Duskvol](duskvol)
-* The [Seventh Tower Consortium](seventh-tower-consortium)
-
-You can also link to sub-headers on any page by using a # after the `link-text`. For example, linking to Cruncho's backstory would look like this:
-
-`Due to Cruncho's [personal history](cruncho#backstory) with football, he was able to...`
+This is a character wiki page! Write a short summary about the character here at the top of the page. Below are some additional suggested sections.
 
 # Appearance
-Describe your character's appearance here.
+Describe the character's appearance here.
 
 # Background
 Describe the character's background and any known significant life events.
 
-# In Duskvol
-Describe interactions during game events, citing sources as needed. [^my-footnote]
-
-**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
+# Involvement with the Nameless
+Describe interactions during game events, citing sources as needed in the footnotes[^my-footnote].
 
 # Affiliations
 Create lists using asterisks:
@@ -48,5 +34,13 @@ Create lists using asterisks:
 * Ex
 * Mortal Enemy
 
+
+You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to (e.g., `[Duskvol](duskvol)`, `[The Billhooks](the-billhooks)`).
+
+If you are linking to a stub (character, location, faction, etc. without a page), link instead to the place the stub is located on its related landing page (e.g., `[Nat Marseilles](npcs#nat-marseilles)` or `[The Dimmer Sisters](npcs#the-dimmer-sisters)`). You can also use this format to link to subheaders on any wiki page (e.g., `[Scurlock Manor](six-towers#scurlock-manor)`).
+
 # Citations
+**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
+
+[^my-footnote]: A footnote! Format links like this: <http://bitd-philly.github.io/wiki/>
 

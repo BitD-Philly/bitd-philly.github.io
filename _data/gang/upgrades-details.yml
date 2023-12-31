@@ -1,0 +1,92 @@
+lair:
+  - name: vault
+    desc: Your lair has a secure vault, increasing your storage capacity for coin to 8. A separate part of your vault can be used as a holding cell.
+    effects:
+      - store up to 8 coin
+      - use vault as holding cell
+  - name: vault-upgrade
+    desc: Your lair's secure vault has increased your storage capacity for coin to 16.
+    effects:
+      - store up to 16 coin
+  - name: hidden-lair
+    desc: Your lair has a secret location and is disguised to hide it from view. If your lair is discovered, use two downtime activities and pay coin equal to your Tier to relocate it and hide it once again.
+    effects: 
+      - disguised lair location
+  - name: lair-workshop
+    desc: Your lair has a workshop appointed with tools for tinkering and alchemy, as well as a small library of books, documents, and maps. You may accomplish long-term projects with these assets without leaving your lair.
+    effects:
+      - work on long-term projects inside lair
+  - name: carriage-house
+    desc: You have a carriage, two goats to pull it, and a stable.
+    effects:
+      - own a carriage and two small goats
+      - own a stable
+  - name: carriage-house-upgrade
+    desc: You add armor to the carraige and obtain larger, swifter goats. 
+    effects:
+      - armored carriage
+      - better goats
+  - name: boat-house
+    desc: You have a boat, a dock on a waterway, and a small shack to store boating supplies.
+    effects:
+      - own a boat
+      - own a dock and a shack with boating supplies
+  - name: boat-house-upgrade
+    desc: You add armor and more cargo capacity to your boat.
+    effects:
+      - a bigger boat
+      - boat armor
+  - name: quarters
+    desc: Your lair includes living quarters for the crew. Without this upgrade, each PC sleeps elsewhere, and is vulnerable when they do so.
+    effects:
+      - PCs have safe sleeping quarters
+
+training:
+  - name: insight
+    effects: 
+      - +2 xp when training Insight in downtime
+    desc: Crew members earn 2 xp (instead of 1) when they train the Insight xp track during downtime.
+  - name: prowess
+    effects: 
+      - +2 xp when training Prowess in downtime
+    desc: Crew members earn 2 xp (instead of 1) when they train the Prowess xp track during downtime.
+  - name: resolve
+    effects: 
+      - +2 xp when training Resolve in downtime
+    desc: Crew members earn 2 xp (instead of 1) when they train the Resolve xp track during downtime.
+  - name: playbook
+    effects: 
+      - +2 xp when training playbook in downtime
+    desc: Crew members earn 2 xp (instead of 1) when they train the playbook xp track during downtime.
+  - name: mastery
+    effects:
+      - PC action rating limit increased to 4
+    desc: Your crew has access to master level training. You may advance your PCs' action ratings to 4 (until you unlock this upgrade, PC action ratings are capped at 3).
+
+quality:
+  - name: documents
+    desc: Improves the quality rating of all the PCs Documents beyond the quality established by the crew's Tier and fine items.
+    effects:
+      - +1 quality to documents
+  - name: gear
+    desc: Improves the quality rating of all the PCs Burgalary/Climbing Gear beyond the quality established by the crew's Tier and fine items.
+    effects:
+      - +1 quality to burglary & climbing gear
+  - name: arcane-implements
+    desc: Improves the quality rating of all the PCs Arcane Implements beyond the quality established by the crew's Tier and fine items.
+    effects:
+      - +1 quality to arcane implements
+  - name: subterfuge-supplies
+    desc: Improves the quality rating of all the PCs subterfuge supplies beyond the quality established by the crew's Tier and fine items.
+    effects:
+      - +1 quality to subterfuge supplies
+  - name: tool
+    desc: Improves the quality rating of all the PCs Demolitions/Tinkering Tools beyond the quality established by the crew's Tier and fine items.
+    effects:
+      - +1 quality to demolitions & tinkering tools
+  - name: weapon
+    desc: Improves the quality rating of all the PCs weapons beyond the quality established by the crew's Tier and fine items.
+    effects:
+      - +1 quality to weapons
+  
+  

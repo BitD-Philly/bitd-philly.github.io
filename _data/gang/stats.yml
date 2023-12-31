@@ -1,0 +1,63 @@
+name: The Nameless
+type: Shadows
+reputation: Professionals
+lair: 
+
+stats:
+  tier: 2
+  hold: weak
+
+counters:
+  xp: 6/10
+  rep: 7
+  heat: 1/10
+  wanted-level: 1/4
+  vault: 8/16
+
+finances:
+  expenses:
+    - payee: The Circle of Flame
+      amount: 1
+    - payee: The Duskvol Independent
+      amount: 1
+    - payee: The Shmeek's victims
+      amount: 1
+
+upgrades:
+  lair:
+    - vault
+    - vault-upgrade
+    - hidden-lair
+    - lair-workshop
+  training:
+    - prowess
+    - mastery
+  quality:
+    - gear
+
+abilities:
+  - name: slippery
+  - name: synchronized
+  - name: veteran
+    vet-name: high-society
+    source: hawkers
+    effects:
+      - -1 heat during downtime
+      - +1d to gather info on city elites
+    desc: Take -1 heat during downtime and +1d to gather information about the city's elite.
+
+claims:
+  - name: informants
+    source: "?"
+  - name: hagfish-farm
+    is-turf: true
+    source: npcs:old-meachum
+  - name: infirmary
+    source: npcs:giancarlo
+    is-turf: true
+    effects:
+      - additional +2d to healing rolls
+  - name: loyal-fence
+    source: factions:the-fog-hounds
+  - name: gambling-den
+    source: six-towers:v-sea-w

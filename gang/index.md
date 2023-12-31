@@ -2,13 +2,138 @@
 layout: default
 title: Gang
 ---
+<!-- retrieve data from stats file -->
+{% assign gang-stats = site.data.gang.stats.stats %}
+{% assign gang-counters = site.data.gang.stats.counters %}
+{% assign gang-finances = site.data.gang.stats.finances %}
 
-Landing page for the Nameless!
+{% assign gang-claims = site.data.gang.stats.claims %}
+{% assign gang-abilities = site.data.gang.stats.abilities %}
+{% assign gang-upgrades = site.data.gang.stats.upgrades %}
+{% assign upgrade-types = "lair,training,quality" | split: ","%}
 
-![image alt text](image url link)](anchor link)
+<!-- Calculations -->
+{% assign n-turf = site.data.gang.stats.claims | where: "is-turf",true | size %}
 
-Collections to add:
-* [characters](pcs.html)
-* perks
-* assets
-* relationships
+# The Nameless
+
+
+# Status
+
+
+{% include clock.html label="Heat" fill=gang-counters.heat group=5 align="center" %}
+{% include clock.html label="Wanted Level" fill=gang-counters.wanted-level align="center"%}
+
+<!-- XP Counter -->
+{% include clock.html 
+    label="Crew XP" fill=gang-counters.xp 
+    group=5 align="center"%}
+
+# Assets
+<!-- Rep/Turf Counter -->
+{% include clock.html 
+    label="Rep" fill=gang-counters.rep 
+    label2="Turf" fill2=n-turf 
+    max="12" group="6" 
+    align="center" %}
+
+<!-- Vault Counter -->
+{% include clock.html 
+    label="Vault" fill=gang-counters.vault 
+    group=4 align="center" %}
+
+
+<table class="perks">
+<tr>
+<th>Asset</th>
+<th>Type</th>
+<th>Source</th>
+<th>Effect</th>
+</tr>
+
+{% for ability in gang-abilities %}
+
+{% if ability.name == "veteran" %}
+{% assign name = ability.vet-name | replace: "-"," "%}
+{% assign source = ability.source %}
+{% assign effects = ability.effects %}
+{% else %}
+{% assign name = ability.name | replace: "-"," "%}
+{% assign source = "shadows" %}
+{% assign effects = site.data.gang.abilities-details | where: "name",ability.name | map: "effects" | last%}
+{% endif %}
+
+<tr>
+<td>{{name}}</td>
+<td>ability</td>
+<td>{{source}}</td>
+<td>{% for effect in effects %}
+{{effect | markdownify}}
+{%endfor%}
+</td>
+</tr>
+{% endfor %}
+
+{% for claim in gang-claims %}
+
+{% if claim.is-turf %}
+{% assign type = "turf" %}
+{% else %}
+{% assign type = "claim" %}
+{%endif%}
+
+{% if claim.effects %}
+{% assign effects = claim.effects %}
+{% else %}
+{% assign effects = site.data.gang.claims-details.claims | where: "name",claim.name | map: "effects" | last %}
+{% endif%}
+
+{%if claim.source contains ":" %}
+{% assign source-name = claim.source | split: ":" | last | replace: "-"," "%}
+{% assign source-link = "/wiki/"|append: claim.source | replace: ":","#" %}
+{% assign source = "["|append: source-name | append: "](" | append: source-link | append: ")" %}
+{% else %}
+{% assign source = claim.source %}
+{%endif%}
+
+<tr>
+<td>{{claim.name | replace: "-"," "}}</td>
+<td>{{type}}</td>
+<td>{{source |markdownify}}</td>
+<td>
+{% for effect in effects %}
+{{effect | markdownify}}
+{%endfor%}
+</td>
+</tr>
+{%endfor%}
+
+
+{% for type in upgrade-types %}
+{% for item in gang-upgrades[type] %}
+
+{% assign effects = site.data.gang.upgrades-details[type] | where: "name",item | map: "effects" | last %}
+{% if type=="training" %}
+{% assign name = item | replace: "-"," "| append: " training" %}
+{%elsif type=="quality" %}
+{% assign name = "quality "| append: item | replace: "-"," "%}
+{% else %}
+{% assign name = item | replace: "-", " "%}
+{%endif%}
+<tr>
+<td>{{name}}</td>
+<td>upgrade</td>
+<td>{{type}}</td>
+<td>
+{% for effect in effects %}
+{{effect | markdownify}}
+{%endfor%}
+</td>
+
+</tr>
+{%endfor%}
+
+{%endfor%}
+</table>
+
+# Relations

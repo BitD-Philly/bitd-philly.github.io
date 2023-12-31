@@ -1,0 +1,92 @@
+---
+layout: landing
+permalink: /wiki/locations/
+title: Locations
+---
+<h1>Locations</h1>
+
+<h2> Duskvol Districts</h2>
+
+
+{% for district in site.data.world.locations.duskvol[0].districts %}
+
+<div style="clear:both;"> </div>
+<h3 id="{{district.w-id}}">{{district.name}}</h3>
+{% if district.game-data %}
+<table class="district">
+    <tr>
+        <th colspan=5 class="title">Game Stats</th>
+    </tr>
+
+
+    {% for stats in district.game-data.stats %}
+    <tr class="game-stats">
+        <td>
+        {{stats[0] | replace: "-"," "}}
+        </td>
+        {% unless stats[1] == 0 %}
+            {% for i in (1..stats[1]) %}<td class="bg"></td>{%endfor%}
+        {% endunless %}
+        {% assign j = stats[1] | plus: 1 %} 
+        {% for i in  (j..4)%}<td></td>{%endfor%}
+    
+    </tr>
+    {% endfor %}
+    {% if district.game-data.effects %}
+    
+        {% for effect in district.game-data.effects %}
+        <tr><td colspan="5" class="info">    {{effect.effect | markdownify }}</td></tr>
+        {% endfor %}
+    
+    {% endif %}
+
+
+</table>
+{% endif %}
+
+{% if district.collection %}
+    <p style="margin: auto 1em;font-style:italic;">See <a href="/wiki/{{district.w-id}}">{{district.name}}</a></p>
+    {{ site[district.collection] | where: "w-id", district.w-id | map: "excerpt" | first }}
+{% else %}
+<p style="margin-left: 1em;">{{district.excerpt}}</p>
+{% endif %}
+{% endfor %}
+
+
+<div style="clear:both;"></div>
+
+<style>
+
+tr.game-stats td {
+    width: 0.9em;
+}
+tr.game-stats td:first-of-type {
+    font-size: 0.9em;
+    width:10em;
+}
+tr.game-stats td.bg {
+    background: #ccc;
+}
+
+table.district th {
+    text-transform: uppercase;
+    line-height: 2em;
+    padding: 0 1em;
+}
+
+td.info p {
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0.5em 1em;
+}
+
+table.district {
+    margin: 0 1em 1em 2em;
+    float:right;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+</style>
