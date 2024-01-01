@@ -32,7 +32,12 @@ Sizzle grew up an orphan in the Deathlands settlements near the Imperial City.
 
 ## Time With the Nameless
 
-Sizzle came to Duskvol searching for her [father](npcs#joseph-woodward), falling in with the Nameless shortly before the war with the Seventh Tower Consortium began. 
+Sizzle came to Duskvol searching for her [father](npcs#joseph-woodward), falling in with the Nameless shortly before the war with the Seventh Tower Consortium began.
+
+Her first job with the Nameless was ensuring the smooth opening of [Deckherd Hall](six-towers#deckherd-hall) at the behest of [Captain Clelland](npcs#morgan-clelland). Investigation revealed the primary threat to be an attack by [Lugos](npcs#lugos), which was subsequently averted via an infiltration of [Claddadge Manor](brightstone#claddage-manor) that ended with the beheading of Lugos and the destruction of what remained of [Cassiopeia Beasby](npcs#cassiopeia-beasby). Sizzle agreed to owe [Casta](npcs#casta) a favor in exchange for keeping Lugos's head in the possession of the Nameless.
+
+Upon learning that the newly opened Deckherd Hall was to feature [Chef François](npcs#francois), his rival [Giancarlo](npcs#giancarlo) asked the Nameless to intervene. In order to discredit and humiliate François, the Nameless, led by [Sandro](sandro) and [Flan](flan), presided over a takeover of the restaurant by the wrestlers of V-Sea-W with the intent of staging a widespread incident of food poisoning. Sizzle helped [Cruncho](cruncho) distract [Bea](npcs#bea), François's sous chef, while [Linmer](linmer) confronted François. The discovery and subsequent destruction of François's haunted meat grinder (not a euphemism) and an explosion of hagfish slime ultimately resulted in the deaths of François and Bea, with Bea's ghost posessing François' corpse.
+
 
 # Relationship
 
