@@ -74,3 +74,7 @@
 - name: The Clockmaker
   id: the-clockmaker
   collection: player_characters
+
+- name: Puerto Rico Strauss
+  id: puerto-rico-strauss
+  excerpt: Enigmatic and strangely charismatic restauranteur with a string of failures and several low-end goons to his name.
