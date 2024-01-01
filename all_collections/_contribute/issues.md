@@ -13,8 +13,6 @@ One of the easiest ways to contribute to the website & wiki is through Github's 
 
 If you're new to editing the wiki, this can be a great place to start contributing requested content. Just filter the issues by the "good first issue" label, or click [here](https://github.com/BitD-Philly/bitd-philly.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
-
-
 ## What's an issue?
 
 Generally, the Issues feature should be used for medium-sized content tasks, and for reporting any usability problems with the site. Issues should also be well-scoped and have very clear "done" condition. 
@@ -94,9 +92,29 @@ Congratulations! Your update will be included the next time the `content` branch
 
 
 # Resources
-## Templates
+## Issue Templates
 
 Here are some templates you can use to create issues for common occurrences, such as missing content and/or data, along with links to examples of each.
+
+### Add Player Character page
+
+**Title:** `Add [character name] to player characters`   
+**Labels:** add wiki page
+**Description:**
+{% highlight markdown %}
+# Task: Add [character] to player characters
+
+Create a wiki page for [character name] with playbook [playbook] in the `_player_character` page collection.
+
+```
+full-name: Character Name
+playbook: character playbook
+player: Player first name
+desc: 1-2 sentence description of character
+```
+{%endhighlight%}
+
+***Examples:*** [here](https://github.com/BitD-Philly/bitd-philly.github.io/issues/38)
 
 ### Add content to existing page
 
