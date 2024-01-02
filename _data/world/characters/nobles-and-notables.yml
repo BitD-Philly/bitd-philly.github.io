@@ -1,53 +1,53 @@
 - name: Lady Pendryn
-  id: lady-pendryn
+  w-id: lady-pendryn
   excerpt: Major name in the Circle of Flame. Friendly with Arcade, and the Nameless by extension. Antiquities researcher in her spare time.
 
 - name: Lord Pendryn
-  id: lord-pendryn
+  w-id: lord-pendryn
   excerpt: Drama king. Patron of academia. Member of the secretive Cult of Vazara. Healthy/unhealthy marriage (YOU DON'T KNOW).
 
 - name: Valerie Pendryn
-  id: valerie-pendryn
+  w-id: valerie-pendryn
   excerpt: Ambitious antiquities grad student. Former mentee of Carver Malleus, current mentee of Ykaterina Volkova.
 
 - name: Jeremy Pendryn
-  id: jeremy-pendryn
+  w-id: jeremy-pendryn
   alias: The Schmeek
   excerpt: The fuckin' Shmeek. Will eat, drink, take, or fight anything for one silver and the fleeting respect of his peers. Sports entertainment phenom (even if diehard fans are starting to boo).
 
 - name: Lord Strangford
-  id: lord-strangford
+  w-id: lord-strangford
   excerpt: Eminent noble and ruthless Leviathan Hunter captain. Killed by Casta and the Nameless, puppeted around by Lord Strangford for months. Very dead.
 
 - name: Claire Strangford
-  id: claire-strangford
+  w-id: claire-strangford
   excerpt: Daughter to Lord Strangford. Had a terrifying experience at Makeout Mine. Might be . . . changed by what she's gone through. A symbol of fear for cowardly and superstitious criminals.
   alias: The Spider
 
 - name: Lord Clelland
-  id: lord-clelland
+  w-id: lord-clelland
   excerpt: Paranoid and stimulant-addicted blue-blood to the bone. Abrupt. Has shat himself publicly on multiple occasions. Doesn't care what you think.
 
 - name: Lady Claddage
-  id: lady-claddage
+  w-id: lady-claddage
   excerpt: Minor noblewoman, now vanished. Possibly a traitor to the Empire? Ambiguous.
 
 - name: Lord Claddage
-  id: lord-claddage
+  w-id: lord-claddage
   excerpt: Minor nobleman, private banker, definite traitor to the Empire. In custody, awaiting trial.
 
 - name: Lady Bowmore 
-  id: lady-bowmmore
+  w-id: lady-bowmmore
   excerpt: Grande Damme of Duskvolian society. Unflappable. A great respecter of lineage. Dead by trampling.
 
 - name: Stuart Bowmore
-  id: stuart-bowmore
+  w-id: stuart-bowmore
   excerpt: Son of the lady Bowmore. Abruptly thrust into the co-managment of the Bowmore clan.
 
 - name: Anastasia Bowmore
-  id: anastasia-bowmore
+  w-id: anastasia-bowmore
   excerpt: Daughter of the lady Bowmore. Co-head of the family with Stuart.
 
 - name: Cole A
-  id: cole-a
+  w-id: cole-a
   excerpt: Brother to Valanthe. Jeremy's cool friend. MIA.

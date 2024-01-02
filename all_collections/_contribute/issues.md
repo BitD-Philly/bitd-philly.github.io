@@ -49,7 +49,7 @@ Some examples of bad issues are:
 2. Click "New Issue". You should see the following screen.    
 ![Image indicating the locations to add a title, description, labels to the issue, and the location ofthe submit button.]({{page.img_root}}/issues/submit-issue-screen.png) <br /><br />
 3. Add a title (1) and description (2).    
-***Note:*** Use [templates](#templates) when possible. When an appropriate template is not available, include as much context as possible in the title and description, and take advantage of Markdown formatting to make the request easy to read & understand.
+***Note:*** Use [templates](#issue-templates) when possible. When an appropriate template is not available, include as much context as possible in the title and description, and take advantage of Markdown formatting to make the request easy to read & understand.
 4. Assign labels using the right-side panel (3).
 5. Click "Submit New Issue" (4).   
  
@@ -67,18 +67,18 @@ The <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/li
 ![Image indicating the locations of the new issue branch.]({{page.img_root}}/issues/issue-branch-location.png)  
 Click on that link. It will take you to the new branch, which is basically a copy of the site you can edit freely without messing up the current site.
 6. Find and edit the files you need to change. The exact process and files depend on which issue you are resolving; for more details on how to find and change files, refer to the relevant documentation. Some common ones are:
-* Editing Existing Wiki Pages (Beginner)
+* [Editing Existing Wiki Pages](quickstart) (Beginner)
 * Adding Wiki Pages (Intermediate) --- coming soon!
 * Adding Page Stubs and Site Data (Intermediate) -- coming soon!
 * Layout changes and site generation (Advanced) -- coming soon!
 
-7. [Commit your changes](tutorial-link) to the issue branch as you edit the files. You (and other contributors!) can also add comments to the issue page to ask questions, provide clarification, or debate the merits of certain edits.
+7. [Commit your changes](quickstart#save-changes) to the issue branch as you edit the files. You (and other contributors!) can also add comments to the issue page to ask questions, provide clarification, or debate the merits of certain edits.
 
 ## Close an Issue
 
 After all changes needed to resolve the issue are commited, the next step is to update the site content with the new changes. Here's how that works.
 
-1. Create a [pull request](tutorial-link) to merge your issue branch into the `content` branch. On the pull request page, make sure the `content` branch is on the left, and the issue branch is on the right!
+1. Create a [pull request](quickstart#submit-pull-request) to merge your issue branch into the `content` branch. On the pull request page, make sure the `content` branch is on the left, and the issue branch is on the right!
 ![Image showing the pull request screen for merging the issue branch into the content branch. The branch dropdowns are highlighted, with the content branch on the left and the issue branch on the right.]({{page.img_root}}/issues/merge-issue-branch.png)
 9. Click **Create pull request**.
 10. Click **Merge pull request** on the next page, then **Confirm merge**. This will update the `content` branch with the new changes.
@@ -99,7 +99,7 @@ Here are some templates you can use to create issues for common occurrences, suc
 ### Add Player Character page
 
 **Title:** `Add [character name] to player characters`   
-**Labels:** add wiki page
+**Labels:** add wiki page   
 **Description:**
 {% highlight markdown %}
 # Task: Add [character] to player characters
@@ -157,7 +157,7 @@ Data:
 ### Expand stub to wiki page
 
 **Title:** `Expand [item] stub to wiki page`   
-**Labels:** add wiki page
+**Labels:** add wiki page   
 **Description:**
 {% highlight markdown %}
 # Task: Add wiki page for [item]

@@ -15,12 +15,14 @@ For new contributors, it's best to start with editing your character's page! If 
 
 # Access the Files
 
-Ask Parker or Vinnie for an invite to the BitD-Philly GitHub organization. You will receive an email with an invite link to the BitD-Philly repository. This is a prerequisite for being able to edit files!
+1. Sign up for an account on <http://github.com/>.
+2. DM Vinnie (@lanfect on Discord) or reply to the [#Let's Build A Wiki Thread](https://discord.com/channels/1022641517170540574/1023043651925979246/1185264034472267898) with your github username or email address.
+3. Vinnie will add you to the BitD organization <https://github.com/organizations/BitD-Philly/>, which will give you permissions to edit and upload files.
 
-The files used to build the website are located in the Github repository here: [http://github.com/bitd-philly/bitd-philly.github.io](http://github.com/bitd-philly/bitd-philly.github.io).
+The files used to build the website are located in the Github repository here: <http://github.com/bitd-philly/bitd-philly.github.io>. You can view and download them without being a member of the organization, but you cannot contribute content to them until you are.
    
 # Edit an existing page
-1. Navigate to the [bitd-philly.github.io](http://github.com/bitd-philly/bitd-philly.github.io) repository in the BitD-Philly Github Organization.
+1. Navigate to the [bitd-philly.github.io repository](http://github.com/bitd-philly/bitd-philly.github.io)  in the BitD-Philly Github Organization.
 2. Switch to the `content` branch.
    ![]({{page.img_root}}quickstart/select-content-branch.png)
 3. Click the `all_collections` folder. This folder will contain all the wiki pages that are sorted into various collections. The collections that contain wiki content are `_player_characters`, `_npcs`, `_factions`, and `_locations`. (More may be added later!)
@@ -59,7 +61,7 @@ Note that these changes will not reflect in the website immediately. You can thi
    * "compare: content" in the right dropdown
    * "Able to merge." with a check mark.
 4. Add a title and click "Create Pull Request".
-   ![]({{page.img_root}}quickstart/start-pr.png)
+   ![]({{page.img_root}}quickstart/pr-page.png)
 5. You should see a page that looks like this:
    ![]({{page.img_root}}quickstart/saved-pr-page.png)
 6. Wait for your edits to be approved by another contributor to the BitD wiki.

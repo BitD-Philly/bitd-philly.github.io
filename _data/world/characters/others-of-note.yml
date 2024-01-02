@@ -1,39 +1,39 @@
 - name: Giancarlo
-  id: giancarlo
+  w-id: giancarlo
   excerpt: Chef extraordinaire. Backup medic for the Nameless. A master of his craft, but understands the limits of cuisine.
 
 - name: François
-  id: francois
+  w-id: francois
   excerpt: Chef extraordinaire. Rival to Giancarlo, murderer of Giancarlo's master and destroyer of their school. Sought eldritch perfection in cuisine. Ruined, currently trapped in Cruncho.
 
 - name: Bea
-  id: bea
+  w-id: bea
   excerpt: Former sous-chef to François. Wielder of an enormous claymore. Formerly a vampire in François' body, now trapped in Cruncho.
 
 - name: Studebaker Spud
-  id: studebaker-spud
+  w-id: studebaker-spud
   excerpt: Impresario, entrepreneur, idiot. Catspaw for the Seventh Tower Consortium.
 
 - name: Dr. Carver Wrackham Malleus, PhD, IFD
-  id: carver-malleus
+  w-id: carver-malleus
   excerpt: Former chair of Antiquities and Social Sciences at Charterhall U. Asshole. Deposed, and currently stuck with a haunted penis (the Babadick).
 
 - name: Slane Karlstadt
-  id: slane-karlstadt
+  w-id: slane-karlstadt
   excerpt: Supernaturally-bastardly foreman, frequent abuser of his workers. Partially empowered by Old Wickhamm/Young Hamwick. Now quite dead.
 
 - name: Vinculus Swing
-  id: vinculus-swing
+  w-id: vinculus-swing
   excerpt: Charterhall University President. Member of the Cult of Vazara. An old man longing for excitement.
 
 - name: Marlene
-  id: marline
+  w-id: marline
   excerpt: Enthusiastic pugilist. Speaks only the language of the punch.
 
 - name: Reek
-  id: reek
+  w-id: reek
   excerpt: Purveyor of drugged seasoning mixes. Frantic, at his wit's end. Runs on his own product. 
 
 - name: Quellin
-  id: quellin
+  w-id: quellin
   excerpt: A witch with a focus on rituals and folk physicking, now a devoted priestess of Vazara.

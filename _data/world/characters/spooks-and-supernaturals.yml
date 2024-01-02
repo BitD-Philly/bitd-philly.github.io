@@ -1,64 +1,64 @@
 - name: The Immortal Emperor
-  id: the-immortal-emperor
+  w-id: the-immortal-emperor
   excerpt: Formerly known as "The Cinder King". All-powerful. Bored. Beginning to notice Duskwall after the death of Breaker.
 
 - name: Setarra
-  id: setarra
+  w-id: setarra
   alias: Breaker
   excerpt: Centuries-old storm demon gone to seed with a journalistic fetish. Extremely dead.
 
 - name: Render
-  id: render
+  w-id: render
   excerpt: Centuries-old demon. Eleven feet tall armored juggernaut. Coming to Duskwall.
 
 - name: Lord Scurlock
-  id: lord-scurlock
+  w-id: lord-scurlock
   collection: npcs
 
 - name: Lugos
-  id: lugos
+  w-id: lugos
   excerpt: Remorseless clockwork robotic assassin. Massacre fetishist. Decapitated currently.
 
 - name: Casta
-  id: casta
+  w-id: casta
   excerpt: Bounty hunter with a shady past. Currently missing. ~~Girlfriend~~ It's complicated with Ykaterina Volkova. Rival to Sizzle.
 
 - name: Sam
-  id: sam
+  w-id: sam
   excerpt: Casta's mom. A Black Knight. Quite old.
 
 - name: Mikh
-  id: mikh
+  w-id: mikh
   excerpt: Casta's dad. A Black Knight. Quite old.
 
 - name: Elia Wickham
-  id: elia-wickham
+  w-id: elia-wickham
   collection: npcs
 
 - name: The Horned One
-  id: the-horned-one
+  w-id: the-horned-one
   excerpt: Shapeshifting mega-spirit. Partially trapped in a box, partially possessing a body. Has a plan.
 
 - name: The Deadlands Fiddler
-  id: the-deadlands-fiddler
+  w-id: the-deadlands-fiddler
   excerpt: Seven-foot-tall fiddler ghost. Vibes.
 
 - name: Bhed the Wolf
-  id: bhed-the-wolf
+  w-id: bhed-the-wolf
   excerpt: 11-foot-tall anthropomorphic wolf ghost. Vicious. Free. Guest of the Dimmer Sisters.
 
 - name: Doctor Heinrich the Crow
-  id: doctor-heinrich
+  w-id: doctor-heinrich
   excerpt: Embodiment of an amorphously-formed plague doctor. Quite nice, fond of cats.
 
 - name: Doctor Friedrich the Crow
-  id: doctor-friedrich
+  w-id: doctor-friedrich
   excerpt: Amorphous plague doctor. Devoted to the Immortal Emperor and vivisection. On a boat!
 
 - name: Doctor Sven the Crow
-  id: doctor-sven
+  w-id: doctor-sven
   excerpt: Amorphous plague doctor. New owner of one of [Flan](/wiki/flan/)'s kidneys.
 
 - name: Joseph Woodward
-  id: joseph-woodward
+  w-id: joseph-woodward
   excerpt: A man in a hat. Real estate agent for the Seventh Tower Consortium. Father to Sizzle. Synergizes across all metrics. 

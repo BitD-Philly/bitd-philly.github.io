@@ -8,15 +8,14 @@ faction-type:   underworld
 last_updated: 17 Dec 2023
 
 #optional
-alias:
-prefers-alias: 
 pronouns:       He/Him
 status:         missing/presumed dead 
 affiliations:   Remnants of the Calamity, 
-excerpt:        A dangerous vampire with powerful connections. Ancient and immutable.
-picture:        # contact site admin (Parker or Vinnie) to set up a picture.
+desc:           A dangerous vampire with powerful connections. Ancient and immutable.
 
 ---
+
+A dangerous vampire with powerful connections. Ancient and immutable.
 
 # Appearance
 Scurlock was a dark, handsome man of noble descent. 

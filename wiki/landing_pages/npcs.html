@@ -2,20 +2,22 @@
 permalink: /wiki/npcs/
 layout: landing
 ---
+<h1>NPCs</h1>
+
 {% for character-class in site.data.world.characters._index %}
     {% assign character_group = site.data.world.characters[character-class] | sort: "name" %}
 
     <h1>{{character-class | replace: "-"," "}}</h1>
     
     {% for npc in character_group %}
-        <a name="{{npc.id}}"></a>
+        <a name="{{npc.w-id}}"></a>
         <h2>{{npc.name}}</h2>
             {% if npc.collection %}
                 <p>
-                    <i>See</i> <a href="/wiki/{{npc.id}}">{{npc.name}}</a>
+                    <i>See</i> <a href="/wiki/{{npc.w-id}}">{{npc.name}}</a>
                 </p>
                 <p>
-                    {{ site[npc.collection] | where: "w-id", npc.id | map: "excerpt" | last | markdownify }}
+                    {{ site[npc.collection] | where: "w-id", npc.w-id | map: "excerpt" | last | markdownify }}
                 </p>
             {% else %}
                 {{npc.excerpt | markdownify }}
