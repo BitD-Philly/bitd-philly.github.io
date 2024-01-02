@@ -5,7 +5,7 @@
 - name: Wiki
   link: /wiki/
   sublinks:
-    - page: Wiki Home
+    - page: Home
       link: /wiki/
     - page: PCs
       link: /wiki/player_characters/
@@ -15,6 +15,8 @@
       link: /wiki/factions/
     - page: Locations
       link: /wiki/locations/
+    - page: Contribute
+      link: /wiki/contribute/
   link: /wiki/
 - name: System
   link: /system.html

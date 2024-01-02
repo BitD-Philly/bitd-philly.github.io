@@ -3,47 +3,52 @@
 // TOP NAVIGATION 
 #navlist 
     display: block
-    height: 2em
-    margin: 0 0 20px 0
+    line-height: 2em
+    margin-top: 0
+    padding-left: 3em
     text-align: left
+    line-height: 2em
     position: relative
     background: $mid-green
     
     li 
         margin: 0
-        display: inline-flex
-        list-style-type: square
-        line-height: 2em
+        display: inline-block
+        list-style-type: none
+        height: 2em
     
-        a 
-            // padding: 5px 1em
+        a
             padding: 0 1em
             color: $ash-grey
-            background: $mid-green
             font-weight: bold
             letter-spacing: 3px
+            line-height: 2em
     
-        a:hover 
-            color: $charcoal
-            background: $light-green
-            text-decoration: none
+    li:hover, li:hover a
+        color: $charcoal
+        background: $light-green
+        text-decoration: none
+
     li:hover ul.dropdown
-        display: block
+        display: block!important
 
 ul.dropdown
     z-index: 2
     display: none
     position: absolute
     top: 2em
-    left: 1em
     background: $light-green
     border: 2px solid $light-green
+    list-style: inside
+    margin-left: 0
     padding: 0
-
+    li
+        display: block!important
+        background: $light-green!important
     li a
         display: block
         color: $charcoal!important
-        background: $light-green!important
+        letter-spacing: normal
 
     li a:hover
         background: $ash-grey!important
