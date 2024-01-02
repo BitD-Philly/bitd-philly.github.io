@@ -49,10 +49,11 @@ Note that these changes will not reflect in the website immediately. You can thi
 ## Submit Pull Request 
 
 1. When you see this banner when on the `content` branch, it means there are outstanding changes that can be published.
-2. Click "Contribute > Open Pull Request".
    ![]({{page.img_root}}quickstart/pr-banner.png)
+2. Click "Contribute > Open Pull Request".
+   ![]({{page.img_root}}quickstart/start-pr.png)
 3. Ensure the top bar looks like this:
-   ![]({{page.img_root}}quickstart/compare-banner.png)
+   ![]({{page.img_root}}quickstart/compare-banner.png)     
    Specifically, it should read:
    * "base: gh-pages" in the left dropdown
    * "compare: content" in the right dropdown
