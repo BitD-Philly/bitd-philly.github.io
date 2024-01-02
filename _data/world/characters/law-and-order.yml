@@ -1,20 +1,20 @@
 - name: Morgan Clelland
-  id: morgan-clelland
+  w-id: morgan-clelland
   excerpt: Son of the current Lord Clelland. Has the family stimulant problem. Police captain, has greater ambitions. Currently on the take.
   faction: bluecoats
 
 - name: Cassiopeia Beasby
-  id: cassiopeia-beasby
+  w-id: cassiopeia-beasby
   excerpt: Former undercover Spirit Warden, outed by the Nameless. Turned vampiric ally to Lugos. Now definitively dead.
 
 - name: Nat Marseilles
-  id: nat-marseilles
+  w-id: nat-marseilles
   excerpt: Inspector from the Capital. Phenomenal deductive powers. Canonically based on Natasha Lyonne. Jammer's ex.
 
 - name: Chuck Morgenstern
-  id: chuck-morgenstern
+  w-id: chuck-morgenstern
   excerpt: Inspector from the Capital. Extremely loose canon (results guaranteed). Canonically based on Charlie Day. Also Jammer's ex.
 
 - name: The Spider
-  id: claire-strangford
+  w-id: claire-strangford
   excerpt: Masked vigilante alias of Claire Strangford. Allied with the Clockmaker, Bea, and possibly others. Enhanced. Not wearing hockey pads.

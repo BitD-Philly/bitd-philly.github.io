@@ -7,13 +7,10 @@ char-type: spooks-and-supernaturals
 last_updated: 17 Dec 2023
 
 #optional
-pronouns: Any?
 alias:          Old Wickham, Young Hamwick
-prefers-alias:  # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
 pronouns:       any
 status:         active
-excerpt:        A pre-calamity ghost of a shadow witch, who has become "contagious" to those who interact with her spirit essence. Middling comedic actor.
-picture:        # contact site admin (Parker or Vinnie) to set up a picture.
+desc:        A pre-calamity ghost of a shadow witch, who has become "contagious" to those who interact with her spirit essence. Middling comedic actor.
 ---
 
 # Appearance
