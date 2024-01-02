@@ -11,8 +11,8 @@ pronouns:       he/him # preferred pronouns
 alias:          # primary alias
 prefers-alias:  # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
 status:         # suggestions: active | missing | presumed dead | incarcerated | dead
-excerpt:        Violence enthusiast. Pit fighting Severosi. Really, can't stress enough the enthusiasm for violence. # 1-2 sentences about the character
-picture:        Spud.jpg # contact site admin (Parker or Vinnie) to update or change photo
+desc:        Violence enthusiast. Pit fighting Severosi. Really, can't stress enough the enthusiasm for violence. # 1-2 sentences about the character
+picture:        Spud.jpg 
 ---
 
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.

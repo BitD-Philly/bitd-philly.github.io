@@ -10,7 +10,7 @@ last_updated: 28 Dec 2023
 pronouns: he/him
 alias: Viktor Godwin
 status: presumed dead
-excerpt: University professor obsessed with invention and innovation. Briefly replaced by the Clockmaker. Mechanincal genius. Considered dead. Alter ego, also considered dead. 
+desc: University professor obsessed with invention and innovation. Briefly replaced by the Clockmaker. Mechanincal genius. Considered dead. Alter ego, also considered dead. 
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 

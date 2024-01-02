@@ -11,7 +11,7 @@ pronouns:       he/they # preferred pronouns
 alias:          The Blighter # primary alias
 prefers-alias:  # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
 status:         # suggestions: active | missing | presumed dead | incarcerated | dead
-excerpt:        Ambitious casino dealer and vice purveyor to the people of Duskvol. # 1-2 sentences about the character
+desc:        Ambitious casino dealer and vice purveyor to the people of Duskvol. # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 

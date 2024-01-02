@@ -18,3 +18,4 @@ Here are some quick links to help you get started:
 
 * [Intro to Stubs and Pages](data-basics)
 * [NPC Metadata Reference](npc-data)
+* [PC Metadata Reference](pc-data)

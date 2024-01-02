@@ -11,7 +11,7 @@ alias: "Slippery Wicket"
 prefers-alias:
 pronouns: he/him/his
 status:  Living
-excerpt: "Experimental Alchemist. Orphan and former sailor/stowaway. Old man."
+desc: "Experimental Alchemist. Orphan and former sailor/stowaway. Old man."
 picture:
 ---
 

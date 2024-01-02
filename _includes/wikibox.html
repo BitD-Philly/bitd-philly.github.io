@@ -25,8 +25,8 @@
 
   {% assign box-data = box-data | append: ",," | append: "player::" | append: page.player %}
 
-  {% if page.excerpt %}
-    {% assign box-data = box-data | append: ",," | append: "_excerpt::" | append: page.excerpt %}
+  {% if page.desc %}
+    {% assign box-data = box-data | append: ",," | append: "_desc::" | append: page.desc | markdownify %}
   {% endif %}
 
 {% elsif page.collection == "npcs" %}
@@ -66,8 +66,8 @@
     {% endfor %}
   {% endif %}
 
-  {% if page.excerpt %}
-    {% assign box-data = box-data | append: ",," | append: "_excerpt::" | append: page.excerpt %}
+  {% if page.desc %}
+    {% assign box-data = box-data | append: ",," | append: "_desc::" | append: page.desc | markdownify %}
   {% endif %}
 {% elsif page.collection == "factions" %}
   {% assign faction-data = site.data.world.factions[page.faction-type] | where: "id", page.w-id | first %}
