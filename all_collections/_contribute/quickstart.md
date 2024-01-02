@@ -19,10 +19,10 @@ For new contributors, it's best to start with editing your character's page! If 
 2. DM Vinnie (@lanfect on Discord) or reply to the [#Let's Build A Wiki Thread](https://discord.com/channels/1022641517170540574/1023043651925979246/1185264034472267898) with your github username or email address.
 3. Vinnie will add you to the BitD organization <https://github.com/organizations/BitD-Philly/>, which will give you permissions to edit and upload files.
 
-The files used to build the website are located in the Github repository here: [http://github.com/bitd-philly/bitd-philly.github.io](http://github.com/bitd-philly/bitd-philly.github.io). You can view and download them without being a member of the organization, but you cannot contribute content to them until you are.
+The files used to build the website are located in the Github repository here: <http://github.com/bitd-philly/bitd-philly.github.io>. You can view and download them without being a member of the organization, but you cannot contribute content to them until you are.
    
 # Edit an existing page
-1. Navigate to the [bitd-philly.github.io](http://github.com/bitd-philly/bitd-philly.github.io) repository in the BitD-Philly Github Organization.
+1. Navigate to the [bitd-philly.github.io repository](http://github.com/bitd-philly/bitd-philly.github.io)  in the BitD-Philly Github Organization.
 2. Switch to the `content` branch.
    ![]({{page.img_root}}quickstart/select-content-branch.png)
 3. Click the `all_collections` folder. This folder will contain all the wiki pages that are sorted into various collections. The collections that contain wiki content are `_player_characters`, `_npcs`, `_factions`, and `_locations`. (More may be added later!)

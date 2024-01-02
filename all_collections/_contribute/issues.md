@@ -72,13 +72,13 @@ Click on that link. It will take you to the new branch, which is basically a cop
 * Adding Page Stubs and Site Data (Intermediate) -- coming soon!
 * Layout changes and site generation (Advanced) -- coming soon!
 
-7. [Commit your changes](tutorial-link) to the issue branch as you edit the files. You (and other contributors!) can also add comments to the issue page to ask questions, provide clarification, or debate the merits of certain edits.
+7. [Commit your changes](quickstart#save-changes) to the issue branch as you edit the files. You (and other contributors!) can also add comments to the issue page to ask questions, provide clarification, or debate the merits of certain edits.
 
 ## Close an Issue
 
 After all changes needed to resolve the issue are commited, the next step is to update the site content with the new changes. Here's how that works.
 
-1. Create a [pull request](tutorial-link) to merge your issue branch into the `content` branch. On the pull request page, make sure the `content` branch is on the left, and the issue branch is on the right!
+1. Create a [pull request](quickstart#submit-pull-request) to merge your issue branch into the `content` branch. On the pull request page, make sure the `content` branch is on the left, and the issue branch is on the right!
 ![Image showing the pull request screen for merging the issue branch into the content branch. The branch dropdowns are highlighted, with the content branch on the left and the issue branch on the right.]({{page.img_root}}/issues/merge-issue-branch.png)
 9. Click **Create pull request**.
 10. Click **Merge pull request** on the next page, then **Confirm merge**. This will update the `content` branch with the new changes.
