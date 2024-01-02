@@ -9,7 +9,7 @@ layout: default
 {% endif %}
 
 <h1>{{preferred-name}}</h1>
-<p class="last_update">Last updated on {{page.last_updated | date: "%B %d, %Y"}}.</p>
+
 
 {% if page.faction-type %}
     {% include war_check.html %}
@@ -20,3 +20,5 @@ layout: default
 {% endif %}
 
 {{content}}
+
+<p class="last_update" style="text-align: right">Last updated {{page.last_updated | date: "%B %d, %Y"}}.</p>
