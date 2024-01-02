@@ -15,9 +15,9 @@ For new contributors, it's best to start with editing your character's page! If 
 
 # Access the Files
 
-1. Sign up for an account on http://github.com/.
+1. Sign up for an account on <http://github.com/>.
 2. DM Vinnie (@lanfect on Discord) or reply to the [#Let's Build A Wiki Thread](https://discord.com/channels/1022641517170540574/1023043651925979246/1185264034472267898) with your github username or email address.
-3. Vinnie will add you to the BitD organization (https://github.com/organizations/BitD-Philly/), which will give you permissions to edit and upload files.
+3. Vinnie will add you to the BitD organization <https://github.com/organizations/BitD-Philly/>, which will give you permissions to edit and upload files.
 
 The files used to build the website are located in the Github repository here: [http://github.com/bitd-philly/bitd-philly.github.io](http://github.com/bitd-philly/bitd-philly.github.io). You can view and download them without being a member of the organization, but you cannot contribute content to them until you are.
    
