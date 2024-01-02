@@ -11,7 +11,7 @@ pronouns:       # preferred pronouns
 alias:          # primary alias
 prefers-alias:  # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
 status:         # suggestions: active | missing | presumed dead | incarcerated | dead
-excerpt:        # 1-2 sentences about the character
+desc:           # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
@@ -19,7 +19,7 @@ This is a character wiki page! Write a short summary about your character here a
 
 You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to.
 
-**Note that valid links lowercase and spaces must be replaced with dashes (-).**
+**Note that valid links are lowercase and spaces must be replaced with dashes (-).**
 
 Examples:
 * [Duskvol](duskvol)

@@ -12,7 +12,7 @@ alias: Affect
 prefers-alias: 
 pronouns: She/They
 status: Presumed dead
-excerpt: A former steelworker who developed a fascination with the ghost field after witnessing vampires massacre her union mates. Now a manifestation of Vazara.
+desc: A former steelworker who developed a fascination with the ghost field after witnessing vampires massacre her union mates. Now a manifestation of Vazara.
 picture: Orianna.png
 ---
 

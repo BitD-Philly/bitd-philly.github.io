@@ -11,7 +11,7 @@ last_updated: 14 December 2023
 alias: 
 pronouns: 
 status: 
-excerpt: A nefarious clockwork clone of Arkin Wollstonecraft. Deviating new and terrible methods of science to create clockwork weapons and servants, for aims unknown. # 1-2 sentences about the character
+desc: A nefarious clockwork clone of Arkin Wollstonecraft. Deviating new and terrible methods of science to create clockwork weapons and servants, for aims unknown. # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 

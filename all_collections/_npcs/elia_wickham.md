@@ -13,6 +13,8 @@ status:         active
 desc:        A pre-calamity ghost of a shadow witch, who has become "contagious" to those who interact with her spirit essence. Middling comedic actor.
 ---
 
+A pre-calamity ghost of a shadow witch, who has become "contagious" to those who interact with her spirit essence. Middling comedic actor.
+
 # Appearance
 Elia primarily appears to the group in the form of Old Wickham, a hunched, collossal woman with sharp teeth who dresses in large furs, or as Young Wickham, a plucky yet sinister street lad. She is able to change the appearance of her spirit form quite easily, and writes pieces of herself into those she interacts with. Currently, a fraction of her being is etched into the essence of [Orianna](affect), [Cruncho](cruncho), and possibly [Linmer](linmer).
 

@@ -11,7 +11,7 @@ alias: Cruncho
 prefers-alias: true
 pronouns: he/him
 status: active
-excerpt: "Former plumber. Occult enthusiast, full of ghosts. Penchant for demonic pacts. "
+desc: "Former plumber. Occult enthusiast, full of ghosts. Penchant for demonic pacts. "
 picture: Cruncho.png
 ---
 

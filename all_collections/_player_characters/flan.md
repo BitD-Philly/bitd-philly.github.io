@@ -11,17 +11,17 @@ pronouns: he/him
 alias: Flan Sonata
 prefers-alias:  true
 status:         # suggestions: active | missing | presumed dead | incarcerated | dead
-excerpt:        Caricature artist and crime enthusiast. Excellent lookout and scout. # 1-2 sentences about the character
+desc:        Caricature artist and crime enthusiast. Excellent lookout and scout. # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
-Anyone meeting Flan Sonata would have a hard time picking him out again in a crowd, because he is an almost sarcastically nondescript half-Iruvian artist-for-hire. Raised by distant relatives, he accidentally stumbled into the illustration business by designing a logo for his uncle for "Longer Lobster" tinned centipedes, and now does a healthy business with portraits (alive or dead), pulp newspaper illustrations, gang fan art, and party caricatures. He's also a thief who has a thriving side-racket in doing score surveillance, like scoping out a target while sketching couples in the park. He likes doing crime and hears the Nameless are very good at it.[^intro-post]
+Anyone meeting Flan Sonata would have a hard time picking him out again in a crowd, because he is an almost sarcastically nondescript half-Iruvian artist-for-hire. Raised by distant relatives, he accidentally stumbled into the illustration business by designing a logo for his uncle for "Longer Lobster" tinned centipedes, and now does a healthy business with portraits (alive or dead), pulp newspaper illustrations, gang fan art, and party caricatures. He's also a thief who has a thriving side-racket in doing score surveillance, like scoping out a target while sketching couples in the park. He likes doing crime and hears the Nameless are very good at it.
 
 Superfan and major patron of the all-hull band *Knife Crab*.
 
 
 # Appearance
-Weaponizingly nondescript - an underfed looking, average man with floppy black hair, in his late 20s, plainly dressed, carrying artist's supplies in a beat up bag.
+Weaponizingly nondescript - an underfed looking, average man with floppy black hair, in his late 20s, plainly dressed, carrying artist's supplies in a beat up bag.[^intro-post]
 
 # Story
 ## Backstory

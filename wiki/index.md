@@ -75,7 +75,7 @@ Criminal haunts and lucrative locales! [See all locations »](locations)
 
 ## Contribute
 
-Play in our game and want to contribute to the wiki? Check out [this Discord thread](https://discord.com/channels/1022641517170540574/1023043651925979246/1185264034472267898) to get started!
+Play in our game and want to contribute to the wiki? [Click here](contribute) to get started!
 
 
 ## Legal Notice

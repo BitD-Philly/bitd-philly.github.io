@@ -1,4 +1,5 @@
 ---
+title: Contribute | Wiki
 ---
 # Contribute
 <div id="toc" markdown="1">
@@ -12,9 +13,10 @@ Here are some quick links to help you get started:
 
 * [Quickstart]({% link _contribute/quickstart.md %})
 * [Issues]({% link _contribute/issues.md %})
-* [Style Guide]() -- coming soon!\
+* [Style Guide]() -- coming soon!
 
 # Wiki Data Organization
 
 * [Intro to Stubs and Pages](data-basics)
 * [NPC Metadata Reference](npc-data)
+* [PC Metadata Reference](pc-data)
