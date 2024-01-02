@@ -2,6 +2,8 @@
 permalink: /wiki/npcs/
 layout: landing
 ---
+<h1>NPCs</h1>
+
 {% for character-class in site.data.world.characters._index %}
     {% assign character_group = site.data.world.characters[character-class] | sort: "name" %}
 
