@@ -61,7 +61,7 @@ Note that these changes will not reflect in the website immediately. You can thi
    * "compare: content" in the right dropdown
    * "Able to merge." with a check mark.
 4. Add a title and click "Create Pull Request".
-   ![]({{page.img_root}}quickstart/start-pr.png)
+   ![]({{page.img_root}}quickstart/pr-page.png)
 5. You should see a page that looks like this:
    ![]({{page.img_root}}quickstart/saved-pr-page.png)
 6. Wait for your edits to be approved by another contributor to the BitD wiki.
