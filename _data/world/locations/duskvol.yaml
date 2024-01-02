@@ -26,7 +26,7 @@
           occult-influence: 2
         effects: 
           - effect: Most engagement rolls sufer -1d due to heavy Bluecoat patrols.
-          - effect: Operations against the nobility in Brightstone are considered on “hostile turf ” for the purpose of generating heat.
+          - effect: Operations against the nobility in Brightstone are considered on "hostile turf" for the purpose of generating heat.
     
     - name: Charhollow
       w-id: charhollow
@@ -50,7 +50,7 @@
           criminal-influence: 0
           occult-influence: 0
         effects:
-          - effect: Players can take a *Devil's Bargain* for +1d to gather info here in exchange for +1 heat.
+          - effect: Take a *Devil's Bargain* for +1d to gather info here in exchange for +1 heat.
 
     - name: Coalridge
       w-id: coalridge
@@ -143,4 +143,4 @@
           occult-influence: 3
         effects:
           - effect: Most engagement rolls suffer -2d due to heavy Imperial patrols.
-          - effect: Operations against the nobility in Whitecrown are considered on “hostile turf” for the purpose of generating heat.  
+          - effect: Operations against the nobility in Whitecrown are considered on "hostile turf" for the purpose of generating heat.  

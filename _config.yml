@@ -44,6 +44,14 @@ defaults:
   -
     scope:
       path: ""
+      type: "contribute"
+    values:
+      layout: "docs"
+      git_root: "https://github.com/BitD-Philly/bitd-philly.github.io/"
+      img_root: "/assets/img/docs/"
+  -
+    scope:
+      path: ""
       type: "player_characters"
     values:
       layout: "wiki"
@@ -73,6 +81,9 @@ defaults:
 
 collections_dir: all_collections
 collections:
+  contribute:
+    output: true
+    permalink: wiki/contribute/:name
   player_characters:
     output: true
     permalink: /wiki/:name
