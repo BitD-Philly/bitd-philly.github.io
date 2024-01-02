@@ -64,7 +64,7 @@ The text in between the lines of three dashes (---) at the top of the wiki page 
 | full-name | Required | string | The full known name (not alias) of the npc. |
 | w-id | Required | string | Matches the npc's stub `w-id`, used for filtering and page generation. |
 | char-type | Required | string | Type of npc, as defined by which .yml file the stub is listed in (e.g., `criminals`, `nobles-and-notables`, etc.)    |
-| faction-type | Required^\* | string | Only required if the `w-id` is also listed as a `faction` stub (e.g., Lugos, Lord Scurlock). This declares the type of faction, as defined by which .yml file the stub is listed in.  |
+| faction-type | Required | string | Only required if the `w-id` is also listed as a `faction` stub (e.g., Lugos, Lord Scurlock). This declares the type of faction, as defined by which .yml file the stub is listed in.  |
 | last_updated | Required | DD Month YYYY | Date the wiki page was last updated. |
 
 ## Optional Front Matter 
