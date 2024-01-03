@@ -14,7 +14,8 @@ You can link to other wiki pages like this:`[link text](link-target)`, where `li
 
 # Notable Members and Associates
 
-* [A Man in a Hat](npcs#joseph-woodward)
+* The [Man in the Hat](npcs#joseph-woodward), an ambitious ladder-climber and head of estate acquisitions in Six Towers. Inconsistently corporeal and occasionally dissipates into black smoke.
+* [Studebaker Spud](npcs#studebaker-spud), an entrepeneur and useful idiot whose debts have been cleared by the Seventh Tower Consortium in exchange for his work on the restoration and management of Deckherd Hall.
 
 # Citations
 
