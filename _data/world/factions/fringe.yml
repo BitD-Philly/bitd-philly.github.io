@@ -1,5 +1,5 @@
 - name: The Church of Ecstasy
-  id: the-church-of-ecstasy
+  id: church-of-ecstasy
   tier: 4
   hold: S
   status: 0
@@ -9,17 +9,17 @@
   hold: S
   status: 0
 - name: The Path of Echoes
-  id: the-path-of-echoes
+  id: path-of-echoes
   tier: 3
   hold: S
   status: 0
 - name: The Forgotten Gods
-  id: the-forgotten-gods
+  id: forgotten-gods
   tier: 3
   hold: W
   status: 0
 - name: The Reconciled
-  id: the-reconciled
+  id: reconciled
   tier: 3
   hold: S
   status: 0
@@ -29,7 +29,7 @@
   hold: W
   status: 0
 - name: The Weeping Lady
-  id: the-weeping-lady
+  id: weeping-lady
   tier: 2
   hold: S
   status: 0

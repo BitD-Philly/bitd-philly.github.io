@@ -9,12 +9,12 @@
   hold: S
   status: 0
 - name: The Circle of Flame
-  id: the-circle-of-flame
+  id: circle-of-flame
   tier: 3
   hold: S
   status: 3
 - name: The Silver Nails
-  id: the-silver-nails
+  id: silver-nails
   tier: 3
   hold: S
   status: 0
@@ -25,34 +25,34 @@
   status: -2
   collection: npcs
 - name: The Crows
-  id: the-crows
+  id: the-crows-gang
   tier: 2
   hold: W
   status: 0
 - name: The Red Sashes
-  id: the-red-sashes
+  id: red-sashes
   tier: 2
   hold: W
   status: 1
 - name: The Dimmer Sisters
-  id: the-dimmer-sisters
+  id: dimmer-sisters
   tier: 2
   hold: S
   status: 0
   excerpt: Ancient gang of witches with a subterranean temple hideout and a large body chock-full of ghosts.
 - name: The Grinders
-  id: the-grinders
+  id: grinders
   tier: 2
   hold: W
   status: 1
 - name: The Billhooks
-  id: the-billhooks
+  id: billhooks
   tier: 2
   hold: W
   status: 0
   collection: factions
 - name: The Wraiths
-  id: the-wraiths
+  id: wraiths
   tier: 2
   hold: W
   status: 0
@@ -62,23 +62,23 @@
   hold: S
   status: 1
 - name: The Fog Hounds
-  id: the-fog-hounds
+  id: fog-hounds
   tier: 1
   hold: W
   status: 0
 - name: The Lost
-  id: the-lost
+  id: lost-gang
   tier: 1
   hold: W
   status: 0
 - name: The Gray Cloaks
-  id: the-graycloaks
+  id: graycloaks
   tier: 
   hold: 
   status:
   excerpt: a regiment of disgraced former Bluecoats who were fired for investigating Lord Strangford too closely. Former rivals of the Nameless, now forced into true retirement after a deadly war left them powerless.
 - name: The Lampblacks
-  id: the-lampblacks
+  id: lampblacks
   tier:
   hold: 
   status:
