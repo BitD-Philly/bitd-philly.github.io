@@ -35,8 +35,8 @@ Parameters
 {% endif %}
 
 <div class="clock_wrapper{{' '|append: include.align}}" style="{{include.css}}">
-<table>
-<tr class="clock">
+<table class="clock">
+<tr>
     <td>{{include.label}}</td>
     {% unless fill == 0 %}
         {% for i in (1..fill) %}

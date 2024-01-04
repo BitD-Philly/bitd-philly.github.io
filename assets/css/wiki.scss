@@ -2,9 +2,7 @@
 ---
 @import "layout";
 @import "site_nav";
-@import "fonts/headers";
-@import "fonts/defaults";
-
+@import "_defaults";
 @import "wiki/wikibox";
 @import "wiki/special_text";
 @import "widgets";
