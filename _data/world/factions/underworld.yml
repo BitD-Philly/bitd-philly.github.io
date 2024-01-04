@@ -21,7 +21,7 @@
 - name: Lord Scurlock
   id: lord-scurlock
   tier: 3
-  hold: S
+  hold: 
   status: -2
   collection: npcs
 - name: The Crows
