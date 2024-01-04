@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Gang
+stylesheet: gang
 ---
 <!-- retrieve data from stats file -->
 {% assign gang-stats = site.data.gang.stats.stats %}
@@ -45,7 +45,7 @@ The Nameless are a tier {{site.data.gang.stats.tier}} crew of *{{site.data.gang.
 </div>
 
 
-<table class="perks factions" style="display:inline-block;min-width: 20em;width: 45%;">
+<table class="factions" style="display:inline-block;min-width: 20em;width: 45%;">
 {% for faction_classification in site.data.world.factions._index %}
 
 {% assign faction_group = site.data.world.factions[faction_classification] | sort: "tier" | reverse %}
@@ -65,7 +65,7 @@ The Nameless are a tier {{site.data.gang.stats.tier}} crew of *{{site.data.gang.
 {% if featured-faction-list contains match %}
 
 {% unless faction.hold %}
-{% assign format-flags = format-flags | append: "strike "%}
+{% assign format-flags = format-flags | append: "strike"%}
 {%endunless%}
 
 {% if faction.collection %}
@@ -185,44 +185,5 @@ The Nameless are a tier {{site.data.gang.stats.tier}} crew of *{{site.data.gang.
 
 {%endfor%}
 </table>
-
-<style>
-table.perks td {position:relative}
-table.perks tr.strike td:before {
-    content: " ";
-    text-decoration: line-through;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    border-bottom: 1px solid #ccc;
-    width:100%
-}
-
-table.perks tr.title td {
-    font-variant:small-caps;
-}
-
-table.factions td:first-of-type {
-    text-align:left
-}
-table.factions td {
-    text-align: center;
-}
-
-table.factions {margin: 0 2em}
-
-td.sm3
-   { background: #630202}
-td.sm2
-   { background: #452732}
-td.sm1
-{    background: #312E45}
-td.s1
-    {background: #2E452F}
-td.s2
-    {background: #2E452F}
-td.s3
-    {background: #026326}
-    </style>
 
 
