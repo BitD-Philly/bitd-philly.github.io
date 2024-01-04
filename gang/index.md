@@ -16,12 +16,17 @@ stylesheet: gang
 
 <!-- Calculations -->
 {% assign n-turf = site.data.gang.stats.claims | where: "is-turf",true | size %}
+{% assign roman_numerals = "0,I,II,III,IV,V,VI" | split: "," %}
 
 # The Nameless
 <div style="display:inline-block;max-width:45%;min-width: 20em;vertical-align:top;text-align:left;" markdown="1">
-The Nameless are a tier {{site.data.gang.stats.tier}} crew of *{{site.data.gang.stats.type}}* headquartered in the Six Towers district of Duskvol, with a reputation as *{{site.data.gang.stats.reputation}}*.
+
+The Nameless are crew of `{{site.data.gang.stats.type}}` with a reputation as `{{site.data.gang.stats.reputation}}`, headquartered at `{{site.data.gang.stats.lair}}` in the Six Towers district of Duskvol.
 
 <h2 style="text-align:center">Current Stats</h2>
+
+The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{gang-stats.hold}}` hold.
+
 <!-- Rep/Turf Counter -->
 {% include clock.html 
     label="Rep" fill=gang-counters.rep 
@@ -49,7 +54,6 @@ The Nameless are a tier {{site.data.gang.stats.tier}} crew of *{{site.data.gang.
 {% for faction_classification in site.data.world.factions._index %}
 
 {% assign faction_group = site.data.world.factions[faction_classification] | sort: "tier" | reverse %}
-{% assign roman_numerals = "0,I,II,III,IV,V,VI" | split: "," %}
 <tr class="title">
 <th colspan=4>{{faction_classification | replace: "-"," "}}</th>
 </tr>
