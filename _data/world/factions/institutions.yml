@@ -38,7 +38,7 @@
   tier: 3
   hold: W
   status: -3
-  excerpt: Gentrifiers armed with mercenary support and a heavy bank account. Looking to displace the Nameless and return Six Towers to its former reputation as a rich and powerful neighborhood.
+  collection: seventh-tower-consortium
 - name: Bluecoats
   id: bluecoats
   tier: 3
