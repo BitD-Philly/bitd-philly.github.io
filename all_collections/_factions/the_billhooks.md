@@ -2,7 +2,7 @@
 # site data (required)
 # This data in this header is used to reference this organization across the entire website. 
 full-name: The Billhooks
-w-id: the-billhooks
+w-id: billhooks
 faction-type: underworld
 last_updated: January 1, 2024
 
@@ -24,7 +24,7 @@ A powerful but fractured gang based in [The Docks](locations#the-docks) who does
 
 Under [Erin](npcs#erin)'s lead, the Billhooks allied with the [Seventh Tower Consortium](factions#seventh-tower-consortium) against the Nameless during the War of Sevens. Major events include the battle for the docks and the escape of Tarvul.
 
-The Nameless coordinated with the [Red Sashes](factions#the-red-sashes) during the Battle of the Docks to undermine the Billhooks and stop their interference with the [Fog Hound](factions#the-fog-hounds) smugglers. While the Red Sashes staged a daring battle as a distraction, the Nameless smuggled evidence of the Billhooks' illicit sales of lightning wall materials into their headquarters through means of false Seventh Tower deliveries, false meat deliveries, and ghost door shenanigans. The Nameless were also able to exploit the existing tensions within the Billhooks due to the succession conflict, causing significant internal fighting under the pressure of the battle. Along with the additional scrutiny and journalistic interest in the lightning wall sabotage, the Billhooks were dissuaded from further interfering in the Fog Hounds' business[^dock-battle].
+The Nameless coordinated with the [Red Sashes](factions#red-sashes) during the Battle of the Docks to undermine the Billhooks and stop their interference with the [Fog Hound](factions#fog-hounds) smugglers. While the Red Sashes staged a daring battle as a distraction, the Nameless smuggled evidence of the Billhooks' illicit sales of lightning wall materials into their headquarters through means of false Seventh Tower deliveries, false meat deliveries, and ghost door shenanigans. The Nameless were also able to exploit the existing tensions within the Billhooks due to the succession conflict, causing significant internal fighting under the pressure of the battle. Along with the additional scrutiny and journalistic interest in the lightning wall sabotage, the Billhooks were dissuaded from further interfering in the Fog Hounds' business[^dock-battle].
 
 On Unity Day, the Nameless helped Tarvul break out of Ironhook prison, faking his death in the process. They were nearly thwarted by [Nat Marseilles](npcs#nat-marseilles) and [Chuck Morgenstern](npcs#chuck-morgenstern), who tried to sabotage the breakout and frame the Nameless for Tarvul's murder. However, a combination of tazing, incredible abdominal strength, a rocket-powered cart, and some good old-fashioned cop-killing saw the Nameless triumphant as a bloodied but living Tarvul climactically strode into the Billhooks' Unity Day festivities and retook his rightful place. As a result, the Billhooks withdrew from the war[^tarvul-escape].
 

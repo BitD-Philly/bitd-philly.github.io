@@ -12,37 +12,85 @@ title: Gang
 {% assign gang-upgrades = site.data.gang.stats.upgrades %}
 {% assign upgrade-types = "lair,training,quality" | split: ","%}
 
+{% assign featured-faction-list = site.data.gang.featured-factions | join: ":" | append: ":" | prepend: ":"%}
+
 <!-- Calculations -->
 {% assign n-turf = site.data.gang.stats.claims | where: "is-turf",true | size %}
 
 # The Nameless
+<div style="display:inline-block;max-width:45%;min-width: 20em;vertical-align:top;text-align:left;" markdown="1">
+The Nameless are a tier {{site.data.gang.stats.tier}} crew of *{{site.data.gang.stats.type}}* headquartered in the Six Towers district of Duskvol, with a reputation as *{{site.data.gang.stats.reputation}}*.
 
-
-# Status
-
-
-{% include clock.html label="Heat" fill=gang-counters.heat group=5 align="center" %}
-{% include clock.html label="Wanted Level" fill=gang-counters.wanted-level align="center"%}
-
-<!-- XP Counter -->
-{% include clock.html 
-    label="Crew XP" fill=gang-counters.xp 
-    group=5 align="center"%}
-
-# Assets
+<h2 style="text-align:center">Current Stats</h2>
 <!-- Rep/Turf Counter -->
 {% include clock.html 
     label="Rep" fill=gang-counters.rep 
     label2="Turf" fill2=n-turf 
     max="12" group="6" 
-    align="center" %}
+    align="center" css="margin-bottom: 3em"%}
+
+{% include clock.html label="Heat" fill=gang-counters.heat group=5 align="center" %}
+{% include clock.html label="Wanted Level" fill=gang-counters.wanted-level align="center" css="margin-bottom: 3em"%}
+
+<!-- XP Counter -->
+{% include clock.html 
+    label="Crew XP" fill=gang-counters.xp 
+    group=5 align="center" css="margin-bottom: 3em;"%}
+
 
 <!-- Vault Counter -->
 {% include clock.html 
     label="Vault" fill=gang-counters.vault 
     group=4 align="center" %}
+</div>
 
 
+<table class="perks factions" style="display:inline-block;min-width: 20em;width: 45%;">
+{% for faction_classification in site.data.world.factions._index %}
+
+{% assign faction_group = site.data.world.factions[faction_classification] | sort: "tier" | reverse %}
+{% assign roman_numerals = "0,I,II,III,IV,V,VI" | split: "," %}
+<tr class="title">
+<th colspan=4>{{faction_classification | replace: "-"," "}}</th>
+</tr>
+{% if forloop.first %}
+<tr class="title">
+<td>Name</td> <td>Tier</td> <td>Hold</td> <td>Status</td>
+</tr>
+{% endif %}
+{% for faction in faction_group %}
+{% assign match = faction.id | append: ":" | prepend: ":" %}
+{% assign format-flags = "" %}
+
+{% if featured-faction-list contains match %}
+
+{% unless faction.hold %}
+{% assign format-flags = format-flags | append: "strike "%}
+{%endunless%}
+
+{% if faction.collection %}
+{% assign faction-link = "/wiki/" | append: faction.id%}
+{% else %}
+{% assign faction-link = "/wiki/factions#"| append: faction.id%}
+{%endif%}
+
+<tr class="{{format-flags}}">
+<td><a href="{{faction-link}}">{{faction.name}}</a></td>
+<td>{{roman_numerals[faction.tier]}}</td>
+<td>{% if faction.hold == "S"%}strong{%elsif faction.hold=="W"%}weak{%endif%}</td>
+<td class="s{{faction.status | replace: '-','m'}}">{%if faction.status >= 0%}+{%endif%}{{ faction.status }}</td>
+</tr>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</table>
+
+<div style="clear:both;"></div>
+
+# Assets
+
+
+<!-- Asset Table of (1) abilities, (2) claims, (3) upgrades -->
 <table class="perks">
 <tr>
 <th>Asset</th>
@@ -51,6 +99,7 @@ title: Gang
 <th>Effect</th>
 </tr>
 
+<!-- Asset Table: Abilities -->
 {% for ability in gang-abilities %}
 
 {% if ability.name == "veteran" %}
@@ -74,6 +123,7 @@ title: Gang
 </tr>
 {% endfor %}
 
+<!-- Asset table: Claims & Turf -->
 {% for claim in gang-claims %}
 
 {% if claim.is-turf %}
@@ -108,7 +158,7 @@ title: Gang
 </tr>
 {%endfor%}
 
-
+<!-- Asset table: Upgrades -->
 {% for type in upgrade-types %}
 {% for item in gang-upgrades[type] %}
 
@@ -136,4 +186,43 @@ title: Gang
 {%endfor%}
 </table>
 
-# Relations
+<style>
+table.perks td {position:relative}
+table.perks tr.strike td:before {
+    content: " ";
+    text-decoration: line-through;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    width:100%
+}
+
+table.perks tr.title td {
+    font-variant:small-caps;
+}
+
+table.factions td:first-of-type {
+    text-align:left
+}
+table.factions td {
+    text-align: center;
+}
+
+table.factions {margin: 0 2em}
+
+td.sm3
+   { background: #630202}
+td.sm2
+   { background: #452732}
+td.sm1
+{    background: #312E45}
+td.s1
+    {background: #2E452F}
+td.s2
+    {background: #2E452F}
+td.s3
+    {background: #026326}
+    </style>
+
+
