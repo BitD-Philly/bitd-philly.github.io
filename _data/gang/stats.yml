@@ -5,14 +5,14 @@ lair: -redacted-
 
 stats:
   tier: 2
-  hold: weak
+  hold: strong
 
 counters:
   xp: 5/10
   rep: 1
-  heat: 3/10
+  heat: 7/10
   wanted-level: 3/4
-  vault: 8/16
+  vault: 6/16
 
 finances:
   expenses:

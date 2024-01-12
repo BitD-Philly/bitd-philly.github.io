@@ -84,7 +84,7 @@
   {% assign box-data = box-data | append: ",," | append: "status::" | append: faction-data.status %}
 
   {% if page.excerpt %}
-    {% assign box-data = box-data | append: ",," | append: "_excerpt::" | append: page.excerpt %}
+    {% assign box-data = box-data | append: ",," | append: "_desc::" | append: page.desc %}
   {% endif %}
 
 {% endif %}
