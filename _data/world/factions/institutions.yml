@@ -37,7 +37,7 @@
   id: seventh-tower-consortium
   tier: 3
   hold: W
-  status: -3
+  status: 0
   collection: seventh-tower-consortium
 - name: Bluecoats
   id: bluecoats

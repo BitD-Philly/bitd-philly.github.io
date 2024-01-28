@@ -5,16 +5,15 @@ full-name: Seventh Tower Consortium
 w-id: seventh-tower-consortium
 faction-type: institutions
 
-desc: Gentrifiers armed with mercenary support and a heavy bank account. Looking to displace the Nameless and return Six Towers to its former reputation as a rich and powerful neighborhood.
+desc: Gentrifiers armed with mercenary support and a heavy bank account. Trying to salvage its reputation in Duskvol after a major embarrassment by the Nameless.
 ---
 
-The Seventh Tower Consortium is a mysterious organization with deep pockets and an interest in expanding into the [Six Towers](six-towers) district of [Duskvol](duskvol), restoring it to its former wealth and influence. They currently operate out of [Deckherd Hall](six-towers#deckherd-hall).
+The Seventh Tower Consortium is a mysterious organization located in the Imperial City with deep pockets and an interest in expanding into the [Six Towers](six-towers) district of [Duskvol](duskvol), restoring it to its former wealth and influence. The Duskvol branch operates out of [Deckherd Hall](six-towers#deckherd-hall).
 
 # Notable Members and Associates
 
-* The [Man in the Hat](npcs#joseph-woodward), an ambitious ladder-climber and head of estate acquisitions in Six Towers. Inconsistently corporeal, occasionally dissipates into black smoke.
+* [Joseph Woodward](npcs#joseph-woodward), ex-CEO and head of real estate acquisitions in Six Towers. Inconsistently corporeal, occasionally dissipates into black smoke. Currently in Nameless custody.
 * [Studebaker Spud](npcs#studebaker-spud), an entrepeneur and useful idiot whose debts have been cleared by the Seventh Tower Consortium in exchange for his work on the restoration and management of Deckherd Hall.
+* Yolanda Augury, a member of the Board of Directors.
 
 # Citations
-
-[^my-footnote]: footnote description and link to source goes here
