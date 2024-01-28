@@ -34,7 +34,7 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
     max="12" group="6" 
     align="center" css="margin-bottom: 3em"%}
 
-{% include clock.html label="Heat" fill=gang-counters.heat group=5 align="center" %}
+{% include clock.html label="Heat" fill=gang-counters.heat group=3 align="center" %}
 {% include clock.html label="Wanted Level" fill=gang-counters.wanted-level align="center" css="margin-bottom: 3em"%}
 
 <!-- XP Counter -->

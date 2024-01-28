@@ -9,10 +9,10 @@ stats:
 
 counters:
   xp: 5/10
-  rep: 1
-  heat: 7/10
-  wanted-level: 3/4
-  vault: 6/16
+  rep: 6
+  heat: 1/9
+  wanted-level: 2/4
+  vault: 12/16
 
 finances:
   expenses:
