@@ -30,8 +30,7 @@ domain: bitd-philly.github.io
 twitter_username: jekyllrb
 github_username:  jekyll
 
-paginate: 1
-paginate_path: /story/page:num/
+permalink: none
 
 # Defaults
 defaults:
@@ -39,6 +38,12 @@ defaults:
     scope:
       path: ""
       type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
     values:
       layout: "default"
   -
