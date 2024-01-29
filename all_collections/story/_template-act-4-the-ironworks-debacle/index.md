@@ -1,9 +1,9 @@
 ---
-title: "Act 4: The Ironworks Debacle"
-act-id: "act-4-the-ironworks-debacle"
-permalink: /story/act-4-the-ironworks-debacle/index:output_ext
+title: "Act X: Title Of Act"
+act-id: "act-X-title-of-act"
+permalink: /story/act-x-title-of-act/index:output_ext
 category: acts
-excerpt: In which the Nameless cause a looming energy shortage, lose track of a certain ancient vampire, and kill a demon.
+excerpt: Short description of major themes/events of the act
 ---
 # {{page.title}}
 

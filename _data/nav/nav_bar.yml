@@ -21,6 +21,6 @@
 - name: System
   link: /system.html
 - name: Story
-  link: /posts.html
+  link: /story/
 - name: Contact
   link: /contact.html
