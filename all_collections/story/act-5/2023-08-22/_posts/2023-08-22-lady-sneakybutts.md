@@ -1,5 +1,6 @@
 ---
 title: Hot Goss
+date: 2023-8-22 1PM
 tag: fluff
 ---
 
