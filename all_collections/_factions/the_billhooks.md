@@ -13,12 +13,14 @@ picture:
 
 A powerful but fractured gang based in [The Docks](locations#the-docks) who does business out of their butcher shops. The Billhooks' leader, Tarvul, is consolidating his power among the fractured Billhooks after the Nameless helped him escape from prison.
 
-# Major Events
+# Appearances
 ## Lightning Wall Sabotage and the death of Coran
 
-[needs more details on lightning wall incident]
+The Billhooks were making a tidy profit by selling scarce, desireable parts that were in high demand after the destruction of the Duskvol Ironworks. [Erin](npcs#erin), the sister to [Tarvul](npcs#tarvul) and iterim leader of the Billhooks, contracted the Nameless to dispatch [Coran](npcs#coran), Tarvul's son, against whom she had been jockeying for power. The Nameless agreed in exchange for the Billhooks to put a stop to the black market trading holding back the reconstruction of the Ironworks.
 
-[Coran](npcs#coran) was a rival for control of the Billhooks in Tarvul's absence until the Nameless accidentally turned him into a vessel for [The Horned One](npcs#the-horned-one). A handful of Billhooks remain loyal to Coran, but their numbers are dwindling.
+Erin felt that the Nameless would have blackmail material on her if she gave the order for you to take Coran out, and so demanded some additional leverage in exchange for getting the Docks back on track. That leverage ended up being a business relationship with V-Sea-W, including subsidizing the Billhooks' fight pits under that very profitable banner. 
+
+The Nameless (somewhat accidentally) turned Coran into a vessel for [The Horned One](npcs#the-horned-one), rather than outright killing him. A handful of Billhooks remain loyal to whatever remains of Coran, but their numbers are dwindling.
 
 ## The War of Sevens
 
