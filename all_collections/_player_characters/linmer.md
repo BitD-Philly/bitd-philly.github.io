@@ -12,7 +12,7 @@ prefers-alias:
 pronouns: he/him/his
 status:  Living
 desc: "Experimental Alchemist. Orphan and former sailor/stowaway. Old man."
-picture: linmer.png
+picture: Linmer.png
 ---
 
 Last updated on 12/15/2023.  The contents of this page are subject to change.
