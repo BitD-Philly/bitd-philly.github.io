@@ -1,6 +1,5 @@
 ---
 title: The War of Sevens
-permalink: /story/act-6-the-war-of-sevens/summary.html
 ---
 
 # Notable Events
