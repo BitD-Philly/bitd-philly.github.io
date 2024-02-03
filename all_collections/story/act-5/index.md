@@ -1,5 +1,5 @@
 ---
-title: "Act V: Gentrifiers & Gates"
+title: "Act V: Rapid Development"
 act-id: "act-5"
 permalink: /story/act-5/index:output_ext
 category: acts
