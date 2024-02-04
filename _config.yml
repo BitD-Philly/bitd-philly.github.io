@@ -61,34 +61,41 @@ defaults:
     values:
       layout: "wiki"
       picture: "default.jpg"
-      img_root: "assets/img/world/characters/pcs/"
+      img_root: "/assets/img/world/characters/pcs/"
   -
     scope:
       path: ""
       type: "npcs"
     values:
         layout: "wiki"
-        img_root: "assets/img/world/npcs/"
+        img_root: "/assets/img/world/npcs/"
   -
     scope:
       path: ""
       type: "locations"
     values:
       layout: "wiki"
-      img_root: "assets/img/world/locations/"
+      img_root: "/assets/img/world/locations/"
   -
     scope:
       path: ""
       type: "factions"
     values:
       layout: "wiki"
-      img_root: "assets/img/world/factions/"
+      img_root: "/assets/img/world/factions/"
+  -
+    scope:
+      path: ""
+      type: "misc"
+    values:
+      layout: "wiki"
+      img_root: "/assets/img/world/misc/"
 
 collections_dir: all_collections
 collections:
   contribute:
     output: true
-    permalink: wiki/contribute/:name
+    permalink: /wiki/contribute/:name
   player_characters:
     output: true
     permalink: /wiki/:name
@@ -101,6 +108,9 @@ collections:
   npcs:
     output: true
     permalink: /wiki/:name 
+  misc:
+    output: true 
+    permalink: /wiki/:name
   
 
 # Build settings

@@ -27,7 +27,11 @@
         effects: 
           - effect: Most engagement rolls sufer -1d due to heavy Bluecoat patrols.
           - effect: Operations against the nobility in Brightstone are considered on "hostile turf" for the purpose of generating heat.
-    
+      points-of-interest: 
+        - name: Claddage Manor
+          w-id: claddage-manor
+          excerpt: An abandoned manor, formerly home to Lord and Lady Claddage before Lord Claddage was found guilty of embezzlement and treason.
+      
     - name: Charhollow
       w-id: charhollow
       excerpt: A crowded district of tenements and stacked houses.
@@ -131,6 +135,17 @@
           security-and-safety: 1
           criminal-influence: 2
           occult-influence: 3
+      points-of-interest:
+        - name: Scurlock Manor
+          w-id: scurlock-manor
+          excerpt: The derelict and haunted home of [Lord Scurlock](lord-scurlock).
+        - name: Void Sea Wrestling Arena
+          w-id: v-sea-w#arena
+          excerpt: Originally a large spa with a pool, it has been converted into an outdoor wrestling arena. Replete with an attached gambling den with two stories. Flanked by watchtowers that double as changing rooms.
+        - name: Deckherd Hall
+          w-id: deckherd-hall
+          excerpt: Recently refurbished gambling den, former headquarters of the Duskvol branch of the Seventh Tower Consortium.
+
 
     - name: Whitecrown
       w-id: whitecrown
