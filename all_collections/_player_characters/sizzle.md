@@ -4,7 +4,7 @@
 full-name: Rosie Woodward 
 playbook: Hound
 player: Vinnie
-last_update: 31 December 2023
+last_updated: 4/2/2024
 
 # optional
 alias: Sizzle
@@ -34,11 +34,13 @@ Sizzle grew up an orphan in the Deathlands settlements near the Imperial City.
 
 Sizzle came to Duskvol searching for her [father](npcs#joseph-woodward), falling in with the Nameless shortly before the [War of Sevens](/story/act-6/index.html) began.
 
-Sizzle helped ensure the smooth opening of [Deckherd Hall](six-towers#deckherd-hall) by helping the Nameless defeat [Lugos](npcs#lugos) and [Cassiopeia Beasby](npcs#cassiopeia-beasby) at [Claddage Manor](brightstone#claddage-manor). Afterward, she agreed to owe [Casta](npcs#casta) a favor in exchange for keeping Lugos's head in the possession of the Nameless.
+Sizzle helped ensure the smooth opening of [Deckherd Hall](six-towers#deckherd-hall) by helping the Nameless defeat [Lugos](npcs#lugos) and [Cassiopeia Beasby](npcs#cassiopeia-beasby) at [Claddage Manor](brightstone#claddage-manor). Afterward, she agreed to owe [Casta](npcs#casta) a favor in exchange for keeping Lugos's head in the possession of the Nameless.[^pawns-needles]
 
-At the opening of *Alduaria by [François](npcs#francois)*, Sizzle exchanged small talk [Nat Marseilles](npcs#nat-marseilles) and helped Cruncho distract [Bea](npcs#bea), François's sous chef. Her expert marksmanship also ensured that a hagfish slime explosion initiated by [Flan](flan) rendered the kitchen utterly unusable.
+At the opening of *Alduaria by [François](npcs#francois)*, Sizzle exchanged small talk [Nat Marseilles](npcs#nat-marseilles) and helped Cruncho distract [Bea](npcs#bea), François's sous chef. Her expert marksmanship also ensured that a hagfish slime explosion initiated by [Flan](flan) rendered the kitchen utterly unusable.[^alduaria]
 
-A week later, Sizzle and Cruncho worked together to thwart some contracts comissioned by the [Seventh Tower Consortium](seventh-tower-consortium) to weaken the Nameless. Sizzle and Cruncho "helped" Eckherd Deckherd execute a fatal "inspection" the lightning wall and sent an anonymous tip about an impending assassination attempt to [Myleria Krev](npcs#myleria-krev), leader of the [Red Sashes](factions#red-sashes); Velvet acted as a messenger to coordinate the arrival of the Black Knights and the Crows to Duskvol. Sizzle also had a lovely meetup with [Valanthe](npcs#valanthe) to discuss her passion for revolvers.
+A week later, Sizzle and Cruncho worked together to thwart some contracts comissioned by the [Seventh Tower Consortium](seventh-tower-consortium) to weaken the Nameless. Sizzle and Cruncho "helped" Eckherd Deckherd execute a fatal "inspection" the lightning wall and sent an anonymous tip about an impending assassination attempt to [Myleria Krev](npcs#myleria-krev), leader of the [Red Sashes](factions#red-sashes); Velvet acted as a messenger to coordinate the arrival of the Black Knights and the Crows to Duskvol. Sizzle also had a lovely meetup with [Valanthe](npcs#valanthe) to discuss her passion for revolvers.[^phase-I]
+
+[in progress]
 
 # Beliefs
 
@@ -51,14 +53,17 @@ A week later, Sizzle and Cruncho worked together to thwart some contracts comiss
 
 # Relationships
 
-* [Joseph Woodward](npcs#joseph-woodward): Sizzle's father and the reason she came to Duskvol. Former CEO of the Seventh Tower Consortium.
+* [Joseph Woodward](joseph-woodward): Sizzle's father and the reason she came to Duskvol. Former CEO of the Seventh Tower Consortium.
 * [Cruncho](cruncho): Spooky friend.
 * [Arkin Wollstonecraft](arkin): Co-inventor of the coffee-grinder-gatling-gun[^1]
-* [Valanthe](npcs#valanthe): Listens to Sizzle talk about pistol mechanisms for hours on end for some reason. Wears a mask Sizzle made.[^val-mask]
+* [Valanthe](npcs#valanthe): Listens to Sizzle talk about pistol mechanisms for hours on end for some reason. Wears a mask Sizzle made.[^hooks-and-sashes]
 * [Casta](npcs#casta) (Rival): Sizzle has beaten her to one too many of her marks. Doesn't help that Sizzle looks like her younger sister, either.
 * [Grace](npcs#grace): Fellow bounty hunter and contact.
 
 # Citations
 
 [^1]: *"The Coffee Maker" Discord thread.*  <https://discord.com/channels/1022641517170540574/1181648148800753795/1185665689273520168> Retrieved 24-Dec-2023.
-[^val-mask]: *#digital-downtime Discord message.* <https://discord.com/channels/1022641517170540574/1129229682777260122/1184976922208387152>. Retrieved 24-Dec-2023.
+[^hooks-and-sashes]: *Session Summary: Hooks & Sashes.* <{{site.url}}/story/act-6/2023-11-30/index.html>. Retrieved 04 Feb 2024.
+[^phase-I]: *Session Summary: Phase I.* <{{site.url}}/story/act-5/2023-10-17/>
+[^alduaria]: *Session Summary: Alduaria.* <{{site.url}}/story/act-5/2023-10-05/>
+[^pawns-needles]: *Session Summary: Pawns & Needles.* <{{site.url}}/story/act-5/2023-09-21/>
