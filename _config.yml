@@ -53,7 +53,7 @@ defaults:
     values:
       layout: "docs"
       git_root: "https://github.com/BitD-Philly/bitd-philly.github.io/"
-      img_root: "/assets/img/docs/"
+      img_root: "assets/img/docs/"
   -
     scope:
       path: ""
@@ -61,35 +61,35 @@ defaults:
     values:
       layout: "wiki"
       picture: "default.jpg"
-      img_root: "/assets/img/world/characters/pcs/"
+      img_root: "assets/img/world/characters/pcs/"
   -
     scope:
       path: ""
       type: "npcs"
     values:
         layout: "wiki"
-        img_root: "/assets/img/world/npcs/"
+        img_root: "assets/img/world/npcs/"
   -
     scope:
       path: ""
       type: "locations"
     values:
       layout: "wiki"
-      img_root: "/assets/img/world/locations/"
+      img_root: "assets/img/world/locations/"
   -
     scope:
       path: ""
       type: "factions"
     values:
       layout: "wiki"
-      img_root: "/assets/img/world/factions/"
+      img_root: "assets/img/world/factions/"
   -
     scope:
       path: ""
       type: "misc"
     values:
       layout: "wiki"
-      img_root: "/assets/img/world/misc/"
+      img_root: "assets/img/world/misc/"
 
 collections_dir: all_collections
 collections:
