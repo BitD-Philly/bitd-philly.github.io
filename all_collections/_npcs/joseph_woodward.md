@@ -20,7 +20,7 @@ A well-dressed man who appears to be in his early forties. He is rarely seen wit
 
 # Background
 
-About two decades prior to the founding of the Nameless, Joseph Woodward and his wive, Robin "Bo" Woodward, were living in a small community in the Deathlands surrounding the Imperial City. He left the homestead around the same time as the birth of their [first child](sizzle) for unknown reasons.
+About two decades prior to the founding of the Nameless, Joseph Woodward and his wive, Robin "Bo" Woodward, were living in a small community in the Deathlands surrounding the Imperial City. He left the homestead for unknown reasons around the same time as the birth of their [first child](sizzle).
 
 Joseph arrived in Duskvol as the CEO the [Seventh Tower Consortium](seventh-tower-consortium) to spearhead the opening of the Duskvol branch. The details of how Joseph joined the Seventh Tower and his rise to executive leadership are currently unknown. 
 
