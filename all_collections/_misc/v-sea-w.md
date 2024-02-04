@@ -50,6 +50,10 @@ Eduardo Warrior (A charming cad and heel, aligned with the Iruvian Sheik)
 * The Pallbearer (no longer the Akarosi Asskicker nor pretending to be a Deathlands Scavenger, GOT STABBED BY REAL DEATHLANDS SCAVENGERS)
 * ~~Sean McMichaels (A short king entering phase two of his career, the grave)~~
 
+# Arena
+
+Originally a large spa with a pool, it has been converted into an outdoor wrestling arena. Replete with an attached gambling den with two stories. Flanked by watchtowers that double as changing rooms.
+
 # Franchising
 
 As part of an attempt to build a relationship with the [Billhooks](the-billhooks), the Nameless helped incorporate some of the dockside fihting pits into a broader "VSW" label, known as V8. The fights at these other fight pits are harder, colder, and more brutal. Rather than sourcing VSW actors for their shows, these pits are fueled by local talent, that is to say, shipboard fighters looking for a chance to hurt eachtother. 
