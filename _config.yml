@@ -53,7 +53,7 @@ defaults:
     values:
       layout: "docs"
       git_root: "https://github.com/BitD-Philly/bitd-philly.github.io/"
-      img_root: "/assets/img/docs/"
+      img_root: "assets/img/docs/"
   -
     scope:
       path: ""
@@ -83,12 +83,19 @@ defaults:
     values:
       layout: "wiki"
       img_root: "assets/img/world/factions/"
+  -
+    scope:
+      path: ""
+      type: "misc"
+    values:
+      layout: "wiki"
+      img_root: "assets/img/world/misc/"
 
 collections_dir: all_collections
 collections:
   contribute:
     output: true
-    permalink: wiki/contribute/:name
+    permalink: /wiki/contribute/:name
   player_characters:
     output: true
     permalink: /wiki/:name
@@ -101,6 +108,9 @@ collections:
   npcs:
     output: true
     permalink: /wiki/:name 
+  misc:
+    output: true 
+    permalink: /wiki/:name
   
 
 # Build settings
