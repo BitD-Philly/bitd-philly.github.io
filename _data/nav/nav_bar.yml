@@ -2,6 +2,8 @@
   link: /
 - name: Gang
   link: /gang/
+- name: Story
+  link: /story/
 - name: Wiki
   link: /wiki/
   sublinks:
@@ -20,7 +22,5 @@
   link: /wiki/
 - name: System
   link: /system.html
-- name: Story
-  link: /story/
 - name: Contact
   link: /contact.html
