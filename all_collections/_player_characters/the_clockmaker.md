@@ -20,7 +20,7 @@ A nefarious clockwork clone of Arkin Wollstonecraft. Deviating new and terrible 
 
 Examples:
 * [Duskvol](duskvol)
-* The [Seventh Tower Consortium](seventh-tower-consortium)
+* The [Seventh Tower Consortium](seventh-tower)
 
 # Appearance
 Describe your character's appearance here.

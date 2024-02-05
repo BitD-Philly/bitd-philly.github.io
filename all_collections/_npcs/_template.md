@@ -35,7 +35,7 @@ Create lists using asterisks:
 * Mortal Enemy
 
 
-You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to (e.g., `[Duskvol](duskvol)`, `[The Billhooks](the-billhooks)`).
+You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to (e.g., `[Duskvol](duskvol)`, `[The Billhooks](billhooks)`).
 
 If you are linking to a stub (character, location, faction, etc. without a page), link instead to the place the stub is located on its related landing page (e.g., `[Nat Marseilles](npcs#nat-marseilles)` or `[The Dimmer Sisters](npcs#the-dimmer-sisters)`). You can also use this format to link to subheaders on any wiki page (e.g., `[Scurlock Manor](six-towers#scurlock-manor)`).
 
