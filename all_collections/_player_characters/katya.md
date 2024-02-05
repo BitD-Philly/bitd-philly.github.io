@@ -4,7 +4,7 @@
 full-name: Dr. Ykaterina Volkova
 playbook: Hound
 player: Melannie
-last_updated: 28 Dec 2023
+last_updated: 4 Feb 2024
 
 #optional
 pronouns:       she/her # preferred pronouns
@@ -12,7 +12,7 @@ alias:          The She-Wolf of Severos, Katya # primary alias
 prefers-alias:  # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
 status: presumed dead       # suggestions: active | missing | presumed dead | incarcerated | dead
 desc: Social Sciences chair at the University. Expert archer with a loyal hawk companion. Lesbian heartbreaker. Currently considered dead.
-picture:        # contact site admin (Parker or Vinnie) to set up a picture.
+picture:        katya.png
 ---
 
 Social Sciences chair at the University. Expert archer with a loyal hawk companion. Lesbian heartbreaker. Currently considered dead.

@@ -32,13 +32,13 @@ Sizzle grew up an orphan in the Deathlands settlements near the Imperial City.
 
 ## Time With the Nameless
 
-Sizzle came to Duskvol searching for her [father](npcs#joseph-woodward), falling in with the Nameless shortly before the [War of Sevens](/story/act-6/index.html) began.
+Sizzle came to Duskvol searching for her [father](joseph-woodward), falling in with the Nameless shortly before the [War of Sevens](/story/act-6/index.html) began.
 
 Sizzle helped ensure the smooth opening of [Deckherd Hall](six-towers#deckherd-hall) by helping the Nameless defeat [Lugos](npcs#lugos) and [Cassiopeia Beasby](npcs#cassiopeia-beasby) at [Claddage Manor](brightstone#claddage-manor). Afterward, she agreed to owe [Casta](npcs#casta) a favor in exchange for keeping Lugos's head in the possession of the Nameless.[^pawns-needles]
 
 At the opening of *Alduaria by [François](npcs#francois)*, Sizzle exchanged small talk [Nat Marseilles](npcs#nat-marseilles) and helped Cruncho distract [Bea](npcs#bea), François's sous chef. Her expert marksmanship also ensured that a hagfish slime explosion initiated by [Flan](flan) rendered the kitchen utterly unusable.[^alduaria]
 
-A week later, Sizzle and Cruncho worked together to thwart some contracts comissioned by the [Seventh Tower Consortium](seventh-tower-consortium) to weaken the Nameless. Sizzle and Cruncho "helped" Eckherd Deckherd execute a fatal "inspection" the lightning wall and sent an anonymous tip about an impending assassination attempt to [Myleria Krev](npcs#myleria-krev), leader of the [Red Sashes](factions#red-sashes); Velvet acted as a messenger to coordinate the arrival of the Black Knights and the Crows to Duskvol. Sizzle also had a lovely meetup with [Valanthe](npcs#valanthe) to discuss her passion for revolvers.[^phase-I]
+A week later, Sizzle and Cruncho worked together to thwart some contracts comissioned by the [Seventh Tower Consortium](seventh-tower) to weaken the Nameless. Sizzle and Cruncho "helped" Eckherd Deckherd execute a fatal "inspection" the lightning wall and sent an anonymous tip about an impending assassination attempt to [Myleria Krev](npcs#myleria-krev), leader of the [Red Sashes](factions#red-sashes); Velvet acted as a messenger to coordinate the arrival of the Black Knights and the Crows to Duskvol. Sizzle also had a lovely meetup with [Valanthe](npcs#valanthe) to discuss her passion for revolvers.[^phase-I]
 
 [in progress]
 

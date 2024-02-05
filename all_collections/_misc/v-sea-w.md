@@ -56,7 +56,7 @@ Originally a large spa with a pool, it has been converted into an outdoor wrestl
 
 # Franchising
 
-As part of an attempt to build a relationship with the [Billhooks](the-billhooks), the Nameless helped incorporate some of the dockside fihting pits into a broader "VSW" label, known as V8. The fights at these other fight pits are harder, colder, and more brutal. Rather than sourcing VSW actors for their shows, these pits are fueled by local talent, that is to say, shipboard fighters looking for a chance to hurt eachtother. 
+As part of an attempt to build a relationship with the [Billhooks](billhooks), the Nameless helped incorporate some of the dockside fihting pits into a broader "VSW" label, known as V8. The fights at these other fight pits are harder, colder, and more brutal. Rather than sourcing VSW actors for their shows, these pits are fueled by local talent, that is to say, shipboard fighters looking for a chance to hurt eachtother. 
 
 Many of these pits closed due to the Billhooks siding againt the Nameless in the War of Sevens, and the future is uncertain for those that remain open.[^war-of-sevens]
 

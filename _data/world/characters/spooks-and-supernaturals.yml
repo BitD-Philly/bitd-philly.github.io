@@ -62,3 +62,11 @@
 - name: Joseph Woodward
   w-id: joseph-woodward
   collection: npcs
+
+- name: Blighter
+  w-id: blighter
+  excerpt: Sparkcraft demon with many instances possessing various individuals throughout the city. Creator of Lugos. Former(?) ally of Breaker.
+
+- name: Vazara
+  w-id: vazara
+  excerpt: A centuries-old storm goddess that fought the Cinder King during the Calamity.

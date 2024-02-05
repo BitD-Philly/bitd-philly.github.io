@@ -16,7 +16,7 @@ You can link to other wiki pages like this:`[link text](link-target)`, where `li
 
 Examples:
 * [Duskvol](duskvol)
-* The [Seventh Tower Consortium](seventh-tower-consortium)
+* The [Seventh Tower Consortium](seventh-tower)
 
 You can also link to sub-headers on any page by using a # after the `link-text`. For example, linking to Cruncho's backstory would look like this:
 

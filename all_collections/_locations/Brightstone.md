@@ -31,7 +31,7 @@ Most engagement rolls sufer -1d due to heavy Bluecoat patrols. Operations agains
 
 Examples:
 * [Duskvol](duskvol)
-* The [Seventh Tower Consortium](seventh-tower-consortium)
+* The [Seventh Tower Consortium](seventh-tower)
 
 
 # Citations

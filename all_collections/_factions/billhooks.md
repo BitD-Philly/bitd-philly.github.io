@@ -13,6 +13,8 @@ picture:
 
 A powerful but fractured gang based in [The Docks](locations#the-docks) who does business out of their butcher shops. The Billhooks' leader, Tarvul, is consolidating his power among the fractured Billhooks after the Nameless helped him escape from prison.
 
+Territory at the Docks includes several fight pits, extortion rackets, an infamous butcher's shop, stockyard, slaughterhouse, AND former [Lampblack](/wiki/factions#lampblacks) drug dens (recent acquisition). Bloody reputation. Armed with military-grade weapons.
+
 # Appearances
 ## Lightning Wall Sabotage and the death of Coran
 
@@ -24,7 +26,7 @@ The Nameless (somewhat accidentally) turned Coran into a vessel for [The Horned 
 
 ## The War of Sevens
 
-Under [Erin](npcs#erin)'s lead, the Billhooks allied with the [Seventh Tower Consortium](factions#seventh-tower-consortium) against the Nameless during the War of Sevens. Major events include the battle for the docks and the escape of Tarvul.
+Under [Erin](npcs#erin)'s lead, the Billhooks allied with the [Seventh Tower Consortium](seventh-tower) against the Nameless during the War of Sevens. Major events include the battle for the docks and the escape of Tarvul.
 
 The Nameless coordinated with the [Red Sashes](factions#red-sashes) during the Battle of the Docks to undermine the Billhooks and stop their interference with the [Fog Hound](factions#fog-hounds) smugglers. While the Red Sashes staged a daring battle as a distraction, the Nameless smuggled evidence of the Billhooks' illicit sales of lightning wall materials into their headquarters through means of false Seventh Tower deliveries, false meat deliveries, and ghost door shenanigans. The Nameless were also able to exploit the existing tensions within the Billhooks due to the succession conflict, causing significant internal fighting under the pressure of the battle. Along with the additional scrutiny and journalistic interest in the lightning wall sabotage, the Billhooks were dissuaded from further interfering in the Fog Hounds' business[^dock-battle].
 
