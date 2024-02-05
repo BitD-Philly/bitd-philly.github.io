@@ -13,6 +13,8 @@ picture:
 
 A powerful but fractured gang based in [The Docks](locations#the-docks) who does business out of their butcher shops. The Billhooks' leader, Tarvul, is consolidating his power among the fractured Billhooks after the Nameless helped him escape from prison.
 
+Territory at the Docks includes several fight pits, extortion rackets, an infamous butcher's shop, stockyard, slaughterhouse, AND former [Lampblack](/wiki/factions#lampblacks) drug dens (recent acquisition). Bloody reputation. Armed with military-grade weapons.
+
 # Appearances
 ## Lightning Wall Sabotage and the death of Coran
 
