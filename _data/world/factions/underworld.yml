@@ -7,7 +7,7 @@
   id: the-hive
   tier: 4
   hold: S
-  status: 0
+  status: -1
 - name: The Circle of Flame
   id: circle-of-flame
   tier: 3
