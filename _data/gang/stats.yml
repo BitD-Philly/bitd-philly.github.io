@@ -8,9 +8,9 @@ stats:
   hold: strong
 
 counters:
-  xp: 5/10
-  rep: 6
-  heat: 1/9
+  xp: 8/10
+  rep: 7
+  heat: 4/9
   wanted-level: 2/4
   vault: 12/16
 
