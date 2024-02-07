@@ -56,8 +56,14 @@ claims:
     effects:
       - additional +2d to healing rolls
   - name: loyal-fence
-    source: factions:the-fog-hounds
+    source: factions:fog-hounds
   - name: v-sea-w
-    source: six-towers:v-sea-w
+    source: v-sea-w
     effects:
       - +2 coin each downtime
+  - name: turf-1
+    source: six-towers:deckherd-hall
+    is-turf: true
+  - name: turf-2
+    source: six-towers:historic-arena
+    is-turf: true
