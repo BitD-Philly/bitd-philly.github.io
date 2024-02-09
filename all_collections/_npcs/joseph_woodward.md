@@ -13,7 +13,7 @@ desc:           A man in a hat. Ex-CEO of the Seventh Tower Consortium. Father t
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
-{{page.desc}}
+Joseph Woodward is [Sizzle](sizzle)'s father and the former CEO of [Seventh Tower Consortium](seventh-tower). He traded most of his humanity to become the head of a semi-sentient corporation. Approximately 80% ego-dead.
 
 # Appearance
 A well-dressed man who appears to be in his early forties. He is rarely seen without one of his signature black, wide-brimmed hats, which were specially created for him in the Imperial City and shipped to Duskvol in bulk.[^dishonored-guests]

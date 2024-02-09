@@ -19,17 +19,24 @@
   excerpt: Gondolier. Perpetually stressed by the Nameless and their ghostly shenanigans.
   
 - name: Old Bootsy
-  w-id: bootsy
-  alias: Oopsy Poopsy Bootsy ("The O.P.")
-  excerpt: Drunkard, lunatic, minor purveyor of chaos. Ex-soldier and legendary former assassin. Out of the game. Collects ceramic figurines.
+  w-id: old-bootsy
+  excerpt: Drunkard, lunatic, minor purveyor of chaos. 
+
+- name: Oopsy Poopsy Bootsy ("The O.P.")
+  w-id: op-bootsy
+  excerpt: Ex-soldier and legendary former assassin. Out of the game. Collects ceramic figurines.
 
 - name: Baszo Baz
   w-id: baszo-baz
-  excerpt: Lampblack gang leader. Vicious. On the back foot.
+  excerpt: Lampblack gang leader. Dead.
+
+- name: Tarvul
+  w-id: tarvul
+  exceprt: Escaped and reinstalled Billhooks gang leader. Owes the Nameless for his freedom.
 
 - name: Erin
   w-id: erin
-  excerpt: Billhooks gang leader. Cunning. Had her nephew killed (if you count ego death) by the Nameless to consolidate power.
+  excerpt: Billhooks gang leader. Cunning. Had her nephew killed (if you count ego death) by the Nameless to consolidate power. Gone.
 
 - name: Coran
   w-id: coran
@@ -51,6 +58,10 @@
   w-id: grace
   excerpt: Killer-for-hire. Potentially too old for this shit.
 
+- name: Prudence
+  w-id: prudence
+  excerpt: Killer-for-hire. Works for the upper-crust.
+
 - name: Winslow Dunleavy
   w-id: winslow-dunleavy
   excerpt: Cutthroat Leviathan Hunter captain. Manslaughtered by the Nameless, framed as a Spirit Warden. Deceased.
@@ -62,10 +73,6 @@
 - name: Boris Volkov
   w-id: boris-volkov
   excerpt: Ykaterina Volkova's brother. Has a large box that feeds on human emotion. Indebted to the Dimmer Sisters. Has good days and bad days.
-
-- name: Wraiths
-  w-id: wraiths
-  excerpt: Enigmatic, possibly-supernatural gang. Might be related to the Spirit Wardens.
 
 - name: Caleb Hollow
   w-id: caleb-hollow
