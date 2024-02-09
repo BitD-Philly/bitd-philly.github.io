@@ -38,16 +38,16 @@
 
 - name: Lady Bowmore 
   w-id: lady-bowmore
-  excerpt: Grande Damme of Duskvolian society. Unflappable. A great respecter of lineage. Dead by trampling.
+  excerpt: "*Grande Damme* of Duskvolian society. Unflappable. A great respecter of lineage. Dead by trampling."
 
 - name: Stuart Bowmore
   w-id: stuart-bowmore
-  excerpt: Son of the lady Bowmore. Abruptly thrust into the co-managment of the Bowmore clan.
+  excerpt: Son of the lady Bowmore. Abruptly thrust into the co-managment of the Bowmore clan. Dead by drug/Monotheism combo.
 
 - name: Anastasia Bowmore
   w-id: anastasia-bowmore
-  excerpt: Daughter of the lady Bowmore. Co-head of the family with Stuart.
+  excerpt: Daughter of the lady Bowmore. Currently head of the Bowmore family.
 
-- name: Cole A
-  w-id: cole-a
-  excerpt: Brother to Valanthe. Jeremy's cool friend. MIA.
+- name: Cole Ardmore/Boris Karhowl, Mysteirous Heir
+  w-id: cole-ardmore
+  excerpt: Brother to Valanthe. Jeremy's cool friend. Possessed by Victoria Karhowl and MIA.

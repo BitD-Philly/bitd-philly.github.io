@@ -134,20 +134,23 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 {% assign type = "turf" %}
 {% else %}
 {% assign type = "claim" %}
+{% assign name = claim.name %}
 {%endif%}
 
 {% if claim.effects %}
 {% assign effects = claim.effects %}
 {% else %}
-{% assign effects = site.data.gang.claims-details.claims | where: "name",claim.name | map: "effects" | last %}
+{% assign effects = site.data.gang.claims-details.claims | where: "name", claim.name | map: "effects" | last %}
 {% endif%}
 
-{%if claim.source contains ":" %}
+{%if claim.source == "shadows" %}
+{% assign source = claim.source %}
+{% assign source-link = nil %}
+
+{% else %}
 {% assign source-name = claim.source | split: ":" | last | replace: "-"," "%}
 {% assign source-link = "/wiki/"|append: claim.source | replace: ":","#" %}
 {% assign source = "["|append: source-name | append: "](" | append: source-link | append: ")" %}
-{% else %}
-{% assign source = claim.source %}
 {%endif%}
 
 <tr>

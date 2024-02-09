@@ -10,7 +10,7 @@ stats:
 counters:
   xp: 8/10
   rep: 7
-  heat: 4/9
+  heat: 3/9
   wanted-level: 2/4
   vault: 12/16
 
@@ -56,8 +56,11 @@ claims:
     effects:
       - additional +2d to healing rolls
   - name: loyal-fence
-    source: factions:the-fog-hounds
+    source: factions:fog-hounds
   - name: v-sea-w
-    source: six-towers:v-sea-w
+    source: v-sea-w
     effects:
       - +2 coin each downtime
+  - name: turf-1
+    source: six-towers:historic-arena
+    is-turf: true

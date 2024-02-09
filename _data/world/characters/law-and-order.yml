@@ -1,6 +1,6 @@
 - name: Morgan Clelland
   w-id: morgan-clelland
-  excerpt: Son of the current Lord Clelland. Has the family stimulant problem. Police captain, has greater ambitions. Currently on the take.
+  excerpt: Son of the current Lord Clelland. Has the family stimulant problem. Police captain, has greater ambitions. Former Nameless asset. Flipped.
   faction: bluecoats
 
 - name: Cassiopeia Beasby
@@ -9,12 +9,16 @@
 
 - name: Nat Marseilles
   w-id: nat-marseilles
-  excerpt: Inspector from the Capital. Phenomenal deductive powers. Canonically based on Natasha Lyonne. Jammer's ex.
+  excerpt: Inspector from the Capital. Phenomenal deductive powers. Canonically based on Natasha Lyonne. Also Jammer's ex. Investigating the Nameless.
 
 - name: Chuck Morgenstern
   w-id: chuck-morgenstern
-  excerpt: Inspector from the Capital. Extremely loose canon (results guaranteed). Canonically based on Charlie Day. Also Jammer's ex.
+  excerpt: Inspector from the Capital. Extremely loose canon (results guaranteed). Canonically based on Charlie Day. Jammer's ex. Dead?
 
 - name: The Spider
   w-id: the-spider
   excerpt: Masked vigilante alias of Claire Strangford. Allied with the Clockmaker, Bea, and possibly others. Enhanced. Not wearing hockey pads.
+
+- name: Jeren
+  w-id: jeren
+  excerpt: Bluecoat archivist. Has had a bad run of things lately. 

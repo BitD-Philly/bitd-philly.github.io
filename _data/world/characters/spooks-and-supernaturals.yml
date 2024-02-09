@@ -1,6 +1,6 @@
 - name: The Immortal Emperor
   w-id: the-immortal-emperor
-  excerpt: Formerly known as "The Cinder King". All-powerful. Bored. Beginning to notice Duskwall after the death of Breaker.
+  excerpt: Formerly known as "The Cinder King". All-powerful. Bored/sad. Beginning to notice Duskwall after the death of Breaker.
 
 - name: Setarra
   w-id: setarra
@@ -9,11 +9,19 @@
 
 - name: Render
   w-id: render
-  excerpt: Centuries-old demon. Eleven feet tall armored juggernaut. Coming to Duskwall.
+  excerpt: Centuries-old ??? demon. Eleven feet tall armored juggernaut. Coming to Duskwall SOON TO NOW.
+
+- name: Blighter
+  w-id: blighter
+  excerpt: Centuries-old systems demon. Fragmented multi-consciousness hyper-genius (one of which is embedded in Cruncho).
 
 - name: Lord Scurlock
   w-id: lord-scurlock
   collection: npcs
+
+- name: Victoria Karhowl
+  w-id: victoria-karhowl
+  excerpt: Former super-mechanist. Currently a ghost possessing Cole Ardmore.
 
 - name: Lugos
   w-id: lugos
@@ -21,7 +29,7 @@
 
 - name: Casta
   w-id: casta
-  excerpt: Bounty hunter with a shady past. Currently missing. ~~Girlfriend~~ It's complicated with Ykaterina Volkova. Rival to Sizzle.
+  excerpt: Bounty hunter with a shady past. Currently working as a bodyguard to Viktoria Karhowl. ~~Girlfriend~~ It's complicated with Ykaterina Volkova. Rival to Sizzle.
 
 - name: Sam
   w-id: sam
@@ -45,7 +53,7 @@
 
 - name: Bhed the Wolf
   w-id: bhed-the-wolf
-  excerpt: 11-foot-tall anthropomorphic wolf ghost. Vicious. Free. Guest of the Dimmer Sisters.
+  excerpt: 11-foot-tall anthropomorphic wolf ghost. Vicious. Free. Trapped in Cruncho.
 
 - name: Doctor Heinrich the Crow
   w-id: doctor-heinrich
@@ -58,14 +66,6 @@
 - name: Doctor Sven the Crow
   w-id: doctor-sven
   excerpt: Amorphous plague doctor. New owner of one of [Flan](/wiki/flan)'s kidneys.
-
-- name: Joseph Woodward
-  w-id: joseph-woodward
-  collection: npcs
-
-- name: Blighter
-  w-id: blighter
-  excerpt: Sparkcraft demon with many instances possessing various individuals throughout the city. Creator of Lugos. Former(?) ally of Breaker.
 
 - name: Vazara
   w-id: vazara

@@ -4,8 +4,10 @@ claims:
     effects:
       - +1d to Command and Sway on site
     desc: You get +1d to Command and Sway on-site.
-  - name: turf-1-0
+  - name: turf-2
     x-y: 1-0
+    effects:
+      - expanded hunting grounds
   - name: loyal-fence
     x-y: 2-0
     effects: 
@@ -34,8 +36,10 @@ claims:
     desc: You get +1d to gather information for a score.
   - name: lair
     x-y: 2-1
-  - name: turf-3-1
+  - name: turf-1
     x-y: 3-1
+    effects:
+      - expanded hunting grounds
   - name: lookouts
     x-y: 4-1
     effects: 
@@ -59,8 +63,10 @@ claims:
     effects:
       - +2 coin for espionage or sabotage
     desc: You get +2 coin in payoff for scores that involve espionage or sabotage.
-  - name: turf-3-2
+  - name: turf-3
     x-y: 3-2
+    effects:
+      - expanded hunting grounds
   - name: secret-pathways
     x-y: 4-2
     effects: 
