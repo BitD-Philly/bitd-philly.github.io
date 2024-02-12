@@ -6,6 +6,8 @@
     - name: Barrowcleft
       w-id: barrowcleft
       excerpt: Residences and markets for the farmers who work the felds and eeleries.
+      map: true 
+      coords: "[[[-123,-386],[-129,-371],[-133,-354],[-120,-338],[-115,-329],[-128,-311],[-138,-294],[-150,-287],[-162,-275],[-178,-270],[-207,-265],[-208,-331],[-223,-370],[-234,-423],[-215,-464],[-208,-514],[-215,-567],[-185,-603],[-155,-634],[-107,-671],[-62,-704],[-14,-739],[47,-747],[47,-433],[17,-412],[5,-407],[-23,-406],[-59,-395],[-101,-395],[-123,-386]]]"
       game-data:
         stats: 
           wealth: 1
@@ -18,6 +20,8 @@
     - name: Brightstone
       w-id: brightstone
       collection: locations
+      coords: "[[[94, -11],[129, -125],[270, -122],[339, -51],[313, 19],[346, 31],[334, 56],[321, 67],[275, 75],[252, 46],[236, 23],[200, 5],[150, 0],[126, -3] ]]"
+      map: true
       game-data:
         stats: 
           wealth: 4
@@ -27,14 +31,28 @@
         effects: 
           - effect: Most engagement rolls sufer -1d due to heavy Bluecoat patrols.
           - effect: Operations against the nobility in Brightstone are considered on "hostile turf" for the purpose of generating heat.
-      points-of-interest: 
+      landmarks: 
         - name: Claddage Manor
           w-id: claddage-manor
           excerpt: An abandoned manor, formerly home to Lord and Lady Claddage before Lord Claddage was found guilty of embezzlement and treason.
-      
+          lat: -86
+          lng: 130
+        - name: The Pendryn Estate
+          w-id: pendryn-estate
+          excerpt: The home of Lord Arthur Pendryn, Lady Pendryn, and Jeremy "the Shmeek" Pendryn.
+          lat: -64
+          lng: 313
+        - name: Lord Commissar's Theater
+          w-id: commissars-theater
+          excerpt: One of the few opera houses in the Empire able to perform 'The Tradedy of Minika Arya'.
+          lat: 58
+          lng: 311
+
     - name: Charhollow
       w-id: charhollow
       excerpt: A crowded district of tenements and stacked houses.
+      map: true
+      coords: "[[[-25,-277],[7,-275],[35,-279],[68,-268],[81,-271],[117,-261],[128,-261],[128,-318],[137,-377],[142,-401],[122,-426],[72,-411],[46,-394],[29,-375],[-8,-316]]]"
       game-data: 
         stats: 
           wealth: 0
@@ -47,6 +65,8 @@
     - name: Charterhall
       w-id: charterhall
       excerpt: The citys civic offices and the hub for shops, artisans, and commerce.
+      coords: "[[[129, -125],[270, -122], [288,-104],[299,-115],[314,-154],[301,-222],[289,-222],[289,-331],[276, -335],[257,-341],[207, -337],[182,-344],[137,-377],[128,-318],[130,-187]]]"
+      map: true
       game-data:
         stats: 
           wealth: 4
@@ -55,7 +75,18 @@
           occult-influence: 0
         effects:
           - effect: Take a *Devil's Bargain* for +1d to gather info here in exchange for +1 heat.
-
+      landmarks: 
+        - name: Arthur Pendryn Museum
+          w-id: pendryn-museum
+          excerpt: Museum of antiquities. Recently robbed of a book and a banner.
+          lat: -263
+          lng: 215
+        - name: Charterhall University
+          w-id: charterhall-university
+          excerpt: Institute of higher learning.
+          lat: -307
+          lng: 245
+      
     - name: Coalridge
       w-id: coalridge
       excerpt: The remnants of Doskvols original hilltop mining settlement, now home to laborers and industrial factories.
@@ -65,6 +96,8 @@
           security-and-safety: 1
           criminal-influence: 1
           occult-influence: 0
+      map: true
+      coords: "[[[137,-377],[142,-401],[165, -456],[226,-526],[266,-582],[313,-605],[316,-570],[296,-516],[305,-479],[295,-429],[272,-388],[257,-341],[207, -337],[182,-344]]]"
 
     - name: Crow's Foot
       w-id: crows-foot
@@ -77,6 +110,8 @@
           occult-influence: 2
         effects:
           - effect: Take a *Devil's Bargain* for +1d for violent action, but the ghosts lash out at you.
+      map: true
+      coords: "[[[129,-155],[89,-145],[65,-143],[30,-130],[15,-128],[-27,-141],[-27,-215],[-33,-255],[-25,-277],[7,-275],[35,-279],[68,-268],[81,-271],[117,-261],[129,-261]]]"
 
     - name: The Docks
       w-id: the-docks
@@ -87,24 +122,41 @@
           security-and-safety: 2
           criminal-influence: 2
           occult-influence: 2
+      map: true
+      coords: "[[[94,-11],[129,-125],[129,-155],[89,-145],[65,-143],[30,-130],[15,-128],[-44,-146],[-60,-125],[-68,-99],[-36,-8],[-1.5,8],[77,18]]]"
 
     - name: Dunslough
       w-id: dunslough
       excerpt: A labor camp served by convicts and a ghetto for the destitute poor.
+      map: true 
+      coords: "[[[47,-433],[47,-747],[60,-748],[135,-752],[211,-755],[281,-750],[347,-745],[414,-733],[443,-711],[354,-661],[248,-596],[204,-522],[165,-477],[130,-451],[80,-434]]]"
       game-data:
         stats:
           wealth: 0
           security-and-safety: 0
           criminal-influence: 2
           occult-influence: 1
+      landmarks:
+        - name: Ironhook Prison
+          w-id: ironhook
+          excerpt: Duskvol's premier carceral institution.
+          lat: -503
+          lng: 89
+        - name: Old Meachum's Hagfish Farm
+          w-id: meachums-farm
+          excerpt: A hagfish farm owned and operated by the Nameless.
+          lat: -714
+          lng: 350
 
     - name: The Lost District
       w-id: the-lost-district
-      excerpt: A once wealthy area, ravaged by plague then abandoned to the deathlands when the second lightning barrier was built. Contains many lost treasures for the foolhardy to seek out.
+      excerpt: A once wealthy area, ravaged by plague then abandoned to the deathlands when the second lightning barrier was built. Contains many lost treasures for the foolhardy to seek out.    
 
     - name: Nightmarket
       w-id: nightmarket
       excerpt: The trade center for exotic goods imported by rail. Many vendors also trade in illicit goods.
+      map: true
+      coords: "[[[313,-605],[316,-570],[296,-516],[305,-479],[295,-429],[272,-388],[257,-341],[289,-331],[332,-311],[366,-311],[392,-295],[411,-275],[428,-270],[439,-299],[452,-314],[456,-329],[454,-355],[436,-409],[422,-448],[408,-484],[411,-520],[426,-536],[409,-564],[413,-596],[408,-621],[389,-636],[372,-644]]]"
       game-data:
         stats:
           wealth: 3
@@ -113,7 +165,13 @@
           occult-influence: 1
         effects:
           - effect: Take +1d to *acquire an asset* here, at the cost of 2 stress.
-
+      landmarks:
+        - name: Gaddoc Rail Station
+          w-id: gaddoc-station
+          excerpt: Train station that connects Duskvol with other cities in the Empire.
+          lat: -512
+          lng: 357
+    
     - name: Silkshore
       w-id: silkshore
       excerpt: The red lamp district and artist community.
@@ -125,31 +183,42 @@
           occult-influence: 1
         effects:
           - effect: If you *overindulge your vice* in Silkshore, take +1d to the next time you indulge your vice here.
+      map: true 
+      coords: "[[[-181,-196],[-182,-170],[-123,-141],[-68,-124],[-56,-141],[-51,-190],[-58,-247],[-56,-284],[-37,-328],[-13,-361],[5,-398],[5,-407],[-23,-406],[-59,-395],[-101,-395],[-123,-386],[-129,-371],[-133,-354],[-120,-338],[-115,-329],[-128,-311],[-138,-294],[-150,-287],[-162,-275],[-178,-270],[-189,-270],[-200,-256]]]"
 
     - name: Six Towers
       w-id: six-towers
       collection: locations
+      coords: "[[[313, 19],[339, -51],[288, -104],[299, -115],[314, -154],[301, -222],[289, -222],[289,-331],[332,-311],[366,-311],[392,-295],[411,-275],[428,-270],[443, -200],[422, -155],[413, -93],[405, -72],[395, -57],[390,-11],[359, 14],[346, 31]]]"
+      map: true
       game-data:
         stats:
           wealth: 2
           security-and-safety: 1
           criminal-influence: 2
           occult-influence: 3
-      points-of-interest:
+      landmarks:
         - name: Scurlock Manor
           w-id: scurlock-manor
-          excerpt: The derelict and haunted home of [Lord Scurlock](lord-scurlock).
-        - name: Void Sea Wrestling Arena
+          excerpt: The derelict and haunted home of Lord Scurlock.
+          lat: -172
+          lng: 415
+        - name: Former Void Sea Wrestling Arena
           w-id: v-sea-w#arena
-          excerpt: Originally a large spa with a pool, it has been converted into an outdoor wrestling arena. Replete with an attached gambling den with two stories. Flanked by watchtowers that double as changing rooms.
-        - name: Deckherd Hall
+          excerpt: Originally a large spa with a pool, it has been converted into an outdoor wrestling arena. Replete with an attached gambling den with two stories. Flanked by watchtowers that double as changing rooms. Now a historical landmark!
+          lat: -245
+          lng: 319
+        - name: The --- Arena
           w-id: deckherd-hall
           excerpt: Recently refurbished gambling den, former headquarters of the Duskvol branch of the Seventh Tower Consortium.
-
+          lat: -148
+          lng: 335
 
     - name: Whitecrown
       w-id: whitecrown
       excerpt: The sprawling estates of the Lord Governor, Hunter Commander, Master Warden, and Doskvol Academy.
+      map: true
+      coords: "[[[115,92],[85,68],[-6,46],[-29,43],[-85,-23],[-105,-61],[-158,-88],[-179,-79],[-180,-13],[-142,49],[-121,99],[-74,134],[-38,187],[14,212],[68,211],[108,220],[141,205],[202,180],[204,155],[179,121],[137,94]]]"
       game-data:
         stats:
           wealth: 2
@@ -158,4 +227,4 @@
           occult-influence: 3
         effects:
           - effect: Most engagement rolls suffer -2d due to heavy Imperial patrols.
-          - effect: Operations against the nobility in Whitecrown are considered on "hostile turf" for the purpose of generating heat.  
+          - effect: Operations against the nobility in Whitecrown are considered on "hostile turf" for the purpose of generating heat. 
