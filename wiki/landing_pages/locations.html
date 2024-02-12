@@ -5,6 +5,114 @@ permalink: /wiki/locations/
 title: Locations
 ---
 <h1>Locations</h1>
+{% assign mapped_districts = site.data.world.locations.duskvol[0].districts | where: "map","true"%}
+        <div id="map"></div>
+        
+        <script>
+            // Tile Layer(s)
+            var duskvol = L.tileLayer('/assets/img/world/locations/map-dark/{z}/{y}/{x}.jpg', {
+                continuousWorld: false,
+                noWrap: true,  
+                minZoom: 0,
+                maxZoom: 2,
+            });
+
+            // Interesting Places
+            var notableLocations = L.layerGroup([
+                {% assign flag= false%}
+                {% for district in mapped_districts %}
+                {% if district.landmarks %}
+                    {%for landmark in district.landmarks%}
+                    {%if flag==true%},{%else%}{%assign flag=true%}{%endif%}
+                    L.marker({
+                        lat:{{landmark.lat}}, lng: {{landmark.lng}}
+                    }).bindPopup("{{landmark.name}}")
+                    {%endfor%}{%endif%}
+                {%endfor%}
+
+        ]);
+
+            // Districts
+            var districts = [
+                {% for district in mapped_districts %}
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "w_id": "{{district.w-id}}", "name": "{{district.name}}" },
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": {{district.coords}}
+                    }
+                }{%unless forloop.last%},{%endunless%}
+                {% endfor %}
+            ];
+            
+            var districtLabels = L.layerGroup()
+
+            // Coordinate Finder
+            var nav_marker = L.marker([0,0], {
+                draggable: true,
+                });
+            
+            var debugTools = L.layerGroup([nav_marker])
+
+            /// MAP STARTS HERE ///
+            var map = L.map('map',  {
+                crs: L.CRS.Simple,
+                layers: [duskvol, notableLocations, districtLabels]
+            }).setView({lat: -256, lng: 128}, 0);
+
+            var baseMaps = {
+                "Duskvol": duskvol
+            };
+            var overlayMaps = {
+                "Notable Locations": notableLocations,
+                "District Labels": districtLabels,
+                "Debug Tools": debugTools
+
+            };
+            var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+            //Coordinate Finder
+            nav_marker.bindPopup('LatLng Marker').openPopup();
+            nav_marker.on('dragend', function(e) {
+            nav_marker.getPopup().setContent(`long: ${turf.round(nav_marker.getLatLng().lng,2)}<br>
+                                        lat: ${turf.round(nav_marker.getLatLng().lat,2)}`).openOn(map);
+            });
+            
+
+        
+
+const districtStyle1 = {
+    "weight": 1,
+    "opacity": 0.1,
+    "fill": false
+}
+
+
+
+L.geoJSON(districts, {
+    style: districtStyle1
+        }
+
+).addTo(map);
+
+function labelFromPolygon(feature) {
+    center = turf.centerOfMass(feature).geometry.coordinates
+    return L.tooltip(
+        [center[1], center[0]], {
+            content: `${feature.properties.name}`,
+            permanent: true,
+            direction: "center",
+            className: "district-label"
+            }
+        );
+}
+for (feature in districts) {
+labelFromPolygon(districts[feature]).addTo(map);
+}
+        </script>
+
 
 
 <h1> Duskvol Districts</h1>
