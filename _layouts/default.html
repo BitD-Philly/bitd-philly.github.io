@@ -21,7 +21,41 @@
         <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Barlow">
         
-        
+        {% if page.stylesheet=="map"%}
+       
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet"> 
+
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""/>
+
+            <!-- Make sure you put this AFTER Leaflet's CSS -->
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+
+            <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+            <script>
+                var bbox = turf.bbox(features);
+            </script>
+            <style>
+                /* #map { height:700px; width:800px; } */
+                .leaflet-container {
+                    background: #444;
+                }
+                .district-label {
+                    font: 1.5em Playfair Display SC;
+                    background:none;
+                    color: #ddd;
+                    text-shadow: 1px 1px 3px #444;
+                    border: 0;
+                    width: 100px;
+                    box-shadow: none;
+                }
+            </style>
+          {%endif%}
     </head>
     <body>
          
