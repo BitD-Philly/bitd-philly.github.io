@@ -3,7 +3,7 @@ layout: landing
 permalink: /wiki/factions/
 ---
 
-
+{% assign roman_numerals = "0,I,II,III,IV,V,VI" | split: "," %}
 
 <h1>Factions</h1>
 
@@ -27,7 +27,7 @@ permalink: /wiki/factions/
     <tr>
         <td>
             <a href="#{{faction.id}}">{{ faction.name }}</a></td>
-        <td>{{ faction.tier }}</td>
+        <td>{{roman_numerals[faction.tier] }}</td>
         <td>{{ faction.hold }}</td>
         <td class="s{{faction.status | replace: '-','m'}}">{{ faction.status }}</td>
     </tr>   
