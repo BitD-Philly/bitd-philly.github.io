@@ -1,5 +1,5 @@
 ---
-title: "Act VII: Render"
+title: "Act VII: Best Laid Plans"
 act-id: "act-7"
 permalink: /story/act-7/index:output_ext
 category: acts
