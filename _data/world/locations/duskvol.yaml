@@ -47,6 +47,11 @@
           excerpt: One of the few opera houses in the Empire able to perform 'The Tradedy of Minika Arya'.
           lat: 58
           lng: 311
+        - name: Unity Park
+          w-id: unity-park
+          excerpt: A beautiful park with a large fountain. Where all the cool kids hang out.
+          lat: -54
+          lng: 225
 
     - name: Charhollow
       w-id: charhollow
@@ -84,20 +89,26 @@
         - name: Charterhall University
           w-id: charterhall-university
           excerpt: Institute of higher learning.
-          lat: -307
-          lng: 245
+          lat: -280
+          lng: 263
       
     - name: Coalridge
       w-id: coalridge
-      excerpt: The remnants of Doskvols original hilltop mining settlement, now home to laborers and industrial factories.
+      excerpt: The remnants of Doskvol's original hilltop mining settlement, now home to laborers and industrial factories.
+      map: true
+      coords: "[[[137,-377],[142,-401],[165, -456],[226,-526],[266,-582],[313,-605],[316,-570],[296,-516],[305,-479],[295,-429],[272,-388],[257,-341],[207, -337],[182,-344]]]"
       game-data:
         stats:
           wealth: 1
           security-and-safety: 1
           criminal-influence: 1
           occult-influence: 0
-      map: true
-      coords: "[[[137,-377],[142,-401],[165, -456],[226,-526],[266,-582],[313,-605],[316,-570],[296,-516],[305,-479],[295,-429],[272,-388],[257,-341],[207, -337],[182,-344]]]"
+      landmarks:
+        - name: The Ironworks
+          w-id: ironworks
+          excerpt: Factory critical to ongoing maintenance of Leviathan Hunter fleets. Has (finally) been repaired.
+          lat: -472
+          lng: 225
 
     - name: Crow's Foot
       w-id: crows-foot
@@ -116,14 +127,20 @@
     - name: The Docks
       w-id: the-docks
       excerpt: Rough taverns, tattoo parlors, fighting pits, and warehouses.
+      map: true
+      coords: "[[[94,-11],[129,-125],[129,-155],[89,-145],[65,-143],[30,-130],[15,-128],[-44,-146],[-60,-125],[-68,-99],[-36,-8],[-1.5,8],[77,18]]]"
       game-data:
         stats:
           wealth: 2
           security-and-safety: 2
           criminal-influence: 2
           occult-influence: 2
-      map: true
-      coords: "[[[94,-11],[129,-125],[129,-155],[89,-145],[65,-143],[30,-130],[15,-128],[-44,-146],[-60,-125],[-68,-99],[-36,-8],[-1.5,8],[77,18]]]"
+      landmarks:
+        - name: Saltford's Bank
+          w-id: saltfords
+          excerpt: One of the most secure banks in Duskvol.
+          lat: -61
+          lng: 80
 
     - name: Dunslough
       w-id: dunslough
