@@ -11,8 +11,6 @@ pronouns: he/him
 desc: What happens when a kid is born with a silver spoon in his mouth and then pawns it for magic beans. Repeatedly.
 ---
 
-This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
-
 Sandro does make a lot of really above-board deals (Billhooks, oops-I-unionized-the-wrestlers) but also cheerfully lies a lot- inventing young Jimothy for the wrestlers, selling tenements he doesn't own.
 
 # Appearance

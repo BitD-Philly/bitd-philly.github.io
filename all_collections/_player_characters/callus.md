@@ -15,6 +15,8 @@ desc:        Ambitious casino dealer and vice purveyor to the people of Duskvol.
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
+Ambitious casino dealer and vice purveyor to the people of Duskvol.
+
 # Appearance
 
 A thin, angular looking individual, they generally hide any tell tale signs of their Tycherosian heritage through an assortment of thick white face makeup and multiple accessories. Impeccably well kept white suit; black silk shirt; leather shoes and driving gloves; visible skin painted white with makeup; pince-nez glasses with black tinted lenses.

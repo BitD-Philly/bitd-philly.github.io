@@ -22,7 +22,7 @@ layout: landing
         {% endif %}
         {{char.playbook}}
         <hr>
-        {{char.desc}}
+        {{char.desc | default: char.excerpt}}
     </li>
     {% endfor %}
 </ul>

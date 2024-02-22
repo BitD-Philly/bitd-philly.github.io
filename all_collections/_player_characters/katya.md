@@ -15,7 +15,7 @@ desc: Social Sciences chair at the University. Expert archer with a loyal hawk c
 picture:        katya.png
 ---
 
-Social Sciences chair at the University. Expert archer with a loyal hawk companion. Lesbian heartbreaker. Currently considered dead.
+This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
 
 # Appearance
 Dark-haired with steely gray, almost lupine eyes

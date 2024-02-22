@@ -14,9 +14,9 @@ desc:           Books lives for safety policy, and isn't afraid to make others d
 picture:        Books.png
 ---
 
- Nazim Sozin, or as he's come to be known, "Books" (as in, 'Hit the Books', 'Balance the Books', 'On the Books', etc), comes from a lineage of enthusiastic bureaucrats and philosopher people of law. Books lives for safety policy, but after suffering the lag and laziness of government red tape, he started to operate outside official channels in order to acquire more & more safety-and-harm data. All for the purpose of compiling the most comprehensive (and arguably impractical) safety handbook ever written: *U.H.N.D.E.R.B.E.L.L.Y.*. 
+Nazim Sozin, or as he's come to be known, "Books" (as in, 'Hit the Books', 'Balance the Books', 'On the Books', etc), comes from a lineage of enthusiastic bureaucrats and philosopher people of law. Books lives for safety policy, but after suffering the lag and laziness of government red tape, he started to operate outside official channels in order to acquire more & more safety-and-harm data. All for the purpose of compiling the most comprehensive (and arguably impractical) safety handbook ever written: *U.H.N.D.E.R.B.E.L.L.Y.*. 
  
- But sometimes you have to stir up your own trouble in order to document how to prevent it in the future. And who seems to cause the most trouble and harm around Duskwall? The Nameless, of course!
+But sometimes you have to stir up your own trouble in order to document how to prevent it in the future. And who seems to cause the most trouble and harm around Duskwall? The Nameless, of course!
 
 # Appearance
 
