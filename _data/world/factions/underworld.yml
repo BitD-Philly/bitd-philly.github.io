@@ -5,11 +5,13 @@
   status: 0
 - name: The Hive
   id: the-hive
+  excerpt: Merchants and purveyors of many fine goods, both legitimate and illicit.
   tier: 4
   hold: S
   status: -1
 - name: The Circle of Flame
   id: circle-of-flame
+  excerpt: Secret society of academicians that aren't afraid to get their hands dirty. Regularly publish responses to responses in fringe journals.
   tier: 3
   hold: S
   status: 3
@@ -31,6 +33,7 @@
   status: 0
 - name: The Red Sashes
   id: red-sashes
+  excerpt: Purveyors of high-quality drugs and masters of Iruvian swordsmanship.
   tier: 2
   hold: W
   status: 1
@@ -64,6 +67,7 @@
   status: 1
 - name: The Fog Hounds
   id: fog-hounds
+  excerpt: A rough band of Skovlan smugglers.
   tier: 1
   hold: W
   status: 0

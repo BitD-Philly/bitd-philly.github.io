@@ -15,8 +15,6 @@ desc: "Experimental Alchemist. Orphan and former sailor/stowaway. Old man."
 picture: Linmer.png
 ---
 
-Last updated on 12/15/2023.  The contents of this page are subject to change.
-
 Linmer was developed based on his player's desire to play someone who fit the "kooky old wizard" trope[^2].  He quickly moved away from Disney's Merlin and became something more original.
 
 He may appear to be frail and useless, Linmer is surprisingly spry and a talented alchemist.  He developed his persona hoping it would encourage others to ignore and underestimate him.  Sometimes, though, it is hard to tell wear the persona ends and the real Linmer begins.

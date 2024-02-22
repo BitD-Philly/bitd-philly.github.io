@@ -4,7 +4,7 @@
 full-name: Rosie Woodward 
 playbook: Hound
 player: Vinnie
-last_updated: 4/2/2024
+last_updated: 21/2/2024
 
 # optional
 alias: Sizzle
@@ -12,10 +12,10 @@ prefers-alias: true
 pronouns: she/her
 status: active
 desc: "A young gunslinger with a complicated family situation. Has a hawk. Sometimes comfortable."
-picture: Sizzle.png
+picture: Sizzle/Sizzle3crop.png 
 ---
 
-A crack shot on a quest for vengeance.
+A crack shot trying to piece together her broken family.
 
 # Appearance
 Sizzle is a young woman with a slight, wiry build. She has steely grey eyes with a steady, focused gaze. Her curly blonde hair is long enough to brush her elbows when let loose, but more often than not is pulled back in a braid to keep it contained. Her clothes, well-worn but equally well-cared for, are cut in a style more reminiscent of the Imperial City than Duskvol. In addition, she wears a deep red cloak that can be pulled up to obscure the lower half of her face.
@@ -59,11 +59,13 @@ A week later, Sizzle and Cruncho worked together to thwart some contracts comiss
 * [Valanthe](npcs#valanthe): Listens to Sizzle talk about pistol mechanisms for hours on end for some reason. Wears a mask Sizzle made.[^hooks-and-sashes]
 * [Casta](npcs#casta) (Rival): Sizzle has beaten her to one too many of her marks. Doesn't help that Sizzle looks like her younger sister, either.
 * [Grace](npcs#grace): Fellow bounty hunter and contact.
+* Celene (Friend): A sentinel with an eye for interior decorating.
+* Dr. Mycah Melver: A physicker specializing in the metaphysics that connects living bodies with their souls.
 
 # Citations
 
 [^1]: *"The Coffee Maker" Discord thread.*  <https://discord.com/channels/1022641517170540574/1181648148800753795/1185665689273520168> Retrieved 24-Dec-2023.
 [^hooks-and-sashes]: *Session Summary: Hooks & Sashes.* <{{site.url}}/story/act-6/2023-11-30/index.html>. Retrieved 04 Feb 2024.
-[^phase-I]: *Session Summary: Phase I.* <{{site.url}}/story/act-5/2023-10-17/>
+[^phase-I]: *Session Summary: Contract Work.* <{{site.url}}/story/act-5/2023-10-17/>
 [^alduaria]: *Session Summary: Alduaria.* <{{site.url}}/story/act-5/2023-10-05/>
 [^pawns-needles]: *Session Summary: Pawns & Needles.* <{{site.url}}/story/act-5/2023-09-21/>

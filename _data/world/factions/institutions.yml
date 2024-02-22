@@ -1,5 +1,6 @@
 - name: Imperial Military
   id: imperial-military
+  excerpt: The armed forces of the Imperium.
   tier: 6
   hold: S
   status: 0
@@ -10,26 +11,31 @@
   status: 0
 - name: Ministry of Preservation
   id: ministry-of-preservation
+  excerpt: A governmental institution charged with logistics of transportation & resource distribution throughout the Empire.
   tier: 5
   hold: S
   status: 0
 - name: Leviathan Hunters
   id: leviathan-hunters
+  excerpt: Brave and ruthless sailors that sail the Void Sea hunting Leviathans to extract their blood for use as electroplasm.
   tier: 5
   hold: S
   status: -1
 - name: Ironhook Prison
   id: ironhook-prison
+  excerpt: A labor camp served by convicts and a ghetto for the destitute poor.
   tier: 4
   hold: S
   status: 0
 - name: Sparkwrights
   id: sparkwrights
+  excerpt: Engineers that specialize in sparkcraft and maintain the lightning wall. Some might call their research shocking.
   tier: 4
   hold: S
   status: 0
 - name: Spirit Wardens
   id: spirit-wardens
+  excerpt: A mysterious organization of elite ghost hunters. Membership is secret; all Spirit Wardens wear bronze masks to hide their identities.
   tier: 4
   hold: S
   status: -1
@@ -47,6 +53,7 @@
   excerpt: Purveyors of "law" and "order" in Duskvol. Truthfully many of its members are in the pockets of different factions across the city. Nonetheless the most "legitimate" producers of violence in the city, with a presence in every neighborhood.
 - name: Inspectors
   id: inspectors
+  excerpt: Detectives, investigators, and prosecutors of criminal activity. Have at least some sense of ethics and integrity (fuckin' nerds).
   tier: 3
   hold: S
   status: -1
