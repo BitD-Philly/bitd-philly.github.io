@@ -12,7 +12,7 @@ prefers-alias: true
 pronouns: she/her
 status: active
 desc: "A young gunslinger with a complicated family situation. Has a hawk. Sometimes comfortable."
-picture: Sizzle.png
+picture: Sizzle/Sizzle3crop.png 
 ---
 
 A crack shot trying to piece together her broken family.
