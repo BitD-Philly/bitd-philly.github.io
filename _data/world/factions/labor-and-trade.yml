@@ -10,6 +10,7 @@
   status: 0
 - name: Gondoliers
   id: gondoliers
+  excerpt: A guild of gondola operators that provide canal-based transportation.
   tier: 3
   hold: S
   status: 1

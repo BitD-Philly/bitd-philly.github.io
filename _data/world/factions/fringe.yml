@@ -1,5 +1,6 @@
 - name: The Church of Ecstasy
   id: church-of-ecstasy
+  excerpt: The dominant religious institution of the Empire.
   tier: 4
   hold: S
   status: 0
@@ -40,6 +41,7 @@
   status: 0
 - name: Cult of Vazara
   id: cult-of-vazara
+  excerpt: A cult of nobles and academics dedicated to the worship of an ancient sky goddess.
   tier: 2
   hold: W
   status: 0
