@@ -16,7 +16,7 @@ layout: landing
             {{char.full-name}}<br>
         {% elsif char.alias %}
             <h3>{{char.full-name}}</h3>
-            "{{char.alias | split: ","| join: '"; "'}}"<br>
+            "{{char.alias | split: ","| join: '", "'}}"<br>
         {% else %}
             <h3>{{char.full-name}}</h3>
         {% endif %}

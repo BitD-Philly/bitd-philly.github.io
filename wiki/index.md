@@ -18,7 +18,7 @@ This rough-and-tumble crew has a large cast of unique and interesting characters
 <h3>{{pc.full-name}}</h3>
 <b>{{pc.playbook}}</b></p>
 <p>
-{{pc.excerpt}}</p>
+{{pc.excerpt | default: pc.desc}}</p>
 <p style="float:right;clear:right;margin-top:0">
 <a href="{{pc.url}}">Read more »</a></p>
 </li>
