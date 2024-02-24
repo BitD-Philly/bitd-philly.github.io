@@ -8,7 +8,7 @@ last_updated: 28 Dec 2023
 
 #optional
 pronouns: he/him
-alias: Viktor Godwin
+alias: Viktor Godwin, Mousewing
 status: presumed dead
 desc: University professor obsessed with invention and innovation. Briefly replaced by the Clockmaker. Mechanical genius. Considered dead.
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.

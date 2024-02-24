@@ -7,10 +7,9 @@ player: Amalia
 last_updated: 28 Dec 2023
 
 #optional
-pronouns:       she/her # preferred pronouns
-alias:          Jammer # primary alias
-prefers-alias:  true # Set to "true" if your character uses their alias instead of their name; otherwise, leave blank.
-status:         # suggestions: active | missing | presumed dead | incarcerated | dead | (defaults to active if left blank)
+pronouns: she/her # preferred pronouns
+alias: Jammer # primary alias
+prefers-alias: true #
 desc:        Shipside brawler. Punk. Exceptional ghost-puncher. # 1-2 sentences about the character
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
