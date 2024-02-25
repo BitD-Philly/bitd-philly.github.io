@@ -36,36 +36,36 @@ Sizzle came to Duskvol searching for her [father](joseph-woodward), falling in w
 
 Sizzle helped ensure the smooth opening of [Deckherd Hall](six-towers#deckherd-hall) by helping the Nameless defeat [Lugos](npcs#lugos) and [Cassiopeia Beasby](npcs#cassiopeia-beasby) at [Claddage Manor](brightstone#claddage-manor). Afterward, she agreed to owe [Casta](npcs#casta) a favor in exchange for keeping Lugos's head in the possession of the Nameless.[^pawns-needles]
 
-At the opening of *Alduaria by [François](npcs#francois)*, Sizzle exchanged small talk [Nat Marseilles](npcs#nat-marseilles) and helped Cruncho distract [Bea](npcs#bea), François's sous chef. Her expert marksmanship also ensured that a hagfish slime explosion initiated by [Flan](flan) rendered the kitchen utterly unusable.[^alduaria]
+At the opening of *Alduaria by [François](npcs#francois)*, Sizzle exchanged small talk [Nat Marseilles](npcs#nat-marseilles) and helped Cruncho distract [Bea](npcs#bea), François's sous chef. Her expert marksmanship also ensured that a hagfish slime explosion initiated by [Flan](flan) rendered the kitchen utterly unusable.[^alduaria-by-francois]
 
-A week later, Sizzle and Cruncho worked together to thwart some contracts comissioned by the [Seventh Tower Consortium](seventh-tower) to weaken the Nameless. Sizzle and Cruncho "helped" Eckherd Deckherd execute a fatal "inspection" the lightning wall and sent an anonymous tip about an impending assassination attempt to [Myleria Krev](npcs#myleria-krev), leader of the [Red Sashes](factions#red-sashes); Velvet acted as a messenger to coordinate the arrival of the Black Knights and the Crows to Duskvol. Sizzle also had a lovely meetup with [Valanthe](npcs#valanthe) to discuss her passion for revolvers.[^phase-I]
+A week later, Sizzle and Cruncho worked together to thwart some contracts comissioned by the [Seventh Tower Consortium](seventh-tower) to weaken the Nameless. Sizzle and Cruncho "helped" Eckherd Deckherd execute a fatal "inspection" the lightning wall and sent an anonymous tip about an impending assassination attempt to [Myleria Krev](npcs#myleria-krev), leader of the [Red Sashes](factions#red-sashes); Velvet acted as a messenger to coordinate the arrival of the Black Knights and the Crows to Duskvol. Sizzle also had a lovely meetup with [Valanthe](npcs#valanthe) to discuss her passion for revolvers.[^contract-work]
 
 [in progress]
 
 # Beliefs
 
 - **Money isn't value; value is value.**   
-> Sizzle views money as a means to an end, not a goal in and of itself. And some things just can't be bought.
+*Sizzle views money as a means to an end, not a goal in and of itself. And some things just can't be bought.*
+
 - **Debts get paid, one way or another.**   
-> Sizzle believes in natural consequences (and will *absolutely* enact them herself when necessary).
+*Sizzle believes in natural consequences (and will *absolutely* enact them herself when necessary).*
+
 - **Humanity is precious.**   
-> In a world of leviathans, demons, and ghosts, Sizzle still sees the value of humanity, individuality and connection. She will forgo gaining supernatural or political power if it means sacrificing the things that make her human.
+*In a world of leviathans, demons, and ghosts, Sizzle still sees the value of humanity, individuality and connection. She will forgo gaining supernatural or political power if it means sacrificing the things that make her human.*
 
 # Relationships
 
 * [Joseph Woodward](joseph-woodward): Sizzle's father and the reason she came to Duskvol. Former CEO of the Seventh Tower Consortium.
 * [Cruncho](cruncho): Spooky friend.
 * [Arkin Wollstonecraft](arkin): Co-inventor of the coffee-grinder-gatling-gun[^1]
-* [Valanthe](npcs#valanthe): Listens to Sizzle talk about pistol mechanisms for hours on end for some reason. Wears a mask Sizzle made.[^hooks-and-sashes]
+* [Valanthe](npcs#valanthe): Listens to Sizzle talk about pistol mechanisms for hours on end for some reason. Wears a mask Sizzle made.[^hooks-sashes]
 * [Casta](npcs#casta) (Rival): Sizzle has beaten her to one too many of her marks. Doesn't help that Sizzle looks like her younger sister, either.
 * [Grace](npcs#grace): Fellow bounty hunter and contact.
 * Celene (Friend): A sentinel with an eye for interior decorating.
 * Dr. Mycah Melver: A physicker specializing in the metaphysics that connects living bodies with their souls.
 
-# Citations
 
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
 [^1]: *"The Coffee Maker" Discord thread.*  <https://discord.com/channels/1022641517170540574/1181648148800753795/1185665689273520168> Retrieved 24-Dec-2023.
-[^hooks-and-sashes]: *Session Summary: Hooks & Sashes.* <{{site.url}}/story/act-6/2023-11-30/index.html>. Retrieved 04 Feb 2024.
-[^phase-I]: *Session Summary: Contract Work.* <{{site.url}}/story/act-5/2023-10-17/>
-[^alduaria]: *Session Summary: Alduaria.* <{{site.url}}/story/act-5/2023-10-05/>
-[^pawns-needles]: *Session Summary: Pawns & Needles.* <{{site.url}}/story/act-5/2023-09-21/>

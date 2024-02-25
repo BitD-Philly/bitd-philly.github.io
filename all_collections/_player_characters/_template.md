@@ -17,15 +17,9 @@ picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 
 This is a character wiki page! Write a short summary about your character here at the top of the page. Below are some additional suggested sections.
 
-You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to.
+You can link to other wiki pages like this:`[link text](link-target)`, where `link text` is the text that is written on the page and `link-target` is the name of the page you are linking to. (ex. [Duskvol](duskvol), [Seventh Tower Consortium](seventh-tower).
 
-**Note that valid links are lowercase and spaces must be replaced with dashes (-).**
-
-Examples:
-* [Duskvol](duskvol)
-* The [Seventh Tower Consortium](seventh-tower)
-
-You can also link to sub-headers on any page by using a # after the `link-text`. For example, linking to Cruncho's backstory would look like this:
+You can also link to sub-headers on any wiki page by using a # after the `link-text`. For example, linking to Cruncho's backstory would look like this:
 
 `Due to Cruncho's [personal history](cruncho#backstory) with football, he was able to...`
 
@@ -36,11 +30,10 @@ Describe your character's appearance here.
 # Story
 ## Backstory
 Write your character's backstory here. 
+You can also link additional sources in the footnotes![^example-citation]
 
 ## Time With the Nameless
-Detail your character's adventures here. You can also link primary sources in the footnotes![^my-footnote]
-
-**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
+Detail your character's adventures here!  All session recaps citations are automatically available to cite on any wiki page, but the citation will only appear once it has been added to the text. For example: This sentence cites the very first session recap.[^the-first-heist]
 
 # Relationships
 Create lists using asterisks:
@@ -50,6 +43,7 @@ Create lists using asterisks:
 * Ex
 * Mortal Enemy
 
-# Citations
-
-[^my-footnote]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
+[^example-citation]: *Name of source.* <http://link-to-source>

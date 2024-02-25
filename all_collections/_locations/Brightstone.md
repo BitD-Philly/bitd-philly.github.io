@@ -34,6 +34,6 @@ Examples:
 * The [Seventh Tower Consortium](seventh-tower)
 
 
-# Citations
-[^my-footnote]: 
-Harper, J. (2017). Blades in the dark. Evil Hat Productions. 
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations --> 

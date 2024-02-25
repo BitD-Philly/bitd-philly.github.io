@@ -39,8 +39,7 @@ You can link to other wiki pages like this:`[link text](link-target)`, where `li
 
 If you are linking to a stub (character, location, faction, etc. without a page), link instead to the place the stub is located on its related landing page (e.g., `[Nat Marseilles](npcs#nat-marseilles)` or `[The Dimmer Sisters](npcs#the-dimmer-sisters)`). You can also use this format to link to subheaders on any wiki page (e.g., `[Scurlock Manor](six-towers#scurlock-manor)`).
 
-# Citations
-**Note:** _Do not cite the wiki as a primary source!_ Acceptable sources include blog posts (e.g., session recaps), messages from the BitD Philly Discord (#fluff_and_nonsense, roleplay threads), dates of gameplay, and private communications with the DM. 
-
-[^my-footnote]: A footnote! Format links like this: <http://bitd-philly.github.io/wiki/>
-
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
+[^example-citation]: *Name of source.* <http://link-to-source>

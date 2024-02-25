@@ -22,8 +22,11 @@ You can also link to sub-headers on any page by using a # after the `link-text`.
 
 `Due to Cruncho's [personal history](cruncho#backstory) with football, he was able to...`
 
-You can also add footnotes! [^my-footnote]
+You can also add footnotes! [^example-citation]
 
 # Citations
 
-[^my-footnote]: footnote description and link to source goes here
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
+[^example-citation]: *Name of source.* <http://link-to-source>

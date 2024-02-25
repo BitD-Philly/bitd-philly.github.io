@@ -20,4 +20,7 @@ Within Duskvol, crime syndicates and traffickers vie for resources and control. 
 
 * [Six Towers](six-towers)
 
-# Citations
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
+[^example-citation]: *Name of source.* <http://link-to-source>
