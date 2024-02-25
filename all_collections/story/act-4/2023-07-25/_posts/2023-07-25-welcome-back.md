@@ -19,7 +19,7 @@ Screams below, and things begin to break in loud and spectacular fashion.
 
 She pauses for a moment and takes another sip. When she speaks next, it's in a kind of conspiratorial whisper.
 
-***"Mah fuckin' . . . y'know, GIRLfriend aced that asshole Mercy though. That was pretty sweet." ***
+***"Mah fuckin' . . . y'know, GIRLfriend aced that asshole Mercy though. That was pretty sweet."***
 Another pause, punctuated by gunshots.
 
 ***"They still got Viktoria whatsherfuck down there, by the way. Ghost-mode. She covered for us when the Shadow Witches came lookin'. Could be an asset. Cram her inta Arkin an' ya got yerself a turducken of crazy science bullshit."***
