@@ -1,12 +1,28 @@
-- name: Ghost Legionnaires
-  id: ghost-legionnaires
+- name: Lugos
+  id: lugos
+  tier:     
+  hold: 
+  status:
+- name: Scurlock
+  id: lord-scurlock
+  tier: 3
+  hold: 
+  status: -2
+  collection: npcs
+- name: Scurlock's Conspirators
+  id: team-scurlock
+  excerpt: Allies of Scurlock and self-appointed imperial babysitters. Currently includes Casta and Viktoria Karhowl.
+  tier: 
+  hold:
+  status: 1
+- name: Render's Troops
+  id: team-render
+  excerpt: Ancient imperial forces returning to Duskvol after nearly a millenium. Includes the Crows and Black Knights.
   tier:
   hold:
-  status:
-  excerpt: Ghosts of legionnares from a millenium ago that keep cropping up. Seem to hate most of the people above. Probably nothing to worry about.
-
-- name: Skovlan Geese
-  tier:
-  hold:
-  status:
-  excerpt: Honk honk, motherfucker.
+  status: 0
+- name: The Reconciled
+  id: reconciled
+  tier: 3
+  hold: S
+  status: 0

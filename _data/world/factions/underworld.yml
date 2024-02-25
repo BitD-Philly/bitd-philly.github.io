@@ -1,3 +1,26 @@
+- name: Scurlock
+  id: lord-scurlock
+  tier: 3
+  hold: 
+  status: -2
+  collection: npcs
+- name: Scurlock's Conspirators
+  id: team-scurlock
+  excerpt: Allies of Scurlock and self-appointed imperial babysitters. Currently includes Casta and Viktoria Karhowl.
+  tier: 1
+  hold: W
+  status: 1
+- name: Lugos
+  id: lugos
+  tier:     
+  hold: 
+  status:
+- name: Render's Troops
+  id: team-render
+  excerpt: Ancient imperial forces returning to Duskvol after nearly a millenium. Includes the Crows and Black Knights.
+  tier: 5
+  hold: S
+  status: 0
 - name: The Unseen
   id: the-unseen
   tier: 4
@@ -5,7 +28,7 @@
   status: 0
 - name: The Hive
   id: the-hive
-  excerpt: Merchants and purveyors of many fine goods, both legitimate and illicit.
+  excerpt: Merchants and purveyors of many fine goods, both legitimate and illicit. Currently restoring apartments on Palisade Avenue.
   tier: 4
   hold: S
   status: -1
@@ -20,17 +43,12 @@
   tier: 3
   hold: S
   status: 0
-- name: Lord Scurlock
-  id: lord-scurlock
-  tier: 3
-  hold: 
-  status: -2
-  collection: npcs
 - name: The Crows
-  id: the-crows-gang
+  excerpt: The (non-supernatural) Crows have been demolished as a gang. The Red Sashes were already consolidating their hold on Crow's Foot when a newly-investigative Bluecoat task force got their gang leader for murder. The group has disbanded, and many of its former members can be found in the Billhooks fight pits or gang ranks now.
+  id: the-crows
   tier: 2
-  hold: W
-  status: 0
+  hold: 
+  status: 
 - name: The Red Sashes
   id: red-sashes
   excerpt: Purveyors of high-quality drugs and masters of Iruvian swordsmanship.
@@ -84,11 +102,8 @@
   excerpt: a regiment of disgraced former Bluecoats who were fired for investigating Lord Strangford too closely. Former rivals of the Nameless, now forced into true retirement after a deadly war left them powerless.
 - name: The Lampblacks
   id: lampblacks
+  excerpt: Disbanded gang, formal rivals to the Red Sashes
   tier:
   hold: 
   status:
-- name: Lugos
-  id: lugos
-  tier:     
-  hold: 
-  status:
+

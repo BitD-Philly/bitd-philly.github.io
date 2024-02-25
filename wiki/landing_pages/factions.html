@@ -24,9 +24,13 @@ permalink: /wiki/factions/
         <th>Status</th>
     </tr>
     {% for faction in faction_group %}
-    <tr>
-        <td>
-            <a href="#{{faction.id}}">{{ faction.name }}</a></td>
+    <tr>{%if faction.collection%}
+        <td><a href="{{faction.id}}">{{faction.name}}</a></td>
+        {%elsif faction.excerpt%}
+        <td><a href="#{{faction.id}}">{{ faction.name }}</a></td>
+        {%else%}
+        <td>{{faction.name}}</td>
+        {%endif%}
         <td>{{roman_numerals[faction.tier] }}</td>
         <td>{{ faction.hold }}</td>
         <td class="s{{faction.status | replace: '-','m'}}">{{ faction.status }}</td>
@@ -42,6 +46,7 @@ permalink: /wiki/factions/
     <h1>{{faction_classification}}</h1>
     
     {% for faction in faction_group %}
+        {% if faction.excerpt or faction.collection%}
         <a name="{{faction.id}}"></a>
         <h2>{{faction.name}}</h2>
         {% if faction.collection %}
@@ -49,12 +54,12 @@ permalink: /wiki/factions/
             <i>See</i> <a href="/wiki/{{faction.id}}">{{faction.name}}</a>
             </p>
             <p>
-                {{ site[faction.collection] | where: "w-id", faction.id | map: "excerpt" | last}}
+                {{ site[faction.collection] | where: "w-id", faction.id | map: "excerpt" | first}}
             </p>
             
         {% endif %}
         <p>{{faction.excerpt}}</p>
-
+        {%endif%}
     {% endfor %}
 
 {% endfor %}
