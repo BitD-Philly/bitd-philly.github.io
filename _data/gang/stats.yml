@@ -15,13 +15,17 @@ counters:
   vault: 0/16
 
 finances:
+  income:
+    - payer: V-Sea-W
+      amount: 2
   expenses:
     - payee: The Circle of Flame
       amount: 1
     - payee: The Duskvol Independent
       amount: 1
-    - payee: The Shmeek's victims
+    - payee: Victims of the Shmeek, et. al.
       amount: 1
+
 
 upgrades:
   lair:

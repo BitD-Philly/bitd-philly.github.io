@@ -49,7 +49,7 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
     group=4 align="center" %}
 </div>
 
-
+<!-- Faction List -->
 <table class="factions" style="display:inline-block;min-width: 20em;width: 45%;">
 {% for faction_classification in site.data.world.factions._index %}
 
