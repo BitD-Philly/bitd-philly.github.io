@@ -25,7 +25,7 @@ permalink: /wiki/factions/
     </tr>
     {% for faction in faction_group %}
     <tr>{%if faction.collection%}
-        <td><a href="{{faction.id}}">{{faction.name}}</a></td>
+        <td><a href="/wiki/{{faction.id}}">{{faction.name}}</a></td>
         {%elsif faction.excerpt%}
         <td><a href="#{{faction.id}}">{{ faction.name }}</a></td>
         {%else%}
