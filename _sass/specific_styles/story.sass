@@ -1,0 +1,44 @@
+@import '_colors'
+
+.act-box
+    width: 90%
+    margin: 1em auto
+    overflow: hidden
+    position: relative
+    min-height: 20em
+
+    a:hover
+        text-decoration: none
+
+    ol 
+        min-width: 15em
+        height: fit-content
+        float: left
+        overflow-x: hidden
+        margin: 0
+        padding: 0
+
+        li 
+            padding: 0.5em 1em
+            display: block
+
+                    
+            &:hover, &:target
+                background: $charcoal
+                
+                a
+                    color: $ash-grey
+
+            span 
+                display: none
+                height: 100%
+                position: absolute
+                top: 0
+                left: 16em
+                font-size: 0.95em
+                padding: 1em 2em
+
+            &:hover span, &:target span 
+                display: block
+            
+

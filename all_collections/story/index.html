@@ -1,0 +1,33 @@
+---
+title: The Story of the Nameless
+permalink: /story/
+<!-- stylesheet: story -->
+---
+
+<h1>The Story</h1>
+
+{% assign acts = site.pages | where: "category","acts" | sort: "act-id"%}
+
+{% for act in acts %}
+<h2><a href="{{act.url}}">{{act.title}}</a></h2>
+{{ act.excerpt }}
+
+{% assign sessions = site.posts | where: "categories", act.act-id | where: "tags","session-recap" | sort: "date"%}
+
+<!-- <div class="act-box"> -->
+
+<ol>
+{%for session in sessions %}
+<li style="padding:0.5em">
+    <a href='{{session.url | replace: "recap.html",""}}'>{{session.title}} »</a>
+    <!-- <span>
+        {{session.excerpt}}
+        
+    </span>
+    <span class="citation-id">{{session.title | slugify}}</span> -->
+</li>
+{%endfor%}
+</ol>
+<!-- </div> -->
+{%endfor%}
+
