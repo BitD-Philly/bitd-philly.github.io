@@ -1,7 +1,7 @@
 ---
 title: The Story of the Nameless
 permalink: /story/
-<!-- stylesheet: story -->
+stylesheet: story
 ---
 
 <h1>The Story</h1>
@@ -14,20 +14,19 @@ permalink: /story/
 
 {% assign sessions = site.posts | where: "categories", act.act-id | where: "tags","session-recap" | sort: "date"%}
 
-<!-- <div class="act-box"> -->
+<div class="act-box">
 
 <ol>
 {%for session in sessions %}
-<li style="padding:0.5em">
+<li>
     <a href='{{session.url | replace: "recap.html",""}}'>{{session.title}} »</a>
-    <!-- <span>
+    <span class="excerpt">
         {{session.excerpt}}
-        
+        <p><b>citation key:</b> [^{{session.title | replace: ".","" |replace: "'","" | slugify}}]</p>
     </span>
-    <span class="citation-id">{{session.title | slugify}}</span> -->
 </li>
 {%endfor%}
 </ol>
-<!-- </div> -->
+</div>
 {%endfor%}
 
