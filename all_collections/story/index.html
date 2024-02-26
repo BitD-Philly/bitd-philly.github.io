@@ -22,7 +22,8 @@ stylesheet: story
     <a href='{{session.url | replace: "recap.html",""}}'>{{session.title}} »</a>
     <span class="excerpt">
         {{session.excerpt}}
-        <p><b>citation key:</b> [^{{session.title | replace: ".","" |replace: "'","" | slugify}}]</p>
+        <p><b>date:</b> {{session.date| date: "%B %e, %Y"}}<br>
+            <b>citation key:</b> [^{{session.title | replace: ".","" |replace: "'","" | slugify}}]</p>
     </span>
 </li>
 {%endfor%}
