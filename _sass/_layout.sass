@@ -1,4 +1,5 @@
 @import 'colors'
+$layout-break-small: 800px
 
 // set global defaults
 body
@@ -14,6 +15,7 @@ body
     background: $dark-slate
     border: 3px solid $mid-green
     border-width: 0 3px
+
 
 #banner 
     height: 120px
@@ -61,3 +63,6 @@ body
     a:hover
         color: #fff
 
+@media screen and (max-width: $layout-break-small)
+    #container
+        min-width: 95%
