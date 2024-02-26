@@ -44,6 +44,7 @@ Create lists using asterisks:
 * Ex
 * Mortal Enemy
 
-# Citations
-
-[^my-footnote]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
+[^example-citation]: *Name of source.* <http://link-to-source>

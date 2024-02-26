@@ -23,7 +23,7 @@ Short, skinny, and showing signs of early male pattern baldness. Often seen wear
 
 # Story
 ## Backstory
-Arvin Wollstonecraft was a mid level bureaucrat with moderate prospects. Arvin had been working in the capital for a few years now in a boring governmental job filled with far too much paperwork, middle management, and red tape. However, after reports of his brother [Arkin](arkin)’s threats at the university and subsequent death[^madman], Arvin was unceremonously demoted and blacklisted from the capital, moving back to his hometown. Now, working a dead end governmental position, Arvin toils away knowing he'll never be able to climb the corporate ladder. 
+Arvin Wollstonecraft was a mid level bureaucrat with moderate prospects. Arvin had been working in the capital for a few years now in a boring governmental job filled with far too much paperwork, middle management, and red tape. However, after reports of his brother [Arkin](arkin)’s threats at the university and subsequent death[^the-madmans-assault], Arvin was unceremonously demoted and blacklisted from the capital, moving back to his hometown. Now, working a dead end governmental position, Arvin toils away knowing he'll never be able to climb the corporate ladder. 
 
 ## Time With the Nameless
 Detail your character's adventures here. You can also link primary sources in the footnotes!
@@ -38,6 +38,7 @@ Create lists using asterisks:
 * Ex
 * Mortal Enemy
 
-# Citations
-
-[^madman]: *Session Recap: The Madman's Assault.* <{{site.url}}/story/act-4/2023-06-08/index.html>
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
+[^example-citation]: *Name of source.* <http://link-to-source>

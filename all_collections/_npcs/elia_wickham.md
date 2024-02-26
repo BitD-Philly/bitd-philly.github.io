@@ -22,14 +22,18 @@ Elia primarily appears to the group in the form of Old Wickham, a hunched, collo
 Elia is a remnant of the pre-cataclysm world, but it is unclear how much of those bygone days she remembers. She was a shadow witch either fighting for or against the [Cinder King](npcs#the-immortal-emperor), but due to some sorcerous accident she outgrew the bounds of what shadow magic should be able to do, and became capable of self-replicating her spirit by consuming others'. 
 
 # In Duskvol
-The Nameless first encountered Elia in the [Lost District](locations#the-lost-district) where she offered to help them outpace their pursuers in the hazardous terrain in exchange for being let into the city of Duskvol. Desperate to survive their attackers, the group agreed and allowed her passage into the city, hwere she then fled to [Makeout Mine](makeout-mine).
+The Nameless first encountered Elia in the [Lost District](locations#the-lost-district) where she offered to help them outpace their pursuers in the hazardous terrain in exchange for being let into the city of Duskvol. Desperate to survive their attackers, the group agreed and allowed her passage into the city, where she then fled to [Makeout Mine](makeout-mine).[^thrice-again]
+
 
 # Affiliations
 
 * [Orianna](affect) has sworn to destroy Elia-- the witch taunts her about this when they interact. 
 * [Linmer](linmer) has some sort of relationship to young hamwick, but hasn't disclosed the nature of that relationship.
-* [Cruncho](cruncho) has taken a piece of Elia willingly into the "geistcore." [^geist-hamwick]
+* [Cruncho](cruncho) has taken a piece of Elia willingly into the "geistcore." [^the-battle-that-wasnt]
 * [Scurlock](lord-scurlock) has some sort of relationship with Elia, though the Nameless do not know how they regard each other. 
 
-# Citations
-[^geist-hamwick]: *Recap in Discord*. <https://discord.com/channels/1022641517170540574/1167121173813932132/1188288431655235675>. Retrieved 24-Dec-2023
+
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
+

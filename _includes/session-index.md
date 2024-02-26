@@ -7,7 +7,10 @@
 
 {% if post_name =="index" %}
 {%continue%}
-{%elsif post.tags contains "session-recap"%}
+{% elsif post.tags contains "session-recap"%}
+{% if forloop.first == false %}
+# Session Recap
+{%endif%}
 {{post.content}}
 {% elsif post.tags contains "fluff" %}
 {% unless post.title == ""%}

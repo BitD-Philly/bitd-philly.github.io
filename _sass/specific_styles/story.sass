@@ -1,0 +1,56 @@
+@import '_colors'
+$layout-break-small: 900px
+
+.act-box
+    width: 90%
+    margin: 1em auto
+    overflow: hidden
+    position: relative
+    text-align: left
+    a:hover
+        text-decoration: none
+
+    ol 
+        width: 15em
+        float: left
+        overflow-x: hidden
+        margin: 0
+        padding: 0
+
+        li 
+            margin: 0
+            padding: 0.5em
+            display: block
+            background: $dark-slate
+                    
+            &:hover, &:target
+                background: $charcoal
+                a
+                    color: $ash-grey
+            span 
+                display: none
+                background: $charcoal
+                overflow-y: auto
+                height: 100%
+                width: calc(100% - 18em)
+                position: absolute
+                top: 0
+                left: 15em
+                font-size: 0.95em
+                padding: 0 0.5em 0 1em
+
+                p:last-of-type
+                    border-top: 1px dashed $mid-green
+                    padding-top: 1em
+                    font-size: 0.9em
+                        
+            &:hover span, &:target span 
+                display: block
+                
+                
+            
+
+
+@media screen and (max-width: $layout-break-small)
+    .act-box ol li:hover span
+        display: none

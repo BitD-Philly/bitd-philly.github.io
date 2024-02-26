@@ -49,7 +49,7 @@ Linmer has developed an intense paranoia regarding the supernatural in general a
 * Jammer:  Crew.
 * Jeremy "The Shmeek" Pendryn:  Ally?  A noble's child.
 * Katya:  Crew.
-* Lady Pendryn:  Enemy.  A noble.  She finds Linmer exceptionally annoying, but he hasn't been _so_ annoying to earn active antagonism from her.
+* [Lady Pendryn](npcs#lady-pendryn):  Enemy.  A noble.  She finds Linmer exceptionally annoying, but he hasn't been _so_ annoying to earn active antagonism from her.
 * Loop:  Crew.
 * Lord Pendryn:  Ally?  A noble and a cultist.  Linmer has found Lord Pendryn very helpful, but also a _bit much_.
 * [Orianna](affect):  Crew.
@@ -68,7 +68,7 @@ Linmer's has been experimenting with ways to cut people off from the Ghostfield.
 
 Linmer is nurturing relationships with members of a hypothetical future crew.
 
-# Citations
-
-[^1]: Discord, retrieved 14 Dec 2023. <https://discord.com/channels/1022641517170540574/1164876853861957643/1164886606549893180>
+<!-- Include default citations -->
+{% include recap-citations.md %}
+<!-- Additional citations -->
 [^2]:  Kooky old wizard.  <https://tvtropes.org/pmwiki/pmwiki.php/Main/WizardClassic>
