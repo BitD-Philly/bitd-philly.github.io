@@ -1,7 +1,7 @@
 ---
 title: Dear Scurlock
 date: 2022-10-20 11 PM -0500
-tags: fluff
+tag: fluff
 ---
 
 Dear Scurlock:
