@@ -18,7 +18,7 @@ desc:           A dangerous vampire with powerful connections. Ancient and immut
 A dangerous vampire with powerful connections. Ancient and immutable.
 
 # Appearance
-As a vampire, Scurlock's appearance depends on the body he is currently possessing. When the Nameless first met him, he was a dark, handsome man of noble descent; he has also appeared as [Lord Strangford](npcs#lord-strangford),[^the-shmeet-up] and as an old woman during the events of *DuskViolence II: Super Omega MAX Ultra Supreme Vortex*.[^valentines-sea-wrestling]
+As a vampire, Scurlock's appearance depends on the body he is currently possessing. When the Nameless first met him, he was a dark, handsome man of noble descent; he has also appeared as [Lord Strangford](npcs#lord-strangford),[^the-shmeet-up] and as an old woman during the events of *DuskViolence II: Super Omega MAX Ultra Supreme Vortex*.[^valentine-sea-wrestling]
 
 # Background
 It is unclear what role Scurlock played in the time of the calamity or when he became a vampire, but the Scurlock family is said to have become part of Duskvol's early settlements hundreds of years ago. Their family manor still stands in [Six Towers](six-towers).

@@ -26,10 +26,11 @@ A young, but worn woman standing a head above most of Duskvol's populace. What w
 
 # Story
 ## Backstory
-Inspired to learn the truth about an ancient ancestor, a Saint who seemed to have little recognition in the modern canon, she has always been curious about the true nature of the ghost field and the arcane. When her workplace began the process towards unionizing, she was happy to join with her comrades in looking for a better life. But in the twilight city of Duskvol, a better life does not come cheap. Arcane forces directed by the fearsome [Lord Scurlock](lord-scurlock) massacred the striking workers, a tremendous display of sorcery that Orianna had not experienced before. One of the few survivors of the attack, she was left attached to the ghost field and the spirits of her dead friends. Saved and brought back to health by the witch [Quellin](npcs#quellin), she began to learn to reign in her connection. Now desperate for other work, she reached out to her cousin [Adric](adric) for an introduction, and was brought to the Nameless in the wake of their Opera-house heist.^[the-first-heist]
+
+Inspired to learn the truth about an ancient ancestor, a Saint who seemed to have little recognition in the modern canon, she has always been curious about the true nature of the ghost field and the arcane. When her workplace began the process towards unionizing, she was happy to join with her comrades in looking for a better life. But in the twilight city of Duskvol, a better life does not come cheap. Arcane forces directed by the fearsome [Lord Scurlock](lord-scurlock) massacred the striking workers, a tremendous display of sorcery that Orianna had not experienced before. One of the few survivors of the attack, she was left attached to the ghost field and the spirits of her dead friends. Saved and brought back to health by the witch [Quellin](npcs#quellin), she began to learn to reign in her connection. Now desperate for other work, she reached out to her cousin [Adric](adric) for an introduction, and was brought to the Nameless in the wake of their Opera-house heist.[^the-first-heist]
 
 ## Time With the Nameless
-Detail your character's adventures here. You can also link primary sources in the footnotes![^1]
+Detail your character's adventures here. You can also link primary sources in the footnotes!
 
 
 # Relationships
@@ -44,4 +45,5 @@ Create lists using asterisks:
 <!-- Include default citations -->
 {% include recap-citations.md %}
 <!-- Additional citations -->
+
 [^example-citation]: *Name of source.* <http://link-to-source>

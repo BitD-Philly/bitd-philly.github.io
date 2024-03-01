@@ -3,5 +3,5 @@
 
 {% for recap in recaps%}
 {% assign ref = recap.title | replace: "'", ""| replace: ".","" | slugify %}
-[^{{ref}}]: *{{recap.title}}*. <{{site.url}}{{recap.url | replace: "recap.html",""}}>
+[^{{ref}}]: *{{recap.title}}*. <{{recap.url | replace: "recap.html","" | absolute_url}}>
 {%endfor%}
