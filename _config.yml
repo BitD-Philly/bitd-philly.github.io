@@ -48,6 +48,12 @@ defaults:
       layout: "default"
   -
     scope:
+      path: "story"
+      type: "posts"
+    values:
+      layout: "story"
+  -
+    scope:
       path: ""
       type: "contribute"
     values:
