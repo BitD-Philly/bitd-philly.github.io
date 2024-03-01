@@ -4,11 +4,11 @@
 {% assign act-number = page.categories[1] | split: "-" | last| plus: 0%}
 {% assign session_number = 1 %}
 
-{% assign act-recaps = site.posts | where: "categories",page.categories[1] | where: "tag","session-recap" | sort: "date"%}
+{% assign act-recaps = site.posts | where: "categories",page.categories[1] | where: "tags","session-recap" | sort: "date"%}
 
 
 {% assign posts = site.posts | where: "categories", folder_name | sort: "date"%}
-{% assign recap = posts | where: "tag","session-recap" | first%}
+
 
 {% for recap in act-recaps %}
 
