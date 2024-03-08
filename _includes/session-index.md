@@ -53,6 +53,8 @@ Act {{roman_numerals[act-number]}} -- Session {{session_number}}<br>
 
 {% if post_name =="index" %}
 {%continue%}
+{% elsif post_name == "intro" %}
+{{post.content}}
 {% elsif post.tags contains "session-recap"%}
 {% if forloop.first == false %}
 # Session Recap
