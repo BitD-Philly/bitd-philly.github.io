@@ -2,6 +2,8 @@
   desc: Each PC may add +1 action rating to Prowl, Finesse, or Tinker (up to a max rating of 3).
 - name: ghost-echoes
   desc: From weird experience or occult ritual, all crew members gain the ability to see and interact with the ghostly structures, streets, and objects within the echo of Doskvol that exists in the ghost field.
+  effects:
+    - PCs can see & interact with ghost infrastructure
 - name: pack-rats
   desc: Your lair is a jumble of stolen items. When you roll to acquire an asset, take +1d.
 - name: patron

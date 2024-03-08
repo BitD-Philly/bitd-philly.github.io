@@ -8,11 +8,11 @@ stats:
   hold: weak
 
 counters:
-  xp: 1/10
+  xp: 5/10
   rep: 0
-  heat: 6/9
+  heat: 1/9
   wanted-level: 2/4
-  vault: 0/16
+  vault: 5/16
 
 finances:
   income:
@@ -49,6 +49,7 @@ abilities:
       - -1 heat during downtime
       - +1d to gather info on city elites
     desc: Take -1 heat during downtime and +1d to gather information about the city's elite.
+  - name: ghost-echoes
 
 claims:
   - name: informants

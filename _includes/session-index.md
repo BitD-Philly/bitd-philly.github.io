@@ -37,14 +37,6 @@
 
 # {{title}}
 
-<style>
-    .session_header {
-        width: 100%;
-        text-align: center;
-        padding-bottom: 1em
-    }
-    h1 {text-align: left;}
-</style>
 <div class="session_header">
 Act {{roman_numerals[act-number]}} -- Session {{session_number}}<br>
 {{page.date | date_to_string: "ordinal","US"}}
@@ -61,6 +53,8 @@ Act {{roman_numerals[act-number]}} -- Session {{session_number}}<br>
 
 {% if post_name =="index" %}
 {%continue%}
+{% elsif post_name == "intro" %}
+{{post.content}}
 {% elsif post.tags contains "session-recap"%}
 {% if forloop.first == false %}
 # Session Recap
