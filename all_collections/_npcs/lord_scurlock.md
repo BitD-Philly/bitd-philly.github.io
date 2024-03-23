@@ -11,7 +11,7 @@ last_updated: 17 Dec 2023
 pronouns:       He/Him
 status:         missing/presumed dead 
 affiliations:   Remnants of the Calamity, 
-desc:           A dangerous vampire with powerful connections. Ancient and immutable.
+desc:           Vampire, noble, body-snatcher, conniver. Once-employer of the Nameless. Currently trapped in a box with Blighter.
 
 ---
 
