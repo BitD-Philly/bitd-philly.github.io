@@ -20,7 +20,7 @@
   excerpt: Ancient imperial forces returning to Duskvol after nearly a millenium. Includes the Crows and Black Knights.
   tier: 5
   hold: S
-  status: 0
+  status: 1
 - name: The Unseen
   id: the-unseen
   tier: 4
