@@ -36,11 +36,15 @@ Sizzle came to Duskvol searching for her [father](joseph-woodward), falling in w
 
 Sizzle helped ensure the smooth opening of [Deckherd Hall](six-towers#deckherd-hall) by helping the Nameless defeat [Lugos](npcs#lugos) and [Cassiopeia Beasby](npcs#cassiopeia-beasby) at [Claddage Manor](brightstone#claddage-manor). Afterward, she agreed to owe [Casta](npcs#casta) a favor in exchange for keeping Lugos's head in the possession of the Nameless.[^pawns-needles]
 
-At the opening of *Alduaria by [François](npcs#francois)*, Sizzle exchanged small talk [Nat Marseilles](npcs#nat-marseilles) and helped Cruncho distract [Bea](npcs#bea), François's sous chef. Her expert marksmanship also ensured that a hagfish slime explosion initiated by [Flan](flan) rendered the kitchen utterly unusable.[^alduaria-by-francois]
+At the opening of Alduaria by [François](npcs#francois), Sizzle exchanged small talk with [Nat Marseilles](npcs#nat-marseilles), helped Cruncho distract [Bea](npcs#bea), and pulled the trigger on a hagfish slime explosion.[^alduaria-by-francois]
 
-A week later, Sizzle and Cruncho worked together to thwart some contracts comissioned by the [Seventh Tower Consortium](seventh-tower) to weaken the Nameless. Sizzle and Cruncho "helped" Eckherd Deckherd execute a fatal "inspection" the lightning wall and sent an anonymous tip about an impending assassination attempt to [Myleria Krev](npcs#myleria-krev), leader of the [Red Sashes](factions#red-sashes); Velvet acted as a messenger to coordinate the arrival of the Black Knights and the Crows to Duskvol. Sizzle also had a lovely meetup with [Valanthe](npcs#valanthe) to discuss her passion for revolvers.[^contract-work]
+Shortly after, Sizzle intercepted Seventh Tower contracts intended to weaken the Nameless. She "helped" Eckherd Deckerd "inspect" the lightning wall, sent an anonymous tip about an impending assassination attempt to [Myleria Krev](npcs#myleria-krev), leader of the [Red Sashes](factions#red-sashes), and dispatched Velvet to guide the Black Knights and the Crows to Duskvol. She also had a lovely meetup with [Valanthe](npcs#valanthe) to discuss revolvers.[^contract-work]
 
-[in progress]
+### The War of Sevens
+
+Sizzle sourced questionable intoxicants from [Reek](npcs#reek) to smuggle into a high-profile gala hosted by Seventh Tower. Upon arrival, she ran interference against (well... ran away from) [Sam](npcs#sam) as the other Nameless did their best to wreck the place. Before departing, she was intercepted by the [Man in the Hat](joseph-woodward), the leader of Seventh Tower... and her father. She immediately shot him in the chest.[^dishonored-guests]
+
+
 
 # Beliefs
 
@@ -48,7 +52,7 @@ A week later, Sizzle and Cruncho worked together to thwart some contracts comiss
 *Sizzle views money as a means to an end, not a goal in and of itself. And some things just can't be bought.*
 
 - **Debts get paid, one way or another.**   
-*Sizzle believes in natural consequences (and will *absolutely* enact them herself when necessary).*
+*Sizzle believes in natural consequences (and will* absolutely *enact them herself when necessary).*
 
 - **Humanity is precious.**   
 *In a world of leviathans, demons, and ghosts, Sizzle still sees the value of humanity, individuality and connection. She will forgo gaining supernatural or political power if it means sacrificing the things that make her human.*
@@ -63,6 +67,7 @@ A week later, Sizzle and Cruncho worked together to thwart some contracts comiss
 * [Grace](npcs#grace): Fellow bounty hunter and contact.
 * Celene (Friend): A sentinel with an eye for interior decorating.
 * Dr. Mycah Melver: A physicker specializing in the metaphysics that connects living bodies with their souls.
+* [Giancarlo](npcs#giancarlo): Adoptive grandfather. Excellent hugger.
 
 
 <!-- Include default citations -->

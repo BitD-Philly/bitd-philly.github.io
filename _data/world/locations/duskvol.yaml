@@ -109,6 +109,11 @@
           excerpt: Factory critical to ongoing maintenance of Leviathan Hunter fleets. Has (finally) been repaired.
           lat: -472
           lng: 225
+        - name: Makeout Mine
+          w-id: makeout-mine
+          excerpt: Formerly Skydagger Keep, the location of the last stand of the old gods against the Immportal Emperor. Now a thriving spot for teenagers to make their first fumbling attempts at mutually dealing with their rampant hormones.
+          lat: -403
+          lng: 176
 
     - name: Crow's Foot
       w-id: crows-foot
