@@ -24,7 +24,7 @@
 
 - name: Dr. Carver Wrackham Malleus, PhD, IFD
   w-id: carver-malleus
-  excerpt: Former chair of Antiquities and Social Sciences at Charterhall U. Asshole. Deposed, and currently stuck with a haunted penis (the Babadick).
+  excerpt: Former chair of Antiquities and Social Sciences at Charterhall U. Asshole. Deposed, and currently stuck with a haunted penis (the Babadick). Crucified by Render.
 
 - name: Slane Karlstadt
   w-id: slane-karlstadt
@@ -49,3 +49,7 @@
 - name: Old Meachum
   w-id: old-meachum
   excerpt: Owner and operator of Meachum's hagfish farm. Now deceased.
+
+- name: The Babadick
+  w-id: babadick
+  excerpt: Former haunted member of Dr. Carver Wrackham Malleus, PhD, IFD. Now free.
