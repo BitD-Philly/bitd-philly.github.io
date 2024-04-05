@@ -23,7 +23,7 @@ stylesheet: story
     <span class="excerpt">
         {{session.excerpt}}
         <p><b>date:</b> {{session.date| date: "%B %e, %Y"}}<br>
-            <b>citation key:</b> [^{{session.title | replace: ".","" |replace: "'","" | slugify}}]</p>
+            <b>citation key:</b> [^{{session.title | replace: ".","" |replace: "'","" |  replace: "ç","c" | slugify}}]</p>
     </span>
 </li>
 {%endfor%}
