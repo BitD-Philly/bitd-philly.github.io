@@ -11,7 +11,7 @@ stylesheet: gang
 {% assign featured-faction-list = site.data.gang.featured-factions | join: ":" | append: ":" | prepend: ":"%}
 
 <!-- Calculations -->
-{% assign n-turf = gang.stats.claims | where: "is-turf",true | size %}
+{% assign n-turf = gang.claims | where: "is-turf",true | size %}
 {% assign roman_numerals = "0,I,II,III,IV,V,VI" | split: "," %}
 
 # The Nameless
