@@ -1,0 +1,211 @@
+abilities:
+  - name: everyone-steals
+    desc: Each PC may add +1 action rating to Prowl, Finesse, or Tinker (up to a max rating of 3).
+  - name: ghost-echoes
+    desc: From weird experience or occult ritual, all crew members gain the ability to see and interact with the ghostly structures, streets, and objects within the echo of Doskvol that exists in the ghost field.
+    effects:
+      - PCs can see & interact with ghost infrastructure
+  - name: pack-rats
+    desc: Your lair is a jumble of stolen items. When you roll to acquire an asset, take +1d.
+  - name: patron
+    desc: When you advance your Tier, it costs half the coin it normally would. Who is your patron? Why do they help you?
+  - name: second-story
+    desc: When you execute a clandestine infiltration, you get +1d to the engagement roll.
+  - name: slippery
+    effects: 
+      - +1d to reduce heat
+      - roll twice on entanglements and choose result
+    desc: When you roll entanglements, roll twice and keep the one you want. When you reduce heat on the crew, take +1d.
+  - name: synchronized
+    effects:
+      - 6s from different players count as critical for group actions
+    desc: When you perform a group action, you may count multiple 6s from different rolls as a critical success.
+  - name: veteran
+    desc: Choose a special ability from another crew.
+
+claims:
+  - name: interrogation-chamber
+    x-y: 0-0
+    effects:
+      - +1d to Command and Sway on site
+    desc: You get +1d to Command and Sway on-site.
+  - name: turf-2
+    x-y: 1-0
+    effects:
+      - expanded hunting grounds
+  - name: loyal-fence
+    x-y: 2-0
+    effects: 
+      - +2 coin for burglary or robbery
+    desc: You get +2 coin in payoff for scores that involve burglary or robbery.   
+  - name: gambling-den
+    x-y: 3-0
+    effects: 
+      - (Tier roll) - Heat = coin in downtime
+    desc: Any time during downtime, roll dice equal to your Tier. You earn coin equal to the highest result minus your heat. 
+  - name: tavern
+    x-y: 4-0
+    effects: 
+      - +1d to Consort and Sway on site
+    desc: You get +1d to Consort and Sway rolls on-site. 
+
+  - name: drug-den
+    x-y: 0-1
+    effects: 
+      - (Tier roll) - Heat = coin in downtime
+    desc: Any time during downtime, roll dice equal to your Tier. You earn coin equal to the highest result, minus your heat. 
+  - name: informants
+    x-y: 1-1
+    effects:
+      - +1d to gather info for scores
+    desc: You get +1d to gather information for a score.
+  - name: lair
+    x-y: 2-1
+  - name: turf-1
+    x-y: 3-1
+    effects:
+      - expanded hunting grounds
+  - name: lookouts
+    x-y: 4-1
+    effects: 
+      - +1d to Survey or Hunt on your turf
+    desc: You get +1d to Hunt or Survey on your turf.
+
+  - name: hagfish-farm
+    x-y: 0-2
+    effects:
+      - +1d to reduce heat after killing
+      - corpse disposal
+    desc: When you use the *reduce heat* downtime activity after a score that involves killing, you get +1d to the roll and quiet, convenient disposal of any corpses you left on the job.
+  - name: infirmary
+    x-y: 1-2
+    effects:
+      - +1d to healing rolls
+      - infirmary beds
+    description: You get +1d to healing treatment rolls. The infirmary also has beds for long-term convalescence.
+  - name: covert-drops
+    x-y: 2-2
+    effects:
+      - +2 coin for espionage or sabotage
+    desc: You get +2 coin in payoff for scores that involve espionage or sabotage.
+  - name: turf-3
+    x-y: 3-2
+    effects:
+      - expanded hunting grounds
+  - name: secret-pathways
+    x-y: 4-2
+    effects: 
+      - +1d engagement for stealth plans
+    desc: You get +1d to the engagement roll for stealth plans.
+
+cohorts:
+  edges:
+    - edge: fearsome
+      desc: The cohort is terrifying in aspect and reputation.
+    - edge: independent
+      desc: The cohort can be trusted to make good decisions and act on their own initiative in the absence of direct orders.
+    - edge: loyal
+      desc: The cohort can't be bribed or turned against you.
+    - edge: tenacious
+      desc: The cohort won't be deterred from a task.
+  flaws:
+    - flaw: principled
+      desc: The cohort has an ethic or values that it won't betray.
+    - flaw: savage
+      desc: The cohort is excessively violent and cruel.
+    - flaw: unreliable
+      desc: The cohort isn't always available, due to other obligations, stupefaction from their vices, etc.
+    - flaw: wild
+      desc: The cohort is drunken, debauched, and loud-mouthed.
+
+upgrades:
+  lair:
+    - name: vault
+      desc: Your lair has a secure vault, increasing your storage capacity for coin to 8. A separate part of your vault can be used as a holding cell.
+      effects:
+        - store up to 8 coin
+        - use vault as holding cell
+    - name: vault-upgrade
+      desc: Your lair's secure vault has increased your storage capacity for coin to 16.
+      effects:
+        - store up to 16 coin
+    - name: hidden-lair
+      desc: Your lair has a secret location and is disguised to hide it from view. If your lair is discovered, use two downtime activities and pay coin equal to your Tier to relocate it and hide it once again.
+      effects: 
+        - disguised lair location
+    - name: lair-workshop
+      desc: Your lair has a workshop appointed with tools for tinkering and alchemy, as well as a small library of books, documents, and maps. You may accomplish long-term projects with these assets without leaving your lair.
+      effects:
+        - work on long-term projects inside lair
+    - name: carriage-house
+      desc: You have a carriage, two goats to pull it, and a stable.
+      effects:
+        - own a carriage and two small goats
+        - own a stable
+    - name: carriage-house-upgrade
+      desc: You add armor to the carraige and obtain larger, swifter goats. 
+      effects:
+        - armored carriage
+        - better goats
+    - name: boat-house
+      desc: You have a boat, a dock on a waterway, and a small shack to store boating supplies.
+      effects:
+        - own a boat
+        - own a dock and a shack with boating supplies
+    - name: boat-house-upgrade
+      desc: You add armor and more cargo capacity to your boat.
+      effects:
+        - a bigger boat
+        - boat armor
+    - name: quarters
+      desc: Your lair includes living quarters for the crew. Without this upgrade, each PC sleeps elsewhere, and is vulnerable when they do so.
+      effects:
+        - PCs have safe sleeping quarters
+
+  training:
+    - name: insight
+      effects: 
+        - +2 xp when training Insight in downtime
+      desc: Crew members earn 2 xp (instead of 1) when they train the Insight xp track during downtime.
+    - name: prowess
+      effects: 
+        - +2 xp when training Prowess in downtime
+      desc: Crew members earn 2 xp (instead of 1) when they train the Prowess xp track during downtime.
+    - name: resolve
+      effects: 
+        - +2 xp when training Resolve in downtime
+      desc: Crew members earn 2 xp (instead of 1) when they train the Resolve xp track during downtime.
+    - name: playbook
+      effects: 
+        - +2 xp when training playbook in downtime
+      desc: Crew members earn 2 xp (instead of 1) when they train the playbook xp track during downtime.
+    - name: mastery
+      effects:
+        - PC action rating limit increased to 4
+      desc: Your crew has access to master level training. You may advance your PCs' action ratings to 4 (until you unlock this upgrade, PC action ratings are capped at 3).
+
+  quality:
+    - name: documents
+      desc: Improves the quality rating of all the PCs Documents beyond the quality established by the crew's Tier and fine items.
+      effects:
+        - +1 quality to documents
+    - name: gear
+      desc: Improves the quality rating of all the PCs Burgalary/Climbing Gear beyond the quality established by the crew's Tier and fine items.
+      effects:
+        - +1 quality to burglary & climbing gear
+    - name: arcane-implements
+      desc: Improves the quality rating of all the PCs Arcane Implements beyond the quality established by the crew's Tier and fine items.
+      effects:
+        - +1 quality to arcane implements
+    - name: subterfuge-supplies
+      desc: Improves the quality rating of all the PCs subterfuge supplies beyond the quality established by the crew's Tier and fine items.
+      effects:
+        - +1 quality to subterfuge supplies
+    - name: tool
+      desc: Improves the quality rating of all the PCs Demolitions/Tinkering Tools beyond the quality established by the crew's Tier and fine items.
+      effects:
+        - +1 quality to demolitions & tinkering tools
+    - name: weapon
+      desc: Improves the quality rating of all the PCs weapons beyond the quality established by the crew's Tier and fine items.
+      effects:
+        - +1 quality to weapons
