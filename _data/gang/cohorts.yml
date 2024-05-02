@@ -1,7 +1,9 @@
+
 - name: Valerie Pendryn
-  health: 3/3
+  class: expert
+  health: 4/4
   w-id: valerie-pendryn
-  types:
+  types: 
     - Assassin
   edges:
     - independent
@@ -9,3 +11,11 @@
   flaws:
     - savage
     - unreliable
+- name: Graduate Students
+  class: gang
+  health: 0/4
+  quality: 2
+  types: 
+    - Adepts
+  edges:
+  flaws:

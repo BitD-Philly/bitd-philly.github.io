@@ -3,59 +3,46 @@ title: Gang
 stylesheet: gang
 ---
 <!-- retrieve data from stats file -->
-{% assign gang-stats = site.data.gang.stats.stats %}
-{% assign gang-counters = site.data.gang.stats.counters %}
-{% assign gang-finances = site.data.gang.stats.finances %}
-
-{% assign gang-claims = site.data.gang.stats.claims %}
-{% assign gang-abilities = site.data.gang.stats.abilities %}
-{% assign gang-upgrades = site.data.gang.stats.upgrades %}
+{% assign gang = site.data.gang.stats %}
+{% assign details = site.data.gang.details%}
+{% assign cohorts = site.data.gang.cohorts | sort: "class" %}
 {% assign upgrade-types = "lair,training,quality" | split: ","%}
 
 {% assign featured-faction-list = site.data.gang.featured-factions | join: ":" | append: ":" | prepend: ":"%}
 
 <!-- Calculations -->
-{% assign n-turf = site.data.gang.stats.claims | where: "is-turf",true | size %}
+{% assign n-turf = gang.stats.claims | where: "is-turf",true | size %}
 {% assign roman_numerals = "0,I,II,III,IV,V,VI" | split: "," %}
 
 # The Nameless
 <div style="display:inline-block;max-width:45%;min-width: 20em;vertical-align:top;text-align:left;" markdown="1">
 
-The Nameless are crew of `{{site.data.gang.stats.type}}` with a reputation as `{{site.data.gang.stats.reputation}}`, headquartered at `{{site.data.gang.stats.lair}}` in the Six Towers district of Duskvol.
+The Nameless are crew of `{{gang.type}}` with a reputation as `{{gang.reputation}}`, headquartered at `{{gang.lair}}` in the Six Towers district of Duskvol.
 
 <h2>Current Stats</h2>
 
-The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{gang-stats.hold}}` hold.
+The Nameless are currently `Tier {{roman_numerals[gang.stats.tier]}}` with `{{gang.stats.hold}}` hold.
 
 <!-- Rep/Turf Counter -->
 {% include clock.html 
-    label="Rep" fill=gang-stats.rep 
+    label="Rep" fill=gang.stats.rep 
     label2="Turf" fill2=n-turf 
     max="12" group="6" 
     align="center" css="margin-bottom: 3em"%}
 
-{% include clock.html label="Heat" fill=gang-counters.heat group=3 align="center" %}
-{% include clock.html label="Wanted Level" fill=gang-counters.wanted-level align="center" css="margin-bottom: 3em"%}
+{% include clock.html label="Heat" fill=gang.counters.heat group=3 align="center" %}
+{% include clock.html label="Wanted Level" fill=gang.counters.wanted-level align="center" css="margin-bottom: 3em"%}
 
 <!-- XP Counter -->
 {% include clock.html 
-    label="Crew XP" fill=gang-counters.xp 
+    label="Crew XP" fill=gang.counters.xp 
     group=5 align="center" css="margin-bottom: 3em;"%}
 
 
 <!-- Vault Counter -->
 {% include clock.html 
-    label="Vault" fill=gang-counters.vault 
+    label="Vault" fill=gang.counters.vault 
     group=4 align="center" %}
-
-<!--Clocks -->
-## Clocks
-{% for clock in gang-counters.clocks %}
-<b style="border-bottom: 1px; padding: auto 2px;">{{clock.name}}</b>
-{% include clock.html
-    label=clock.progress fill=clock.progress 
-    group=4 align="left" %}
-{%endfor%}
 </div>
 
 <!-- Faction List -->
@@ -100,20 +87,18 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 
 <div style="clear:both;"></div>
 
-# Assets
-
+# Advancements
 
 <!-- Asset Table of (1) abilities, (2) claims, (3) upgrades -->
 <table class="perks">
 <tr>
-<th>Asset</th>
-<th>Type</th>
+<th>Abilities</th>
 <th>Source</th>
 <th>Effect</th>
 </tr>
 
 <!-- Asset Table: Abilities -->
-{% for ability in gang-abilities %}
+{% for ability in gang.abilities %}
 
 {% if ability.name == "veteran" %}
 {% assign name = ability.vet-name | replace: "-"," "%}
@@ -122,12 +107,11 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 {% else %}
 {% assign name = ability.name | replace: "-"," "%}
 {% assign source = "shadows" %}
-{% assign effects = site.data.gang.abilities-details | where: "name",ability.name | map: "effects" | last%}
+{% assign effects = details.abilities | where: "name",ability.name | map: "effects" | last%}
 {% endif %}
 
 <tr>
 <td>{{name}}</td>
-<td>ability</td>
 <td>{{source}}</td>
 <td>{% for effect in effects %}
 {{effect | markdownify}}
@@ -136,20 +120,19 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 </tr>
 {% endfor %}
 
-<!-- Asset table: Claims & Turf -->
-{% for claim in gang-claims %}
 
-{% if claim.is-turf %}
-{% assign type = "turf" %}
-{% else %}
-{% assign type = "claim" %}
-{% assign name = claim.name %}
-{%endif%}
+<tr>
+<th>Claims & Turf</th>
+<th>Source</th>
+<th>Effect</th>
+</tr>
+<!-- Asset table: Claims & Turf -->
+{% for claim in gang.claims %}
 
 {% if claim.effects %}
 {% assign effects = claim.effects %}
 {% else %}
-{% assign effects = site.data.gang.claims-details.claims | where: "name", claim.name | map: "effects" | last %}
+{% assign effects = details.claims | where: "name", claim.name | map: "effects" | last %}
 {% endif%}
 
 {%if claim.source == "shadows" %}
@@ -164,7 +147,6 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 
 <tr>
 <td>{{claim.name | replace: "-"," "}}</td>
-<td>{{type}}</td>
 <td>{{source |markdownify}}</td>
 <td>
 {% for effect in effects %}
@@ -174,9 +156,14 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 </tr>
 {%endfor%}
 
+<tr>
+<th>Upgrades</th>
+<th>Source</th>
+<th>Effect</th>
+</tr>
 <!-- Asset table: Upgrades -->
 {% for type in upgrade-types %}
-{% for item in gang-upgrades[type] %}
+{% for item in gang.upgrades[type] %}
 
 {% assign effects = site.data.gang.upgrades-details[type] | where: "name",item | map: "effects" | last %}
 {% if type=="training" %}
@@ -188,7 +175,6 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 {%endif%}
 <tr>
 <td>{{name}}</td>
-<td>upgrade</td>
 <td>{{type}}</td>
 <td>
 {% for effect in effects %}
@@ -203,3 +189,46 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 </table>
 
 
+# Cohorts
+
+<table class="perks">
+{% if cohorts %}
+{% assign health-status = "Destroyed;Broken;Impaired (-1d);Weakened (-1 effect);Healthy"| split: ";"%}
+<tr>
+<th>Name</th>
+<th>Class</th>
+<th>Status</th>
+<th>Types</th>
+<th>Quality</th>
+<th>Edges</th>
+<th>Flaws</th>
+</tr>
+{% for cohort in cohorts %}
+{% if cohort.class=="expert"%}
+{% assign quality = gang.stats.tier | plus: 1 %}
+{% elsif cohort.class=="gang"%}
+{% assign quality = gang.stats.tier %}
+{% endif %}
+
+{% assign health = cohort.health | slice: 0| plus: 0%}
+
+<tr>
+<td>{{cohort.name}}</td>
+<td>{{cohort.class}}</td>
+<td>{{health-status[health]}}</td>
+<td>{% for type in cohort.types %}
+{{type | markdownify }}
+{%endfor%}</td>
+<td>{{roman_numerals[quality]}}</td>
+<td>{% for edge in cohort.edges %}
+{{edge | markdownify}}
+{%endfor%}</td>
+<td>{% for flaw in cohort.flaws %}
+{{flaw | markdownify}}
+{%endfor%}</td>
+</tr>
+{% endfor %}
+
+{%endif%}
+
+</table>
