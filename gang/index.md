@@ -165,7 +165,7 @@ The Nameless are currently `Tier {{roman_numerals[gang.stats.tier]}}` with `{{ga
 {% for type in upgrade-types %}
 {% for item in gang.upgrades[type] %}
 
-{% assign effects = site.data.gang.upgrades-details[type] | where: "name",item | map: "effects" | last %}
+{% assign effects = details.upgrades[type] | where: "name",item | map: "effects" | last %}
 {% if type=="training" %}
 {% assign name = item | replace: "-"," "| append: " training" %}
 {%elsif type=="quality" %}
