@@ -23,13 +23,13 @@ stylesheet: gang
 
 The Nameless are crew of `{{site.data.gang.stats.type}}` with a reputation as `{{site.data.gang.stats.reputation}}`, headquartered at `{{site.data.gang.stats.lair}}` in the Six Towers district of Duskvol.
 
-<h2 style="text-align:center">Current Stats</h2>
+<h2>Current Stats</h2>
 
 The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{gang-stats.hold}}` hold.
 
 <!-- Rep/Turf Counter -->
 {% include clock.html 
-    label="Rep" fill=gang-counters.rep 
+    label="Rep" fill=gang-stats.rep 
     label2="Turf" fill2=n-turf 
     max="12" group="6" 
     align="center" css="margin-bottom: 3em"%}
@@ -47,6 +47,15 @@ The Nameless are currently `Tier {{roman_numerals[gang-stats.tier]}}` with `{{ga
 {% include clock.html 
     label="Vault" fill=gang-counters.vault 
     group=4 align="center" %}
+
+<!--Clocks -->
+## Clocks
+{% for clock in gang-counters.clocks %}
+<b style="border-bottom: 1px; padding: auto 2px;">{{clock.name}}</b>
+{% include clock.html
+    label=clock.progress fill=clock.progress 
+    group=4 align="left" %}
+{%endfor%}
 </div>
 
 <!-- Faction List -->

@@ -5,14 +5,17 @@ lair: -redacted-
 
 stats:
   tier: 3
-  hold: weak
+  rep: 0
+  hold: strong
 
 counters:
-  xp: 5/10
-  rep: 8
-  heat: 6/9
+  xp: 1/10
+  heat: 2/9
   wanted-level: 2/4
-  vault: 7/16
+  vault: 12/16
+  clocks:
+    - name: The Spider's Last Stand
+      progress: 1/12
 
 finances:
   income:
