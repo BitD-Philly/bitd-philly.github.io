@@ -13,9 +13,6 @@ counters:
   heat: 2/9
   wanted-level: 2/4
   vault: 12/16
-  clocks:
-    - name: The Spider's Last Stand
-      progress: 1/12
 
 finances:
   income:
