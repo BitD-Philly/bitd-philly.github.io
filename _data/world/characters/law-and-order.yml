@@ -9,11 +9,12 @@
 
 - name: Nat Marseilles
   w-id: nat-marseilles
-  excerpt: Inspector from the Capital. Phenomenal deductive powers. Canonically based on Natasha Lyonne. Also Jammer's ex. Investigating the Nameless.
+  excerpt: Inspector from the Capital. Phenomenal deductive powers. Canonically based on Natasha Lyonne.Half-burnt face. Sandro's best friend, also Jammer's ex. 
 
 - name: Chuck Morgenstern
   w-id: chuck-morgenstern
-  excerpt: Inspector from the Capital. Extremely loose canon (results guaranteed). Canonically based on Charlie Day. Jammer's ex. Half of his body is burned. Curiously chill with the Nameless.
+  alias: The Croaker
+  excerpt: Former Inspector from the Capital, turned full supervillain. Canonically based on Charlie Day. Part Crow, park Old Wickhamm, all Chaos. Jammer's ex. 
 
 - name: The Spider
   w-id: the-spider
