@@ -5,18 +5,20 @@ lair: -redacted-
 
 stats:
   tier: 3
-  rep: 0
+  rep: 4
   hold: strong
 
 counters:
   xp: 1/10
-  heat: 2/9
+  heat: 4/9
   wanted-level: 2/4
-  vault: 12/16
+  vault: 10/16
 
 finances:
   income:
     - payer: V-Sea-W
+      amount: 2
+    - payer: Linmer
       amount: 2
   expenses:
     - payee: The Circle of Flame
