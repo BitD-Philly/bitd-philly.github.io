@@ -8,6 +8,7 @@ last_updated: 21 Feb 2024
 
 #optional
 pronouns: he/him
+alias: Charon
 desc: What happens when a kid is born with a silver spoon in his mouth and then pawns it for magic beans. Repeatedly.
 ---
 
