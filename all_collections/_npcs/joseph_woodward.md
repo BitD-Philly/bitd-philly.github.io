@@ -7,13 +7,13 @@ last_updated: 4 Feb 2024
 
 #optional
 pronouns:       he/him 
-alias:          The Man in the Hat, Hatman 
-status:         barely there
+alias:          Giuseppi, The Man in the Hat, Hatman 
+status:         forcefully retired
 desc:           A man in a hat. Ex-CEO of the Seventh Tower Consortium. Father to Sizzle. Excellent listener.
 picture:        # contact site admin (Parker or Vinnie) to set up a picture.
 ---
 
-Joseph Woodward is [Sizzle](sizzle)'s father and the former CEO of [Seventh Tower Consortium](seventh-tower). He traded most of his humanity to become the head of a semi-sentient corporation. Approximately 80% ego-dead.
+Joseph Woodward is [Sizzle](sizzle)'s father and the former CEO of [Seventh Tower Consortium](seventh-tower). He traded most of his humanity to become the head of a semi-sentient corporation. Approximately 60% ego-dead. Currently apprenticed to [Giancarlo Valentini](/wiki/npcs#giancarlo).
 
 # Appearance
 A well-dressed man who appears to be in his early forties. He is rarely seen without one of his signature black, wide-brimmed hats, which were specially created for him in the Imperial City and shipped to Duskvol in bulk.[^dishonored-guests]
@@ -30,9 +30,9 @@ However, what's clear is that Joseph Woodward willingly hollowed himself out to 
 
 # Involvement with the Nameless
 
-Woodward's connection to the ghost field was severed at the grand opening of the Palisade Avenue Stock Exchange.[^the-crash] Ordinarily, that effect would be of brief inconvenience, as a spirit would be inexorably drawn to its own still-living body. In Joseph's case, that spirit had been so adulterated by Seventh Tower Consortium that rejoining the two would have taken time or extreme arcane effort. Now that he's been fully ousted as CEO and had the door shut behind him by The Nameless's forgery, there's very little left of him; it's not clear that he's capable of being more than a hollow shell of a person anymore.[^sizzle-clock] 
+Woodward's connection to the ghost field was severed at the grand opening of the Palisade Avenue Stock Exchange.[^the-crash] Ordinarily, that effect would be of brief inconvenience, as a spirit would be inexorably drawn to its own still-living body. In Joseph's case, that spirit had been so adulterated by Seventh Tower Consortium that rejoining the two would have taken time or extreme arcane effort. When he was fully ousted as CEO and had the door shut behind him by The Nameless's forgery[^snakes-on-a-frame], there was very little left of him, and it was not clear that he was capable of being more than a hollow shell of a person anymore.[^sizzle-clock] 
 
-Woodward is currently in Sizzle's custody.[^snakes-on-a-frame]
+Sizzle worked to find Woodward a new sense of self and reason for living, eventually asking for help from [Giancarlo Valentini](npcs#giancarlo), the Nameless's resident chef/medic. Giancarlo offered to take Joseph on as an apprentice, and his mental state has been steadily improving along with his culinary skills. Upon proving himself to Giancarlo, Joseph was immediately adopted has his son and given the honorary adoptive name "Giuseppi".[^tales-of-duskvol]
 
 <!-- Include default citations -->
 {% include recap-citations.md %}
