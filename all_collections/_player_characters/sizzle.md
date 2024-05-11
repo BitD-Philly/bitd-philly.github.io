@@ -7,7 +7,7 @@ player: Vinnie
 last_updated: 21/2/2024
 
 # optional
-alias: Sizzle
+alias: Sizzle, Rosaria
 prefers-alias: true
 pronouns: she/her
 status: active
@@ -46,7 +46,7 @@ Sizzle sourced questionable intoxicants from [Reek](npcs#reek) to smuggle into a
 
 
 
-# Beliefs
+# Beliefs & Drives
 
 - **Money isn't value; value is value.**   
 *Sizzle views money as a means to an end, not a goal in and of itself. And some things just can't be bought.*
@@ -57,17 +57,20 @@ Sizzle sourced questionable intoxicants from [Reek](npcs#reek) to smuggle into a
 - **Humanity is precious.**   
 *In a world of leviathans, demons, and ghosts, Sizzle still sees the value of humanity, individuality and connection. She will forgo gaining supernatural or political power if it means sacrificing the things that make her human.*
 
+- **Always come back.**   
+*Sizzle will not abandon those she cares about. She may leave, but she will always return.*
+
 # Relationships
 
 * [Joseph Woodward](joseph-woodward): Sizzle's father and the reason she came to Duskvol. Former CEO of the Seventh Tower Consortium.
 * [Cruncho](cruncho): Spooky friend.
 * [Arkin Wollstonecraft](arkin): Co-inventor of the coffee-grinder-gatling-gun[^1]
-* [Valanthe](npcs#valanthe): Listens to Sizzle talk about pistol mechanisms for hours on end for some reason. Wears a mask Sizzle made.[^hooks-sashes]
+* [Valanthe](npcs#valanthe): Girlfriend. They hold hands sometimes.
 * [Casta](npcs#casta) (Rival): Sizzle has beaten her to one too many of her marks. Doesn't help that Sizzle looks like her younger sister, either.
 * [Grace](npcs#grace): Fellow bounty hunter and contact.
 * Celene (Friend): A sentinel with an eye for interior decorating.
 * Dr. Mycah Melver: A physicker specializing in the metaphysics that connects living bodies with their souls.
-* [Giancarlo](npcs#giancarlo): Adoptive grandfather. Excellent hugger.
+* [Giancarlo Valentini](npcs#giancarlo): Adoptive grandfather. Excellent hugger.
 
 
 <!-- Include default citations -->
