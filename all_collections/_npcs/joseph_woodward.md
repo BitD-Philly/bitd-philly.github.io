@@ -32,7 +32,7 @@ However, what's clear is that Joseph Woodward willingly hollowed himself out to 
 
 Woodward's connection to the ghost field was severed at the grand opening of the Palisade Avenue Stock Exchange.[^the-crash] Ordinarily, that effect would be of brief inconvenience, as a spirit would be inexorably drawn to its own still-living body. In Joseph's case, that spirit had been so adulterated by Seventh Tower Consortium that rejoining the two would have taken time or extreme arcane effort. When he was fully ousted as CEO and had the door shut behind him by The Nameless's forgery[^snakes-on-a-frame], there was very little left of him, and it was not clear that he was capable of being more than a hollow shell of a person anymore.[^sizzle-clock] 
 
-Sizzle worked to find Woodward a new sense of self and reason for living, eventually asking for help from [Giancarlo Valentini](npcs#giancarlo), the Nameless's resident chef/medic. Giancarlo offered to take Joseph on as an apprentice, and his mental state has been steadily improving along with his culinary skills. Upon proving himself to Giancarlo, Joseph was immediately adopted has his son and given the honorary adoptive name "Giuseppi".
+Sizzle worked to find Woodward a new sense of self and reason for living, eventually asking for help from [Giancarlo Valentini](npcs#giancarlo), the Nameless's resident chef/medic. Giancarlo offered to take Joseph on as an apprentice, and his mental state has been steadily improving along with his culinary skills. Upon proving himself to Giancarlo, Joseph was immediately adopted has his son and given the honorary adoptive name "Giuseppi".[^tales-of-duskvol]
 
 <!-- Include default citations -->
 {% include recap-citations.md %}
