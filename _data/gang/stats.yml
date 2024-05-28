@@ -5,13 +5,13 @@ lair: -redacted-
 
 stats:
   tier: 3
-  rep: 4
+  rep: 6
   hold: strong
 
 counters:
-  xp: 4/10
-  heat: 4/9
-  wanted-level: 2/4
+  xp: 9/10
+  heat: 0/9
+  wanted-level: 3/4
   vault: 10/16
 
 finances:
@@ -70,4 +70,7 @@ claims:
       - +2 coin each downtime
   - name: turf-1
     source: six-towers:deckherd-hall
+    is-turf: true
+  - name: turf-2
+    source: nightmarket eateries
     is-turf: true
