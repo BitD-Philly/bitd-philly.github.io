@@ -9,9 +9,9 @@ last_updated: 17 Dec 2023
 
 #optional
 pronouns:       He/Him
-status:         missing/presumed dead 
+status:         dead
 affiliations:   Remnants of the Calamity, 
-desc:           Vampire, noble, body-snatcher, conniver. Once-employer of the Nameless. Currently trapped in a box with Blighter.
+desc:           Vampire, noble, body-snatcher, conniver. Once-employer of the Nameless. Once-employer of the Nameless, now beaten to death by Render. 
 
 ---
 
