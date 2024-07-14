@@ -9,11 +9,11 @@
 
 - name: Render
   w-id: render
-  excerpt: Centuries-old ??? demon. Eleven feet tall armored juggernaut. Coming to Duskwall SOON TO NOW.
+  excerpt: Centuries-old ??? demon. Eleven foot tall armored juggernaut. Taking over Duskwall (or, trying).
 
 - name: Blighter
   w-id: blighter
-  excerpt: Centuries-old systems demon. Fragmented multi-consciousness hyper-genius (one of which is embedded in Cruncho).
+  excerpt: Centuries-old systems demon. Fragmented multi-consciousness hyper-genius.
 
 - name: Lord Scurlock
   w-id: lord-scurlock
@@ -53,7 +53,7 @@
 
 - name: Bhed the Wolf
   w-id: bhed-the-wolf
-  excerpt: 11-foot-tall anthropomorphic wolf ghost. Vicious. Free. Trapped in Cruncho.
+  excerpt: 11-foot-tall anthropomorphic wolf ghost. Vicious. Free.
 
 - name: Doctor Heinrich the Crow
   w-id: doctor-heinrich
