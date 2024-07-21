@@ -1,13 +1,10 @@
 ---
-title: " An Independent Report"
+title: University Assault Implicates Disgraced Professor in Ironworks Sabotage
 date: 2023-6-8 2PM
 tag: fluff
 ---
-**TW: Fictitious account of a school shooting.**
 
-*Taken from the headlines of the Duskvol Independent:*
 
-> # UNIVERSITY ASSAULT IMPLICATES DISGRACED PROFESSOR IN IRONWORKS SABOTAGE
 > ## Unstable Ex-Instructor Slain By Chair of Social Sciences Department
 
 > Arkin Wollenstonecraft, ex-professor of Sparkcraft and Biology at Charterhall University, died in an attempted assault upon University Grounds this morning.

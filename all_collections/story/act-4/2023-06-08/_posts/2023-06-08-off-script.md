@@ -19,3 +19,6 @@ Because of this, the sun will one day shine on the world again. Because of this,
 ***"SCURLOCK!"***
 
 Because of this, also, we have no faithful recording of events. Thus, we must turn to other sources.
+
+
+***TW: Fictitious account of a school shooting.***

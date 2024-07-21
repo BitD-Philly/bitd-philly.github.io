@@ -37,4 +37,4 @@ author: Vinnie
 "-- what I've done."
 
 
-**Sizzle's vice is now "family quality time."**
+[ Sizzle's vice is now FAMILY QUALITY TIME. ]
