@@ -43,6 +43,8 @@ The Nameless are currently `Tier {{roman_numerals[gang.stats.tier]}}` with `{{ga
 {% include clock.html 
     label="Vault" fill=gang.counters.vault 
     group=4 align="center" %}
+
+<p class="last_update" style="text-align: right;font-style:italic;">Last updated {{gang.last-updated | date: "%B %d, %Y"}}.</p>
 </div>
 
 <!-- Faction List -->
