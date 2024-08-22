@@ -5,15 +5,15 @@ lair: -redacted-
 last-updated: 21 July 2024
 
 stats:
-  tier: 3
-  rep: 10
-  hold: strong
+  tier: 4
+  rep: 2
+  hold: weak
 
 counters:
   xp: 9/10
-  heat: 5/9
-  wanted-level: 2/4
-  vault: 16/16
+  heat: 0/9
+  wanted-level: 4/4
+  vault: 6/16
 
 finances:
   income:

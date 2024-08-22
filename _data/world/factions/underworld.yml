@@ -1,15 +1,15 @@
 - name: Scurlock
   id: lord-scurlock
-  tier: 3
+  tier: 
   hold: 
-  status: -2
+  status: 
   collection: npcs
-- name: Scurlock's Conspirators
+- name: Conspiracy of the Schaton
   id: team-scurlock
-  excerpt: Allies of Scurlock and self-appointed imperial babysitters. Currently includes Casta and Viktoria Karhowl.
+  excerpt: Former allies of Scurlock and self-appointed imperial babysitters. Currently includes Casta and Viktoria Karhowl.
   tier: 1
   hold: W
-  status: 1
+  status: 0
 - name: Lugos
   id: lugos
   tier:     
@@ -37,7 +37,7 @@
   excerpt: Secret society of academicians that aren't afraid to get their hands dirty. Regularly publish responses to responses in fringe journals.
   tier: 3
   hold: S
-  status: 3
+  status: 2
 - name: The Silver Nails
   id: silver-nails
   tier: 3
@@ -54,7 +54,7 @@
   excerpt: Purveyors of high-quality drugs and masters of Iruvian swordsmanship.
   tier: 2
   hold: W
-  status: 1
+  status: 2
 - name: The Dimmer Sisters
   id: dimmer-sisters
   tier: 2
@@ -65,24 +65,24 @@
   id: grinders
   tier: 2
   hold: W
-  status: 1
+  status: 2
 - name: The Billhooks
   id: billhooks
   tier: 2
   hold: W
-  status: 0
+  status: 1
   collection: factions
 - name: The Wraiths
   id: wraiths
   tier: 2
   hold: W
-  status: 0
+  status: 1
   excerpt: Enigmatic, possibly-supernatural gang. Might be related to the Spirit Wardens.
 - name: Ulf Ironborn
   id: ulf-ironborn
   tier: 1
   hold: S
-  status: 1
+  status: 2
 - name: The Fog Hounds
   id: fog-hounds
   excerpt: A rough band of Skovlan smugglers.

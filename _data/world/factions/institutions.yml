@@ -6,19 +6,19 @@
   status: 0
 - name: City Council
   id: city-council
-  tier: 5
+  tier: 3
   hold: S
   status: 0
-- name: Ministry of Preservation
+- name: Render's Provisional Government
   id: ministry-of-preservation
   excerpt: A governmental institution charged with logistics of transportation & resource distribution throughout the Empire.
-  tier: 5
+  tier: 6
   hold: S
   status: 0
 - name: Leviathan Hunters
   id: leviathan-hunters
   excerpt: Brave and ruthless sailors that sail the Void Sea hunting Leviathans to extract their blood for use as electroplasm.
-  tier: 5
+  tier: 4
   hold: S
   status: -1
 - name: Ironhook Prison
@@ -41,9 +41,9 @@
   status: -1
 - name: Seventh Tower Consortium
   id: seventh-tower
-  tier: 3
-  hold: W
-  status: 0
+  tier: 
+  hold: 
+  status: 
   collection: seventh-tower
 - name: Bluecoats
   id: bluecoats
@@ -59,12 +59,12 @@
   status: -1
 - name: Iruvian Consulate
   id: iruvian-consulate
-  tier: 3
+  tier: 2
   hold: S
   status: 0
 - name: Skovlan Consulate
   id: skovlan-consulate
-  tier: 3
+  tier: 2
   hold: W
   status: 0
 - name: The Brigade

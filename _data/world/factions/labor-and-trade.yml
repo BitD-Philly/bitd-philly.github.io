@@ -13,7 +13,7 @@
   excerpt: A guild of gondola operators that provide canal-based transportation.
   tier: 3
   hold: S
-  status: 1
+  status: 0
 - name: Sailors
   id: sailors
   tier: 3
