@@ -54,3 +54,98 @@ THIS Blighter left knowing that she was superior to her long-boxed sibling.
 Viktoria left with a sheaf of notes on mechanical endoskeletons and potential adjustments to hypothetical cybernetics.
 
 Donna left blackout drunk, with nearly two hundred slugs worth of Shmeek merchandise that she would never wear outside the house.
+
+## Casta
+
+*Then*
+
+She is six. Her parents have allowed her to sit with company. She is behaving at her very best. Around her, knights and vampires and crows and witches chatter away, telling war stories that beggar belief. ***She is learning of the tyrant gods and the Cinder King’s salvation.***
+
+She is nineteen, and camping in the Deadlands. Her rage is quiet and corrosive, the brand of inadequacy freshly-applied by disappointed parents. She hears something creeping up, and she knows she will barely survive its attack. ***She is learning that she is not enough.***
+
+She is twenty, and her voice is hoarse from yelling. She is stumbling drunkenly down a side street, bag slung over her shoulder, its straps threaded around bruised knuckles. Jammer’s indifference burns in her torso and sharpens her teeth and brings tears to her eyes and none of it means anything to anyone but her. ***She is learning that she is alone.***
+
+***She has learned to be manipulated.***
+
+She is sitting in a dusty Six Towers apartment. Two of her family’s friends, a mummified demigoddess and a puzzle-piece vampire, are speaking to her. They tell her the other side of her parents’ war stories. They are telling her that the Emperor is tired, is failing, is human. They are telling her they have a plan. ***She is learning that she can be useful.***
+
+She is crouched and sprinting, bullet holes dogging her every step. She is smashing through a glass window, knives drawn. She is planting them through the eyeballs of a howling low-life. She is blowing a kiss to the nearby rooftops, trusting that Sizzle will see it either through Velvet or through her scope. ***She is learning that she is good at something.***
+
+She is staring through a concussion, a crossbow bolt in her teeth. A wiry academic has just demolished her opponent. She is taking her hand. She is following her home. ***She is learning that she can be desired.***
+
+***She has learned to be a tool in the hands of others.***
+
+*Now*
+
+She is watching her mother, blade in hand, fight her lover. She is hearing her name wielded as a taunt, a duelist’s knife, a tool. She is thinking of disappointment, indifference, perfunctory affection, performative fondness. She is watching them try to kill each other, and feels numb. ***She is learning that she was always a pawn***.
+
+She is watching her mentor arise from a box, one part of a triumvirate demigod. She is watching her mentor fight another demigod, the fist of the Emperor. She is watching him fail. She is watching him be stuck to the side of an arena wall, a bloody pulp of a grotesque, a reminder of Render’s supremacy, of the Emperor’s eternal security. ***She is learning that she was always powerless to stop the inevitable***.
+
+She is staring at the body. She is staring at the body. She is staring at the body. She is-.
+
+**”You must be Casta.”**
+
+The woman looks ancient, unwell. The bow strapped to her back is nearly her own height. Her perching upon so narrow a ledge feels ludicrous, impossible.
+
+**”Walk with me. We have things to discuss.”**
+
+***She has learned to be a tool in the hands of others.***
+
+***She is too tired to learn anything more.***
+
+## Claire
+
+**Claire**
+
+As Render tears them apart, the Splighterlock triumvirate all die in their own ways.
+
+Blighter (THIS instance, anyway) goes up like a road flare. Her soul, laced with the Cinder King’s power and aeons of existence, expires in a joyous conflagration. She revels in her own destruction, allowing Render to pull her soul apart for the sake of a few final, glancing blows.
+
+Scurlock cannot be said to die, because what is death to a being made up of hundreds of souls? An eidolon does not die. An eidolon shatters, and Scurlock shatters like an enormous Fabergé Egg dropped from a six-story building. Whatever he was is gone. Only the pieces remain.
+
+To anyone looking into the ghost field, these twin deaths are a spectacle on par with the fight that preceded it. To the dozens of assembled Spirit Wardens, these two expirations are a dazzling fireworks show.
+
+To the soul of Claire Strangford, these deaths are a smoke bomb into which she vanishes.
+
+Even disoriented by death, she knows she does not have long. Her ghost will fully form soon, and the moment’s respite will be undone as the death crows begin circling and the Spirit Wardens begin their hunt. She will have to move quickly. She will have to find a body or a hull, and soon. Duskwall is not a kind place for newly-minted ghosts, for souls without bodies.
+
+Then again, her soul does not demand, and has never demanded, kindness. Lord and Lady Strangford saw to that throughout her youth. Old Wickhamm crystallized that in Makeout Mine. The Clockmaker refined that out of her by the dozenth time she went under the knife. Claire Strangford has no need for kindness, or mercy, and she has none left to give. All she needs is a body, a little luck, and some time to plan her next move.
+
+I will not tell you where Claire Strangford’s soul has gone.
+
+I will only say that nobody has caught it yet.
+
+## The Emperor
+
+He sits, and he watches the show in its entirety. The letter lies on one of the arms of his throne. Its envelope, now discarded to the side, reads “To Be Opened Upon My Destruction”.
+
+There is a slight smile playing across his face. The void calls to him, but it is easier to ignore for the moment (and his life is really just a series of moments these days).
+
+> *Dear Exalted Grand Emperor Blah Blah Blah,*
+
+> *I hope you will forgive me for my delay in replying. For those of us who still love you, your idle desires carry the weight of command, and I am nothing if not assiduous in following commands.*
+
+> *Fie on you, lord, for such woolgathering! Let the Cinder King lie. You may long for those days of fire and devastation (as well you might, for they were glorious), but to disparage the Immortal Emperor is treasonous to Akaros AND the gravest disrespect to my liege and friend of these centuries past! As a gentleman of my standing, I cannot brook such disrespect.*
+
+> *As such, I, Lord Scurlock (formerly Ache, Black Rotting Gale, and a host of other warriors against the gods), challenge you, the Immortal Emperor (formerly the Cinder King, formerly the Chosen of a wretched god whose name holds no meaning) to a DUEL.*
+
+> *My weapons of choice are themed to your selfsame insults to yourself. You, after all, long for the days of old, of the scouring sun against your blessed darkness. You long for Chosen and warriors of light. You long, in short, to fight as the Cinder King once more.*
+
+> *I had been prepared to grant you such a request. With Breaker’s help, I had planned to unleash your imprisoned foes upon this unsuspecting world. It would have been a final flash of your much-mourned glory, but little more.*
+
+> *But! As time has gone on, I have found that my plan has stretched and changed in a myriad of unexpected ways. Chaos and mischief, chicanery and shenanigans, mayhem and murder! These have been my constant companions since [your last missive](/story/act-1/2022-10-20/). Every design is twisted, every machination befuddled. Naught expected comes to pass, and the impossible is commonplace. It is thrilling beyond measure.*
+
+> *This confusion is the fruit of this new world, which you are too quick to dismiss. I therefore challenge you, not with echoes of glory days past, but with new and vital forces of the present day. My weapons are nameless, unpredictable, unstoppable. You may know of them, but lord, permit me to assure you from oblivion that YOU DO NOT KNOW THEM.*
+
+> *Our duel shall begin at the moment of my destruction. I do not know when or how this will come to pass, but I know it will be at THEIR hands. I know my obliteration will be surrounded by the chaos that marks their work. I know you will seek to impose order upon that chaos, for that is what the Immortal Emperor must do.*
+
+> *Try, lord. Really try. Your old mechanisms, your dusty bureaucracy, your legions of dull conscripts . . . They will not suffice. You may send Render, you may reconstitute Blighter, you may call Breaker to her former glory (if she still lives), you may raise the dead and call your witches and roost your crows and horse your knights and NONE OF IT WILL BE ENOUGH.*
+
+> *I am destroyed, my lord, my Emperor, my friend. Mourn me not, for I am lost in your service. If you win, reconstitute me and we will laugh together at my vanity.*
+
+> *If you win.*
+
+> *Yours, fondly and obediently,*
+> *Scurlock*
+
+> *P.S. Lugos is quite well, and has indeed been making up for lost time. I have commissioned several new bodies for him, and he is finding them admirably suited to his purposes. His artistry remains as cutting-edge (ha!) as ever, and his work at Deckherd Hall has made the papers already. His regards are enclosed with mine.*
